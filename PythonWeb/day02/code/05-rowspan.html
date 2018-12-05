@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>rowspan</title>
+</head>
+<body>
+    <table border="1px" width="500" height="500" bgcolor="#db7093">
+        <thead>
+            <tr>
+                <td colspan="6" align="center">表头</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="6" align="center">表尾</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr >
+            <td></td>
+            <td colspan="2">上午</td>
+            <td></td>
+            <td colspan="2">下午</td>
+        </tr>
+            <tr>
+                <td rowspan="2">工作</td>
+                <td></td>
+                <td></td>
+                <td rowspan="4" width="50px"
+                    align="center" valign="middle"
+                    bgcolor="green">休息</td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">学习</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
