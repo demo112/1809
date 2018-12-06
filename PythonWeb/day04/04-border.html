@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>border</title>
+</head>
+<style>
+    div{
+        width: 300px;
+        height: 150px;
+        margin: 20px;
+    }
+    .c1{
+        border-top: 10px solid red;
+        border-bottom: 10px solid red;
+    }
+    .c2{
+        border-top: 20px solid green;
+        border-right: 20px solid blue;
+        border-bottom: 20px solid red;
+        border-left: 20px solid orange;
+    }
+    div.c3{
+        width: 0;
+        height: 0;
+        border-top: 200px solid transparent;
+        /*border-right: 200px solid blue;*/
+        /*border-bottom: 200px solid red;*/
+        border-left: 200px solid orange;
+    }
+    div.c3-1{
+        width: 0;
+        height: 0;
+        border: 200px solid transparent;
+        border-top-color: deeppink;
+    }
+    div.c3-1:hover{
+        width: 0;
+        height: 0;
+        border: 200px solid transparent;
+        border-top: 200px double yellow;
+    }
+    span{
+        border: 100px solid yellow;
+        border-bottom: 100px solid green;
+        border-left: 100px solid green;
+    }
+</style>
+<body>
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c3-1"></div>
+    <span></span>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>children</title>
+    <style>
+        div span{
+            color: red;
+        }
+        div>span{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>div-直接子元素->p</span>
+        <p>
+            <span>
+                div-间接->p-子元素->span <br>
+                p-直接子元素->span
+            </span>
+        </p>
+        <b>加粗文本</b>
+    </div>
+</body>
+</html>
