@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第几天</title>
+</head>
+<body>
+
+<script>
+    var y = prompt('年');
+    var rain = y % 400 == 0 || (y / 4 == 0  && y / 100 != 0);
+    const m = Number(prompt('月')) - 1;
+    const d = Number(prompt('日'));
+
+    let n = 0;
+    // noinspection FallThroughInSwitchStatementJS
+    switch (m) {
+        case 11:
+            n += 30;
+        case 10:
+            n += 31;
+        case 9:
+            n += 31;
+        case 8:
+            n += 30;
+        case 7:
+            n += 31;
+        case 6:
+            n += 30;
+        case 5:
+            n += 31;
+        case 4:
+            n += 30;
+        case 3:
+            n += 31;
+        case 2:
+            n += 28;
+            if (rain){n += 1}
+        case 1:
+            n += 31;
+    }
+
+    const day = d + n;
+    document.write(day)
+</script>
+</body>
+</html>

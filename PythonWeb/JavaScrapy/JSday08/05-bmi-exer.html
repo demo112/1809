@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		var height = prompt("请输入身高(m)");
+		var weight = prompt("请输入体重(kg)");
+		var bmi = weight / (height * height);
+		bmi = bmi.toFixed(2);
+		var res = bmi >= 23.9 ? "偏胖" : bmi >= 18.5 ? "健康" : "偏瘦";
+		console.log("您的身体指数为 : "+bmi+" 属于 : "+res);
+	</script>
+ </body>
+</html>

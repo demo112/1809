@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="index.js"></script>
+    <script>
+        alert('head中嵌套的JS代码')
+    </script>
+</head>
+<body>
+    <h1 onclick="document.write('<h1>点击出现，页面重写</h1>')">
+    点我
+    </h1>
+    <script>
+        console.log('body末尾的脚本标签');
+        document.write('<h2>末尾动态添加</h2>')
+    </script>
+
+</body>
+</html>

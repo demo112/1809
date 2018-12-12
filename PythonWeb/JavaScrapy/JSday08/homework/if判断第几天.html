@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第几天</title>
+</head>
+<body>
+
+<script>
+    var y = prompt('年');
+    var rain = y % 400 == 0 || (y / 4 == 0  && y / 100 != 0);
+    var m = Number(prompt('月'));
+    var d = Number(prompt('日'));
+
+    var n = 0;
+    if (m > 1){n += 31};
+    if (m > 2){if(rain){n += 29}
+                    else n += 28};
+    if (m > 3){n += 31};
+    if (m > 4){n += 30};
+    if (m > 5){n += 31};
+    if (m > 6){n += 30};
+    if (m > 7){n += 31};
+    if (m > 8){n += 31};
+    if (m > 9){n += 30};
+    if (m > 10){n += 31};
+    if (m > 11){n += 30};
+
+    var day = d + n;
+    document.write(day)
+</script>
+</body>
+</html>
