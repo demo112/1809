@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>get_elements</title>
+
+</head>
+<body>
+<h1>lao_wang</h1>
+<h1>rapper</h1>
+<h1>chao chao</h1>
+<h1>wc</h1>
+<button onclick="changeText()">更换字符</button>
+<script>
+    var h1s = document.getElementsByTagName('h1');
+    console.log(h1s);
+    function changeText() {
+        var h11 = h1s[0];
+        var h12 = h1s[1];
+        h11.innerText = "魏明泽";
+        h12.innerText = "<a href=''>nanshen</a>";
+    }
+</script>
+</body>
+</html>

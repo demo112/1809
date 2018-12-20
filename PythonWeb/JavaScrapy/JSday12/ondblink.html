@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>双击</title>
+    <script>
+        function $(tagName) {
+            return elem = document.getElementsByTagName(tagName)[0];
+
+        }
+    </script>
+</head>
+<body>
+    <h1 ondblclick="alert111()">尴尬</h1>
+    <script>
+        function alert111() {
+            alert("双击我干啥");
+        }
+        // 第二种应用方法
+        $("h1").onmouseover = function () {
+            console.log("鼠标移入");
+            $("h1").style.backgroundColor = "red";
+        };
+        $("h1").onmouseout = function () {
+            console.log("鼠标移出");
+            $("h1").style.backgroundColor = "transparent";
+        };
+        $("h1").onmousemove = function () {
+            console.log("鼠标移动");
+            $("h1").style.backgroundColor = "green";
+        }
+    </script>
+</body>
+</html>

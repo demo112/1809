@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<button onclick="start()">开启定时器</button>
+	<button onclick="stop()">停止定时器</button>
+	<script>
+		function start(){
+			//间歇调用
+			timerID = setInterval(function(){
+				var date = new Date();
+				console.log(date);
+			},1000);
+		}
+		function stop(){
+			//关闭定时器
+			clearInterval(timerID);
+			console.log(timerID);
+		}
+	</script>
+ </body>
+</html>

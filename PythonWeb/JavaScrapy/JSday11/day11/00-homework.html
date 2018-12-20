@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function start(){
+			timerId = setInterval(function(){
+				var date = new Date();
+				console.log(date);
+			},1000);
+		}
+		function stop(){
+			clearInterval(timerId);
+		}
+
+		var isClose = confirm("是否关闭当前窗口");
+		if(isClose){
+			setTimeout("window.close();",3000);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="start();">开始</button>
+	<button onclick="stop()">结束</button>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		//接收用户输入
+		var year = prompt("请输入年");
+		var month = Number(prompt("请输入月"));
+		var day = Number(prompt("请输入日"));
+		//总天数
+		var sumDay = 0;
+		//闰年判断
+		var isRun = year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+		//整月天数的累加
+		switch(month - 1){
+			case 11 :
+				sumDay += 30;
+			case 10 :
+				sumDay += 31;
+			case 9 :
+				sumDay += 30;
+			case 8 :
+				sumDay += 31;
+			case 7 :
+				sumDay += 31;
+			case 6 :
+				sumDay += 30;
+			case 5 :
+				sumDay += 31;
+			case 4 :
+				sumDay += 30;
+			case 3 :
+				sumDay += 31;
+			case 2 :
+				sumDay += 28;
+				if (isRun) {
+					sumDay += 1;
+				}
+			case 1 :
+				sumDay += 31;
+
+		}
+		//累加当前月的天数
+		sumDay += day;
+		console.log(year+"年"+month+"月"+day+"日是当年的第"+sumDay+"天");
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

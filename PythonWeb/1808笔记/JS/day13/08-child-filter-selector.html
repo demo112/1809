@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	window.onload = function (){
+		//:first :last 是匹配文档中的头尾元素(指定选择器)
+		$("li:first").css("color","red");
+		$("li:last").css("color","green");
+		//:first-child :last-child 
+		$("li:first-child").css("background","orange");
+		$("li:last-child").css("background","pink");
+		//:nth-child(n) 匹配属于其父元素中的第n个子元素
+		/*
+			1. n取具体数值,表示行号(第几个元素,从1开始)
+			2. n取关键字或表达式,表示传入下标,根据下标获取元素(下标从0开始)
+			   n = even 奇数下标取元素  -> 偶数行
+			   n = odd  偶数下标取元素  -> 奇数行
+		*/
+		$("li:nth-child(odd)").css("font-size","24px");
+	};
+  </script>
+ </head>
+ <body>
+	<ul>
+		<li>周一</li>
+		<li>
+			周二
+			<ol>
+				<li>内层列表</li>
+				<li>内层列表</li>
+				<li>内层列表</li>
+			</ol>
+		</li>
+		<li>周三</li>
+		<li>周四</li>
+	</ul>
+	<ol>
+		<li>周一</li>
+		<li>周二</li>
+		<li>周三</li>
+		<li>周四</li>
+	</ol>
+ </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#d1{
+			color:red;
+		}
+		.c1{
+			border:1px solid blue;
+		}
+	</style>
+</head>
+<body>
+	<h1>一级标题</h1>
+	<button onclick="addAttribute()">添加</button>
+	<button onclick="getAttr()">读取</button>
+	<button onclick="removeAttr()">移除属性</button>
+	<script type="text/javascript">
+		//1. 获取元素节点
+		var h1 = document.getElementsByTagName('h1')[0];
+		function addAttribute(){
+			// h1.setAttribute('id','d1');
+			// h1.setAttribute('class','c1');
+			h1.id = "d1";
+			h1.className = "c1";
+		}
+		function getAttr(){
+			// console.log(h1.getAttribute('id'));
+			// console.log(h1.getAttribute('class'));
+			console.log(h1.id);
+			console.log(h1.className);
+		}
+		function removeAttr(){
+			// h1.removeAttribute('id');
+			h1.id = null;
+		}
+	</script>
+</body>
+</html>

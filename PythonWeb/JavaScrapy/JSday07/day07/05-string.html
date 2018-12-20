@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		//创建字符串变量
+		var str1 = "100";
+		var str2 = "abc";
+		var str3 = "ABC";
+		//获取字符的Unicode码值
+		var code1 = str1.charCodeAt(0);
+		var code2 = str2.charCodeAt();
+		var code3 = str3.charCodeAt(0);
+		console.log(code1,code2,code3);
+
+		//定义中文字符串
+		var str4 = "张三丰";
+		console.log(str4.charCodeAt(0));
+		//中文Unicode码转16进制
+		var code4 = str4.charCodeAt(0);
+		//转换16进制的字符串表示
+		var zhCode = code4.toString(16);
+		console.log(zhCode);
+		//十六进制字符串转中文
+		var str5 = "\u5f20";
+		console.log(str5);
+
+		//中文范围
+		var s1 = "\u4e00";
+		var s2 = "\u9fa5";
+		console.log(s1,s2);
+
+		var b1 = true;
+		var n1 = 100;
+		console.log(typeof s1,typeof b1,typeof n1);
+
+
+
+
+
+
+	</script>
+ </body>
+</html>

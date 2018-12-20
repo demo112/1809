@@ -1,0 +1,166 @@
+jQuery 工具
+1. 引入 :
+	<script src=""></script>
+	想要使用jQuery语法,必须先引入
+2. jQuery选择器 
+	 $("")
+	 分类 :
+		标签选择器
+		#id
+		.className
+		selector1 selector2
+		selector1>selector2
+		selector1+selector2
+		selector1~selector2
+		[attr]
+		[attr=value]
+		[attr^=value] $= *= !=
+		li:first / li:last 文档中的第一个和最后一个
+		li:frist-child / li:last-child 作为第一个或最后一个子元素
+		存在的li
+		:even / :odd 行号从1开始
+		:nth-child(n) :
+				第n个子元素 (n取数值)
+				n = even / odd 关键字表示按照下标取元素
+					  奇数下标对应偶数行元素
+		:eq(index) 下标从0开始
+		:lt(index)
+		:gt(index)
+3. 操作属性
+	 $("#box").attr("class","c1");
+	 $("#box").removeAttr("");
+4. 样式操作
+	1. attr() id/class选择器
+	2. 针对类选择器
+		 addClass().addClass()可以多次调用,或连缀调用
+		 removeClass()  移除指定类名
+		 toggleClass()  存在则删除,不存在则添加,实现样式切换
+----------------------------------------
+day14
+1. 操作样式
+	 1. css("attr","value")
+			为元素设置CSS样式,参数为CSS属性名和对应的属性值
+			如果参数只有属性名,表示读取CSS样式
+	 2. css(JSON对象)
+			JSON对象语法 :
+				1. 使用{}表示对象
+				2. 对象由属性和值组成 (CSS属性与值)
+				3. 属性与值都使用字符串表示,之间使用 : 分隔
+				4. 多组属性之间,使用逗号隔开
+			et :
+				#box{
+					width:100px;
+				}
+				JSON  :
+					{
+						"width":"190px",
+						"height":"190px"
+					}
+2. 节点的层次方法
+		根据层级关系获取节点对象
+		1. children() / children("selector")
+			 获取当前节点下所有的直接子元素
+			 或者获取当前节点下,满足选择器的所有直接子元素
+		2. parent()
+			 获取当前节点的父元素
+		3. parents("selecor")
+			 获取父元素及祖先元素
+			 或者获取指定选择器的祖先元素
+		4. find("selector")
+			 必须指定选择器参数,获取包含直接和间接的所有后代元素
+		5. next() / next("selector")
+			 获取下一个兄弟元素 / 指定选择器的兄弟元素
+			 参考 : 相邻兄弟选择器
+		6. prev() / prev("selector")
+			 获取上一个兄弟元素 / 指定选择器的兄弟元素
+		7. siblings() / siblings("selector")
+			 获取所有的兄弟元素 / 满足选择器的所有兄弟元素
+3. 节点操作 (创建,添加,删除)
+	1. 创建节点 :
+		$("标签语法")
+		et :
+			var $div = $("<div></div>");
+			$div.html("");
+			$div.attr("id","box").css();
+			--------------------------------
+			var $h1 = $("<h1 id='d1' class='c1'>一级标题</h1>");
+			$h1.css();
+	2. 添加节点
+		1. 内部添加(作为子元素添加)
+				1. $obj.append($new);
+					 将$new作为$obj的最后一个子元素添加
+				2. $obj.prepend($new);
+					 将$new作为$obj的第一个子元素添加
+
+		2. 外部添加(作为兄弟元素添加)
+			  1. $obj.after($new);
+					 将$new作为$obj后一个兄弟元素添加
+				2. $obj.before($new);
+					 将$new作为$obj前一个兄弟元素添加
+	3. 删除节点
+		$obj.remove();
+		删除$obj
+4. 事件处理
+	 1. 等待文档加载完毕 (onload)
+			原生 : window.onload = function (){};
+			jQuery :
+				1. $(document).ready(function(){});
+				2. $().ready(function (){});
+				3. $(function (){});
+			区别 :
+				1. 原生onload事件函数不能重复调用,重复书写,后面
+				的代码会将前面的onload覆盖掉
+				2. jQuery中优化了ready方法,可以重复使用,不会产生
+				覆盖问题,所有的代码都会执行
+		2. 事件绑定
+			原生事件处理函数不变,jQuery提供了新的绑定方式
+			1. $obj.事件函数名(function(){});
+				 事件函数名省略on前缀
+				 et :
+					$div.click(function (){});
+			2. bind(事件名称,function);
+				 et :
+					$div.bind("click",function (){});
+				 bind()方法的底层实现 :
+					$div.on("click",function(){});
+		3. 事件对象
+			 获取方式及相关属性,同原生JS
+			 浏览器自动将事件对象以参数形式传递到函数中
+
+
+
+			
+
+		
+		
+	
+
+		
+		
+		
+		
+		
+
+
+			
+	 
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+

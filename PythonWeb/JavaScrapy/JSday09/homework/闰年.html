@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闰年</title>
+</head>
+<body>
+<script>
+    function rain() {
+        var year = prompt('请输入年份');
+        var rain = year % 400 === 0 || (year / 4 === 0 && year / 100 === 0)
+        console.log(rain);
+        document.write(rain);
+        return year;
+    }
+
+    document.write(
+    '<button onclick="rain()">' +
+    '<h1>开始计算</h1>' +
+    '</button>');
+
+    // 还不行
+    // do{
+    //     document.write(
+    //         '<button onclick="rain()">' +
+    //         '<h1>开始计算</h1>' +
+    //         '</button>');
+    //     year = rain();
+    //     // if (year === 0){break;}
+    // }while (year === 0)
+</script>
+</body>
+</html>

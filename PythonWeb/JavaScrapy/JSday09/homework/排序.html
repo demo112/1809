@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找最大数</title>
+</head>
+<body>
+<script>
+    function f(l) {
+            var max;
+        for (i = 0; i < l.length - 1; i++){
+            if (l[i] > l[i + 1]) {
+                max = l[i];
+            }
+            else if (l[i] <= l[i + 1]) {
+                max = l[i + 1]
+            }
+        }
+        // document.write(max);
+    console.log(max);
+    max = l.pop(max);
+    return max;
+    }
+    var l = new Array(12,23,34);
+    var l2 = new Array(0);
+    for (i in l){
+        l2.unshift(f(l));
+        // document.write(l2);
+    }
+    l2.unshift(l[0]);
+    console.log(l2);
+
+    // sort
+    function sortASC(a,b){
+        return a - b;
+    }
+
+
+    var l2 = new Array(12,23,34);
+    l2.sort(sortASC);
+    console.log(l2)
+</script>
+</body>
+</html>

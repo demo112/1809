@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件对象</title>
+    <style>
+        h1{
+            background-color: #005aa0;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script src="init.js"></script>
+    <script>
+        window.onload = function () {
+            $('h1').onclick = function (evt) {
+                console.log(evt);
+                console.log("offsetX:", evt.offsetX);
+                console.log("offsetY:", evt.offsetY);
+
+                console.log("clientX:", evt.clientX);
+                console.log("clientY:", evt.clientY);
+
+                console.log("screenX:", evt.screenX);
+                console.log("screenY:", evt.screenY);
+            };
+            onkeydown = function (evt) {
+                console.log("which:", evt.which);
+            };
+            onkeypress = function (evt) {
+                console.log(
+                    "key:",
+                    evt.which,
+                    evt.key);
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1>一级标题</h1>
+</body>
+</html>

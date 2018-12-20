@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	.c1{
+		color:red;
+	}
+  </style>
+ </head>
+ <body>
+	<h1>一级标题</h1>
+
+	<script>
+		//1. 获取元素
+		var h1 = document.getElementsByTagName('h1')[0];
+		h1.className = "c1";
+		//h1.id
+		console.log(h1.style);
+		//2. 通过style属性添加行内样式
+		h1.style.backgroundColor = "#adf4c1";
+
+	
+	</script>
+
+ </body>
+</html>

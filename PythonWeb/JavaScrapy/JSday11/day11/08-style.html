@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1 style="color:red;background-color:green;text-align:center;">一级标题</h1>
+	<p>这是一段有样式的文本</p>
+	<script type="text/javascript">
+		//1. 获取元素节点
+		var h1 = document.getElementsByTagName('h1')[0];
+		console.log(h1.style);
+		var p = document.getElementsByTagName('p')[0];
+		/*
+			500*200
+			文本的水平和垂直居中
+			字体大小 20px
+			文本色,背景色自定义
+			p元素的水平居中
+		*/
+		p.style.width = "500px";
+		p.style.height = "200px";
+		p.style.textAlign = "center";
+		p.style.lineHeight = "200px";
+		p.style.background = "pink";
+		p.style.margin = "50px auto";
+		p.style.fontSize = "20px";
+
+
+
+	</script>
+
+</body>
+</html>

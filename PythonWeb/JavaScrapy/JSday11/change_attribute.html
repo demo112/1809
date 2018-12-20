@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attribute</title>
+    <style>
+        #d1{
+            color: red;
+        }
+        .c1{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>一级标题</h1>
+    <button onclick="join_id()">添加id</button>
+    <button onclick="join_class()">添加class</button>
+    <button onclick="check_class()">查看</button>
+    <button onclick="remove_class()">移除class</button>
+    <script>
+        var h1s = document.getElementsByTagName('h1')[0];
+        function join_id() {
+            h1s.setAttribute("id", "d1");
+        }
+        function join_class() {
+            console.log(h1s.setAttribute('class', 'c1'));
+        }
+        function check_class() {
+            console.log(h1s.getAttribute('id'));
+            console.log(h1s.getAttribute('class'));
+        }
+        function remove_class() {
+            console.log(h1s.removeAttribute('id'));
+            h1s.removeAttribute('class');
+        }
+    </script>
+</body>
+</html>

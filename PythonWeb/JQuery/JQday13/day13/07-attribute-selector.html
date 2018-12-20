@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	window.onload = function (){
+		//1. [attr]
+		$("[id]").css("color","red");
+		//2. [attr=value]
+		$("[id=d1]").css("background","orange");
+		//3. [attr!=value] 
+		//所有标签都有id属性,不写默认为undefined
+		$("[id!=d1]").css("background","pink");
+		//4. [attr^=value]
+		$("[id^=d]").css("font-size","24px");
+		//5. [attr$=value]
+		$("[class$=1]").css("font-weight","700");
+		//6. [attr*=value]
+		$("[id*=e]").css("font-style","italic");
+	};
+
+  </script>
+ </head>
+ <body>
+	<p id="de1">周一</p>
+	<p id="d2e" class="c1e">周二</p>
+	<p id="ed3" class="red1">周三</p>
+ </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>foreach</title>
+</head>
+<body>
+<script>
+    var n = prompt("请输入十进制整数");
+    var m =n;
+    var l = new Array(0);
+    while (true) {
+        if (n === 0) {
+            break;
+        }
+        p = n % 2;
+        l.unshift(p);
+        n = parseInt(n / 2);
+        console.log(n);
+    }
+    var ls = l.join('');
+    document.write(m, '的二进制数是：',ls)
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询</title>
+</head>
+<body>
+<script>
+    function f(input, l) {
+        flag = false;
+        for (i = 0; i < l.length; i++) {
+            console.log(l[i]);
+            if (input === l[i]) {
+                flag = true;
+                var i = i;
+                break;
+            }
+        }
+        if (flag) {
+            return i;
+        }
+        else {
+            return -1;
+        }
+    }
+
+    var input;
+    input = Number(prompt('请输入数据'));
+    var l = new Array(12,23,34,45,34,45,2,4,87,234);
+
+    document.write(f(input, l));
+    document.write("<a href=''></a>");
+</script>
+</body>
+</html>

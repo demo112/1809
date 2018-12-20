@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	div{
+		width:200px;
+		height:200px;
+		background:red;
+	}
+  </style>
+  <script src="init.js"></script>
+  <script>
+	window.onload = function (){
+		var div = $('div');
+		//e evt event
+		div.onclick = function (evt){
+			console.log(evt);
+			//元素中的坐标
+			console.log("offset :",evt.offsetX,evt.offsetY);
+			//网页中的坐标
+			console.log("client :",evt.clientX,evt.clientY);
+			//屏幕中的坐标
+			console.log("screen :",evt.screenX,evt.screenY);
+		};
+	
+	};
+  </script>
+ </head>
+ <body>
+	<div></div>
+ </body>
+</html>

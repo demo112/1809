@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父子选择器</title>
+    <script src="../jquery-1.11.3.js"></script>
+</head>
+<body>
+    <div id="box">
+        <div class="left">
+            <h1>一级标题</h1>
+        </div>
+    </div>
+    <script>
+        console.log($("h1").parent()[0].class);
+    </script>
+</body>
+</html>

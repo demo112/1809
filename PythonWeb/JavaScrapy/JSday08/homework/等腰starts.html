@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>等腰starts</title>
+</head>
+<body>
+<script>
+    var r;
+    var n = 5;
+    var l = n;
+
+    for (l; l > 0; l--){
+        console.log("l", l);
+        r = l - 1;
+        // if (l % 2 === 0){
+        //     r = l  - 1
+        // }else {
+        //     r = (l - 1) / 2
+        // }
+        console.log("r", r);
+        s = ((n - 1) - r) * 2  + 1;
+        console.log("s", s);
+        for (r; r > 0; r--) {
+            // document.write("&nbsp");
+            document.write("\ ");
+        }
+        for (s ; s > 0; s--){
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+
+</script>
+</body>
+</html>

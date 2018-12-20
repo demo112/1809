@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<div></div>
+	<input type="text">
+	<button onclick="show()">显示</button>
+	<script>
+		function show(){
+			//1. 获取元素节点
+			var div = document.getElementsByTagName('div')[0];
+			var input = document.getElementsByTagName('input')[0];
+			//2. 传值
+			//变量永远不能直接写在字符串中
+			div.innerHTML = "<h1>"+input.value+"</h1>";
+		}
+	
+	</script>
+ </body>
+</html>

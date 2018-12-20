@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		//1. 关系运算符
+		var r1 = 10 > 5;
+		var r2 = "10" > 5;
+		console.log(r1,r2);
+		var r3 = 5 < true; //5 < 1
+		console.log(r3);
+		var r4 = "5a" > 1; //NaN > 1
+		console.log(r4); //false
+		var r5 = "2" > "10";
+		console.log(r5);
+		var r6 = "abc" > "ABC"; //a (97) > A (65)
+		var r7 = "张三丰" > "张无忌";
+		var s1 = "张三丰";
+		var s2 = "张无忌";
+		var code1  = s1.charCodeAt(1); 
+		var code2 = s2.charCodeAt(1);
+		console.log(code1,code2,r7);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

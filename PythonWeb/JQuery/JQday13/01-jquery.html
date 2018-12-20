@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <script src="../jquery-1.11.3.js"></script>
+
+</head>
+<body>
+    <div>
+        <h1></h1>
+    </div>
+    <div>
+        <h2></h2>
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div>
+        <span></span>
+    </div>
+    <script>
+        var a = $('div');
+        console.log(a);
+        // DOM ==> JQ
+        var div = document.getElementsByTagName('div')[0];
+        var $div = $(div);
+        console.log("原生转JQ对象", $div, div);
+
+
+        // JQ ==> DOM
+        // way1
+        var dom_div = $div[0];
+        console.log("转原生对象",dom_div);
+
+        // way2
+        var dom_div2 = $div.get(0);
+        console.log("转原生对象",dom_div2);
+
+        // 操作元素
+        div.innerHTML = "原生innerHTML书写";
+        $div.innerHTML = "不报错，也不起作用，因为新建了一个属性";
+
+        div.setAttribute("id", "d1");
+        // $div.setAttribute("id", "d1")   // not a function;
+
+        $("div").html('jquery 动态添加');
+        $("div").attr('class', 'c1');
+    </script>
+</body>
+</html>

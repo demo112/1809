@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	function show(){
+		//获取元素
+		var text = $("[type=text]").val();
+		$("div").html("<h1>"+text+"</h1");
+		$("div").attr("id","box");
+		console.log($("div").attr("id"));
+		$("div").removeAttr("class");
+		
+	}
+  </script>
+ </head>
+ <body>
+	<input type="text" name="">
+	<input type="button" value="点击" onclick="show()">
+	<div class="c1"></div>
+ </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>onload</title>
+    <script src="init.js"></script>
+    <script>
+        window.onload = function () {
+            console.log($("h1"));
+            var form = $("form");
+            var uname = $("input");
+            uname.onfocus = function () {
+                console.log("获取焦点");
+            };
+            uname.onblur = function () {
+                console.log("失去焦点");
+            };
+            uname.oninput = function () {
+                // console.log(uname.value);
+                // 等效
+                console.log(this.value);
+            };
+            uname.onchange = function () {
+                console.log("onchange:", this.value);
+            };
+
+            form.onsubmit = function () {
+                return uname.value.length !== 0;
+                // console.log("onchange:", this.value);
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1>一级标题</h1>
+    <form action="login.html" method="get" enctype="">
+        <input type="text" name="uname" autocomplete="off">
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

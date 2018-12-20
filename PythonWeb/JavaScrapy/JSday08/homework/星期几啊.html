@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>星期几</title>
+</head>
+<body>
+<script>
+    var y = Number(prompt('年'));
+    var rain = y % 400 == 0 || (y % 4 == 0  && y % 100 != 0);
+    var m = Number(prompt('月')) - 1;
+    var d = Number(prompt('日'));
+    var n = 0;
+    if (y >= 1990){
+        var ds = 365 * (y - 1990);
+        while (y > 1990){
+            if (rain){
+                ds += 1;
+                y -= 1;
+                console.log(y);
+            }
+            else{
+                y -= 1;
+            }
+        }
+    }
+    else{
+        var ds = 365 * (1989 - y);
+        while (y < 1990){
+            if (rain){
+                ds += 1;
+                y += 1;
+                console.log(y);
+            }
+            else{
+                y += 1;
+            }
+        }
+    }
+
+    // 最后一年
+    while (m > 0) {
+        switch (m) {
+            case 2:
+                if(rain){
+                    n += 1
+                }
+                n += 28;
+                break;
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+                n += 31;
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                n += 30;
+                break;
+        }
+        m -= 1;
+    }
+    var day = d + n;
+    ds += day;
+    document.write("总天数:" + ds);
+    day = ds % 7;
+
+    // 判断是往前还是往后
+    if (y >= 1990){
+        if (day === 0){
+            day = 7;
+        }
+    }
+    else{
+        day = 8 - day;
+    }
+
+    document.write("周几:" + day);
+    // document.write(rain)
+</script>
+</body>
+</html>

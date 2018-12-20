@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+    <style>
+        #d1{
+            color: red;
+        }
+        .c1{
+            color: orange;
+        }
+        .c2{
+            background-color: lightblue;
+        }
+    </style>
+    <script src="../jquery-1.11.3.js"></script>
+</head>
+<body>
+    <h1>一级标题</h1>
+    <h2>二级标题</h2>
+    <p>段落</p>
+    <button onclick="toggleStyle()">切换</button>
+    <script>
+        $('h1').attr('id','d1');
+        $('p').prop('class','c1').addClass('c2').addBack('id','d1');
+        // $('p').prop('class','c1 c2');
+        $('h2').addClass('c1').addClass('c2');
+        $('h2').addClass('c1 c2');
+        $('h2').removeClass('c1');
+        $('h2').removeClass();
+        function toggleStyle() {
+            $('p').toggleClass('c1');
+            $('h2').toggleClass('c1');
+        }
+    </script>
+</body>
+</html>

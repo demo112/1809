@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<a href="http://www.baidu.com">百度</a>
+	<button onclick="changeLink()">点击</button>
+	<script>
+		function changeLink(){
+			//1. 获取元素节点
+			var aLink = document.getElementsByTagName('a')[0]; 
+			//2. 修改链接地址
+			aLink.href = "http://www.tmooc.cn";
+			//3. 新建窗口打开文件
+			aLink.target = "_blank";
+
+		}
+	</script>
+ </body>
+</html>

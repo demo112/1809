@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<form>
+		用户名 : <input type="text" name="uname">
+<!-- 	button标签如果在form中使用,默认为提交功能	 -->
+<!-- 	<button onclick="validate()">验证</button> -->
+		<input type="button" value="验证" onclick="validate()">
+		<div></div>
+	<form>
+	<script>
+		function initWithTagName(tagName){
+			//函数接收字符串参数,表示标签名
+			//获取元素节点
+			var elem = document.getElementsByTagName(tagName)[0];
+			return elem;
+		}
+		
+		function validate(){
+			//获取元素节点
+			var input = initWithTagName('input');
+			var div = initWithTagName('div');
+			//验证字符串长度
+			var uname = input.value;
+			//[6,8]
+			if(uname.length >= 6 && uname.length <= 18){
+				//显示提示信息
+				div.innerHTML = "<b>用户名合法</b>";
+				div.style.color = "green";
+				console.log(div.innerHTML);
+			}else{
+				div.innerText = "<b>用户名不合法</b>";
+				div.style.color = "red";
+			}
+		}		
+	</script>
+ </body>
+</html>

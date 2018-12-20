@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<div id="box">标签创建</div>
+  <script>
+	//1. 创建元素节点 
+	var div2 = document.createElement('div');
+	//2. 设置文本内容
+	div2.innerHTML = "动态创建";
+	//3. 添加属性
+	div2.id = "box2";
+	console.log(div2);
+	//4. 添加在body中显示
+	document.body.appendChild(div2);
+	//5. 动态创建b标签,添加在div2中
+	var bElem = document.createElement('b');
+	//创建文本节点
+	var text = document.createTextNode('加粗标签');
+	//<b>加粗标签</b> 文本节点是元素节点的子节点
+	bElem.appendChild(text);
+	div2.appendChild(bElem);
+	//6. 在指定位置插入元素
+	var h1 = document.createElement('h1');
+	h1.innerText = "一级标题";
+	//将h1插入在div2之前
+	document.body.insertBefore(h1,div2);
+	//7. 移除节点
+	document.body.removeChild(h1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  </script>
+ </body>
+</html>

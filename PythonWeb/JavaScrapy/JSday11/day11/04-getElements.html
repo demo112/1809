@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+	<h1 class="c1">隔壁老王</h1>
+	<h1>rapper 王</h1>
+	<h1 class="c1">超哥哥</h1>
+	<h1>王所长(wangwc)</h1>
+	<p id="d1" class="c1 c2">小泽老师是非常优秀的老师</p>
+	<input type="radio" name="sex" value="male">男
+	<input type="radio" name="sex" value="female">女
+	<input type="text" name="username">
+	<button onclick="getValue()">获取</button>
+
+	<button onclick="changeText();">修改</button>
+
+	<script type="text/javascript">
+		var h1s = document.getElementsByTagName('h1');
+		var elems = document.getElementsByClassName('c1 c2');
+		var p = document.getElementById('d1');
+		var inputs = document.getElementsByName('sex');
+		console.log(inputs);
+		console.log(h1s);
+		console.log(elems);
+		console.log(p);
+		function changeText (){
+			//1.根据下标获取元素节点
+			var h1 = h1s[0];
+			var h2 = h1s[1];
+			console.log(h1);
+			//2. 修改元素节点的内容
+			h1.innerHTML = "<a href=''>男神魏</a>";
+			h2.innerText = "<a href=''>男神魏</a>";
+		}
+		function getValue(){
+			//1. 获取元素节点
+			var username = document.getElementsByTagName('input')[2];
+			//2. 获取文本框的值
+			console.log(username.value);
+		}
+	</script>
+</body>
+</html>

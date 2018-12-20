@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>创建购物车</title>
+</head>
+<body>
+<p>
+    <input type="text" name="gname">
+    <input type="text" name="gprice">
+    <input type="text" name="gcount">
+    <button onclick="add_car()">添加购物车</button>
+</p>
+
+<table>
+    <tbody>
+    <tr>
+        <td>名称</td>
+        <td>价格</td>
+        <td>数量</td>
+        <td>增减</td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    function add_car() {
+        var gname = document.getElementsByName("gname")[0].value;
+        var gprice = document.getElementsByName("gprice")[0].value;
+        var gcount = document.getElementsByName("gcount")[0].value;
+        var tbody = document.getElementsByTagName("tbody")[0];
+
+        var tr = document.createElement("tr");
+        var tname = document.createElement("td");
+        var tprice = document.createElement("td");
+        var tcount = document.createElement("td");
+        var count_change = document.createElement('td');
+        var tadd = document.createElement('button');
+        var tremove = document.createElement('button');
+
+        tname.innerHTML = gname;
+        tname.class = 'class_name';
+
+        tprice.innerHTML = gprice;
+        tprice.class = 'class_price';
+
+        tcount.innerHTML = gcount;
+        tcount.class = 'class_count';
+
+        tadd.innerHTML = "添加";
+        tremove.innerHTML = "减少";
+
+        tbody.appendChild(tr)
+        tr.appendChild(tname);
+        tr.appendChild(tprice);
+        tr.appendChild(tcount);
+        tr.appendChild(count_change);
+        count_change.appendChild(tadd);
+        count_change.appendChild(tremove);
+        get_add()
+        function get_add() {
+            var old_count = document.getElementsByClassName('class_count')
+            console.log(old_count);
+        }
+    }
+</script>
+
+<!--<button>增加</button>-->
+<!--<button>减少</button>-->
+
+</body>
+</html>

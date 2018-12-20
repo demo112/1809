@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ 
+ </head>
+ <body>
+	<h1>一级标题</h1>
+	<h1>一级标题</h1>
+	<h1>一级标题</h1>
+	<input type="text">
+	<button onclick="getText()">获取内容</button>
+
+	<script>
+		//获取元素节点列表
+		var h1s = document.getElementsByTagName('h1');
+		console.log(h1s);
+		//修改第一个标题标签的内容
+		var h1 = h1s[0]; //元素节点
+		//innerHTML : 读取或设置元素节点的标签内容
+		console.log(h1.innerHTML);
+		h1.innerHTML = "hahaha,快下课";
+		//修改第二个元素
+		h1s[1].innerHTML = "<a href='#'>超链接</a>";
+
+		//获取文本框的内容
+		function getText(){
+			//获取文本框节点对象
+			var input = document.getElementsByTagName('input')[0];
+			//value属性用来获取表单控件的值
+			console.log(input.value);
+		}
+
+
+
+
+    </script>
+
+ </body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		//提取邮箱用户名和服务商
+		var mail = "zhangsan@163.com";
+		var atIndex = mail.indexOf("@");
+		var uname = mail.substring(0,atIndex);
+		//省略结束下标,截至末尾
+		var serverName = mail.substring(atIndex+1);
+		console.log(uname,serverName);
+
+		//提取年月日
+		var card = "10023319001205678X";
+		var year = card.substring(6,10);
+		var month = card.substring(10,12);
+		var day = card.substring(12,14);
+		console.log(year,month,day);
+
+
+	</script>
+ </body>
+</html>

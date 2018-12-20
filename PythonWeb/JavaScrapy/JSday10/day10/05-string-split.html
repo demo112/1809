@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		var s1 = "2018-11-11";
+		var res = s1.split('-');
+		console.log(res);
+		var res2 = s1.split('/');
+		console.log(res2);
+
+		//分割字符串
+		var s2 = "101_5&102_10&221_3";
+		//['101_5','101_10']
+		var goodsArr = s2.split('&');
+		for(var i = 0; i < goodsArr.length; i ++){
+			//['101','5']
+			var arr = goodsArr[i].split('_');
+			console.log("商品id为"+arr[0],"商品数量为"+arr[1]);
+		}
+	</script>
+ </body>
+</html>

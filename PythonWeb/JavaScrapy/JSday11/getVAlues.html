@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>获取内容</title>
+</head>
+<body>
+    <div>
+    </div>
+    <label>
+        <input type="text" name="input">
+    </label>
+    <input type="button" name="button" value="提交" onclick="get()">
+    <script>
+        function get() {
+            var value = document.getElementsByName('input')[0].value;
+            // console.log(value);
+            var change = document.getElementsByTagName('div')[0];
+            change.innerHTML = "<h1>" + value + "</h1>";
+        }
+
+    </script>
+</body>
+</html>

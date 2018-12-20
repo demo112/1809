@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		//1. 字符串的拼接
+		var r1 = "张三" + "100"; //"张三100"
+		var r2 = "张三" + 100;
+		var r3 = "张三" + true;
+		console.log(r1,typeof r1);
+		console.log(r2,typeof r2);
+		console.log(r3,typeof r3);
+		var r4 = "张三" + undefined;
+		var r5 = "张三" + null;
+		console.log(r4,r5);
+
+		//2. number + boolean
+		var res1 = 100 + true;
+		var res2 = 200 + false;
+		console.log(res1,typeof res1,res2,typeof res2);
+
+		//3. number + undefined/null
+		var res3 = 100 + undefined;
+		var res4 = 100 + null;
+		console.log(res3,res4);
+
+		//4. boolean + undefined/null
+		var res5 = true + undefined;
+		var res6 = false + null;
+		console.log(res5,res6);
+		//---------强制类型转换--------
+		var a = 100;
+		var b = true;
+		var string1 = a.toString();
+		console.log(string1,typeof string1);
+		console.log(b,b.toString());
+
+		//Number()
+		console.log(Number(string1),Number(b),Number("张3"));
+
+		//parseInt parseFloat
+		console.log(parseInt("100a"),parseInt("a100"));
+		console.log(parseInt("18.5asdasd"),parseFloat("18.5asda"));
+		console.log(parseInt(18.5),parseInt(true));
+		
+		//定义变量接收用户输入的结果
+		var age = prompt("请输入年龄");
+		console.log(age,typeof age);
+
+
+
+
+
+
+
+
+	</script>
+ </body>
+</html>

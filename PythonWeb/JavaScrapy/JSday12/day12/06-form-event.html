@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="init.js"></script>
+  <script>
+	window.onload = function (){
+		//窗口加载完毕后执行
+		var form = $('form');
+		//文本框
+		var input = $('input');
+		//span
+		var span = $('span');
+		input.onfocus = function (){
+			console.log("获取焦点");
+		};
+		input.onblur = function (){
+			console.log("失去焦点",this.value);
+			//验证用户输入是否合法
+			if(this.value.length >= 6 && this.value.length <= 18){
+				span.innerHTML = "用户名合法";
+				this.style.border = "2px solid grey";
+			}else{
+				span.innerHTML = "请重新输入";
+				this.style.border = "2px solid red";
+			}
+		};
+		//监听文本框输入
+		input.oninput = function (){
+			//实时监听,只要输入框在焦点状态,任何字符的输入操作都会触发
+			console.log("oninput :",this.value);
+		};
+		//监听输入框前后内容是否变化
+		input.onchange = function (){
+			//当输入内容前后发生变化,并且元素失去焦点时触发
+			console.log("onchange :",this.value);
+		};
+		//form 负责发送数据
+		form.onsubmit = function (){
+			//当用户点击提交按钮时自动触发form的onsubmit事件
+			//onsubmit 事件用于验证表单中数据是否可以提交
+			//允许返回布尔值,true表示数据可以提交,false表示不能提交
+			if(input.value.length == 0){
+				return false;
+			}else{
+				return true;
+			}
+
+		};
+		
+	
+	};
+
+  </script>
+ </head>
+ <body>
+	<form action="" method="">
+		<p>
+			用户名 :
+			<input type="text" name="uname" placeholder="" maxlength="">
+			<span></span>
+		</p>
+		<p>
+			<input type="submit" name="submit" value="发送">
+		</p>
+	</form>
+ </body>
+</html>

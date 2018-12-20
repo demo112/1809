@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interval</title>
+</head>
+<body>
+<script>
+    var v = 0;
+    var timer_id = setInterval(function () {
+        i++;
+        console.log(v);
+    }, 1000);
+    if (v === 5){
+        clear(timer_id);
+    }
+
+
+    var v1 = 0;
+    var timer_id1 = setInterval(function () {
+        i++;
+        console.log(v1);
+    }, 1000);
+
+</script>
+</body>
+</html>

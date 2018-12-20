@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一子元素</title>
+    <script src="../jquery-1.11.3.js"></script>
+</head>
+<body>
+<ul>
+    <li>孙悟空</li>
+    <li>二师兄</li>
+    <li>沙师弟</li>
+    <li>唐三藏</li>
+    <li>白龙马</li>
+</ul>
+<ul>
+    <li>孙悟空</li>
+    <li>二师兄</li>
+    <li>沙师弟</li>
+    <li>唐三藏</li>
+    <li>白龙马</li>
+</ul>
+<script>
+    $('li:first').css('color', 'red');
+    $('li:last').css('color', 'red');
+
+    $('li:first-child').css('color', 'green');
+    $('li:last-child').css('background','yellowgreen');
+    $('li:nth-child(3)').css('text-align','center');
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找最大数</title>
+</head>
+<body>
+<script>
+    var l = new Array(12,23,34,45,34,45,2,4,87,234);
+    var max;
+    for (i = 0; i < l.length - 1; i++){
+        if (l[i] > l[i + 1]) {
+            max = l[i];
+        }
+        else if (l[i] <= l[i + 1]) {
+            max = l[i + 1]
+        }
+    }
+    document.write(max);
+    console.log(max)
+</script>
+</body>
+</html>

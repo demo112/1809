@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+</head>
+<body>
+<script>
+    function createCode(n) {
+        var l = ['a', 'b', 'c', 'd', 'e',
+                'f', 'g', 'h', 'i', 'j', 'k',
+                'l', 'm', 'n', 'o', 'p', 'q',
+                'r', 's', 't', 'u', 'v', 'w',
+                'x', 'y', 'z', 'A', 'B', 'C',
+                'D', 'E', 'F', 'G', 'H', 'I',
+                'J', 'K', 'L', 'M', 'N', 'O',
+                'P', 'Q', 'R', 'S', 'T', 'U',
+                'V', 'W', 'X', 'Y', 'Z'];
+        var show = '';
+        for (i = 0; i < n; i++) {
+            var index = parseInt(Math.random() * l.length);
+            console.log(index);
+            console.log(l[index]);
+            show += l[index];
+        }
+        return show;
+    }
+
+
+    function check(n) {
+        // 提示用户输入
+        show = createCode(n);
+        var input = prompt("请输入验证码:\n"+show);
+
+        if (show.toUpperCase() === input.toUpperCase()){
+            document.write("验证成功");
+            alert("验证成功");
+        }
+        else {
+            document.write("验证失败");
+            alert("验证成功");
+        }
+    }
+</script>
+    <button onclick='check(6)'>
+        点击验证
+    </button>
+</body>
+</html>

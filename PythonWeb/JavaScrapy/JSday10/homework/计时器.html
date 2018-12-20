@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计时器</title>
+</head>
+<body>
+<script>
+    var index = 0;
+    function start() {
+        index = setInterval(function () {
+            var time = new Date().toLocaleTimeString();
+            console.log(time);
+        },1000);
+    }
+    function stop(index) {
+        clearInterval(index);
+    }
+    function end(index) {
+        stop(index);
+        if (confirm("是否关闭网页")){
+            setTimeout(function (){
+                window.close();
+            },2000)
+        }
+    }
+</script>
+<button onclick="start()">开始计时⌛️</button>
+<button onclick="stop(index)">停止计时⌛️</button>
+<button onclick="end()">关闭网页⚠️</button>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性</title>
+    <script src="../jquery-1.11.3.js"></script>
+    <!--<style>-->
+        <!--p{-->
+            <!--border: 1px dotted;-->
+        <!--}-->
+    <!--</style>-->
+</head>
+<body>
+    <p id="d1" class="c1">床前明月光</p>
+    <p class="c2s">地上鞋两双</p>
+    <p class="c1">天王盖地虎</p>
+    <p>小鸡炖蘑菇</p>
+    <button onclick="attr()">存在属性</button>
+    <button onclick="attr_eq()">属性等于</button>
+    <button onclick="c_start()">以c开头</button>
+    <button onclick="one_end()">以1结尾</button>
+    <button onclick="include()">存在2</button>
+    <button onclick="not_eq()">id不等于d1</button>
+    <script>
+        function attr(){
+            $("[id]").css('color','red');
+        }
+        function attr_eq(){
+            $("[id='d1']").css('background', 'blue');
+            // $(":not([id！='d1'])").css('background', 'blue');
+        }
+        function c_start() {
+            $("[class^='c']").css('text-align', 'center');
+        }
+        function one_end() {
+            $("[class$='1']").css('border', '3px solid black').css('width', '300px');
+        }
+        function include() {
+            $("[class*='2']").css('background-color', 'lightgray');
+        }
+        function not_eq() {
+            $("[id!='d1']").css('background-color', 'lightgreen').css('border', '100px dotted red');
+        }
+    </script>
+</body>
+</html>

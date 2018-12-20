@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		//1. 创建正则表达式
+		var reg1 = /microsoft/ig;
+		var reg2 = /\d{6}/g;
+		var reg3 = new RegExp("\\d{6}","ig");
+		//定义字符串
+		var s1 = "hello123456789";
+		var r1 = reg2.test(s1);
+		//访问属性,lastIndex 指定下一次匹配的起始索引
+		console.log(r1,reg2.lastIndex);
+		//强制修改lastIndex
+		reg2.lastIndex = 0;
+		var r2 = reg2.test(s1);
+		console.log(r2,reg2.lastIndex);
+
+
+
+
+
+
+
+	
+	</script>
+ </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="init.js"></script>
+ </head>
+ <body>
+	<h1 onclick="alert('元素内联绑定');">一级标题</h1>
+	<p>段落文本</p>
+	<div>div文本</div>
+	<script>
+		//1. 获取元素节点
+		var p = $('p');
+		//2. 动态绑定事件
+		p.ondblclick = function (){
+			alert("动态绑定双击事件");
+		};
+		//3. 标准的事件监听函数
+		p.style.background = "red";
+		p.addEventListener('mouseover',function(){
+			console.log("鼠标移入");
+		});
+		//创建div,为div添加单击事件,点击显示弹框
+		var div = $('div');
+		div.onclick = function (){
+			alert("div被单击");
+		};
+
+
+
+	</script>
+ </body>
+</html>

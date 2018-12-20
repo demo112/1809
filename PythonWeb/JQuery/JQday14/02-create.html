@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建标签</title>
+    <script src="../jquery-1.11.3.js"></script>
+</head>
+<body>
+<script>
+    // 创建
+    var $h1 = $(
+        "<h1 id='d1' class='c1' style='color: red'>" +
+            "一级标题" +
+        "</h1>"
+    );
+
+    var $p = $(
+        '<p></p>');
+    $p.html(
+        "段落标签"
+    );
+    $p.attr(
+        "class",'c1'
+    ).css(
+        'color','red'
+    );
+    console.log($h1);
+    console.log($p);
+    $('body').append($h1).prepend($p);
+
+    var $span = $(
+        "<span>普通文本</span>"
+    );
+    var $a = $(
+        "<a href=''>超链接</a>"
+    );
+
+    // 作为兄弟元素添加
+    $p.before($span);
+    $p.after($a);
+
+    // remove
+    $span.remove()
+
+</script>
+</body>
+</html>

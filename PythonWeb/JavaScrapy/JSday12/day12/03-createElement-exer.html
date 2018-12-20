@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	table{
+		width:600px;
+		border:1px solid black;
+		/*边框合并*/
+		border-collapse:collapse;
+	}
+	th,td{
+		border:1px solid black;
+		text-align:center;
+	}
+
+  </style>
+  <script src="init.js"></script>
+ </head>
+ <body>
+	<p>
+		<input type="text" name="gname">
+		<input type="text" name="gprice">
+		<input type="text" name="gcount">
+		<button onclick="add()">增加</button>
+	</p>
+	<table>
+		<thead>
+			<tr>
+				<th>商品名称</th>
+				<th>商品价格</th>
+				<th>商品数量</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+		</tbody>
+	</table>
+	<script>
+		//点击函数
+		function add(){
+			//获取元素
+			var gname = $2('input')[0].value;
+			var gprice = $2('input')[1].value;
+			var gcount = $2('input')[2].value;
+			var tbody = $2('tbody')[0];
+			//创建行 创建单元格
+			var tr = document.createElement('tr');
+			//单元格并填充内容
+			var tdName = document.createElement('td');
+			tdName.innerHTML = gname;
+			var tdPrice = document.createElement('td');
+			tdPrice.innerHTML = gprice;
+			var tdCount = document.createElement('td');
+			tdCount.innerHTML = gcount;
+			var tdBtn = document.createElement('td');
+			//创建按钮
+			var updateBtn = document.createElement('button');
+			//<button>修改</button>
+			updateBtn.innerHTML = "修改";
+			//<input type="button" value="">
+			var deleteBtn = document.createElement('input');
+			deleteBtn.type = "button";
+			deleteBtn.value = "删除";
+			//添加按钮至单元格
+			tdBtn.appendChild(updateBtn);
+			tdBtn.appendChild(deleteBtn);
+			//追加元素 tbody -> tr -> td
+			tr.appendChild(tdName);
+			tr.appendChild(tdPrice);
+			tr.appendChild(tdCount);
+			tr.appendChild(tdBtn);
+			tbody.appendChild(tr);
+
+		}
+
+	</script>
+ </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		//1. 接收用户输入
+		var year = prompt("请输入年份");
+		//2. 闰年判断
+		var res = year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+		console.log(year+"是闰年吗?",res);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

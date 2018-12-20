@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分割URL</title>
+</head>
+<body>
+<script>
+    var url = "101_5&102_10&221_3";
+    var ul = url.split("&");
+    console.log(ul);
+    for (i in ul){
+        var i;
+        i = ul[i];
+        var NO = i.substring(0, 3);
+        var num = i.substring(4);
+        console.log("NO, num", i, NO, num);
+    }
+</script>
+</body>
+</html>

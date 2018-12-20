@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	.c1{
+		color:red;
+	}
+	.c2{
+		background:pink;
+	}
+	#d1{
+		border:10px solid green;
+	}
+  </style>
+ </head>
+ <body>
+	<h1>一级标题</h1>
+	<p>段落标签</p>
+	<button onclick="get()">获取</button>
+	<button onclick="set()">设置</button>
+	<button onclick="remove()">移除</button>
+
+	<script>
+		//获取元素节点
+		var h1 = document.getElementsByTagName('h1')[0];
+		var p = document.getElementsByTagName('p')[0];
+		function get(){
+			console.log("id :",h1.getAttribute('id'));
+			console.log("class:",h1.getAttribute('class'));	
+			console.log(p.className);
+		}
+		function set(){
+			h1.setAttribute('id','d1');
+			h1.setAttribute('class','c1');
+			p.id = "d1";
+			//class="c1 c2"
+			//多个类名,也不能重复赋值,以一条赋值语句添加
+			p.className="c1 c2";
+		}
+		function remove(){
+			h1.removeAttribute('id');
+			p.className = null;
+		}
+		
+	</script>
+ </body>
+</html>

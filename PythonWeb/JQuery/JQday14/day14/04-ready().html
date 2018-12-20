@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	/*
+	window.onload = function(){
+		alert("load1");
+	};
+	window.onload = function(){
+		alert("load2");
+	};
+	window.onload = function(){
+		alert("load3");
+	};
+	*/
+
+	$(document).ready(function (){
+		//alert("ready1");
+	});
+	$().ready(function (){
+		//alert("ready2");
+	});
+	$(function (){
+		//等待文档加载完毕后获取元素
+		$("h1").click(function (){
+			alert("h1被点击");
+		});
+		$("p").bind("click",function (evt){
+			alert("p被点击");
+			console.log(evt);
+			console.log(evt.target,evt.offsetX,evt.offsetY);
+		});
+
+	});
+
+  </script>
+ </head>
+ <body>
+	<h1>一级标题</h1>
+	<p>段落</p>
+ </body>
+</html>

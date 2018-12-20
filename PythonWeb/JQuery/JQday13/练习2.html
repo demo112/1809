@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+    <script src="../jquery-1.11.3.js"></script>
+</head>
+<body>
+    <h1>一级标题</h1>
+    <input type="radio" name="" value="male" checked>
+    <script>
+        $('h1').attr('id','d1').prop('class','c1');
+        $("h1").removeAttr('class');
+
+        console.log($('input').attr('checked'));
+        console.log($('input').prop('checked'));
+    </script>
+</body>
+</html>

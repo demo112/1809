@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更改超链接地址</title>
+</head>
+<body>
+    <a href="http://www.baidu.com" target="_blank">超链接</a>
+    <input type="button" value="改变目标" onclick="change()">
+    <script>
+        function change() {
+            var as = document.getElementsByTagName('a')[0];
+            as.setAttribute("href","http://www.tmooc.cn");
+        }
+    </script>
+</body>
+</html>

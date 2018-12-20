@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>bubble</title>
+    <script src="init.js"></script>
+</head>
+<body>
+
+<script>
+    window.onload = function () {
+        $('h1').addEventListener('click', function () {
+            alert("h1被点击")
+        }, true);
+        $('div').addEventListener('click', function () {
+            alert("div被点击")
+        }, true);
+        $('body').addEventListener('click', function () {
+            alert("body被点击")
+        }, true);
+    };
+</script>
+<div>
+    <h1>一级标题</h1>
+</div>
+</body>
+</html>

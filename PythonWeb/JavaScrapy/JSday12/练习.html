@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>六；看戏</title>
+</head>
+<body>
+    <p>
+        <input type="text" name="gname" placeholder="商品名称">
+        <input type="text" name="gprice" placeholder="商品价格">
+        <input type="text" name="gcount" placeholder="商品数量">
+        <input type="button" value="添加" onclick="addGoods()">
+    </p>
+<table>
+    <tbody>
+    <tr>
+        <td>商品名称</td>
+        <td>商品价格</td>
+        <td>商品数量</td>
+        <td>操作</td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    function addGoods() {
+        // 获取标签对象获取输入框的值
+        var gname = document.getElementsByName("gname")[0].value;
+        var gprice = document.getElementsByName("gprice")[0].value;
+        var gcount = document.getElementsByName("gcount")[0].value;
+        var tbody = document.getElementsByTagName('tbody')[0];
+
+        // 用将要获取的值创建表格内的表标签
+        var tr = document.createElement('tr');
+        var tdname = document.createElement('td');
+        var tdprice = document.createElement('td');
+        var tdcount = document.createElement('td');
+
+        var tdoperation = document.createElement('td');
+        var butupdate = document.createElement("button");
+        var butdelete = document.createElement("button");
+
+
+        // 将获取的输入的值给各个标签的值
+        tdname.innerHTML = gname;
+        tdprice.innerHTML = gprice;
+        tdcount.innerHTML = gcount;
+        butupdate.innerHTML = "修改";
+        butdelete.innerHTML = "删除";
+
+        // 将元素依次添加进父元素中
+        tr.appendChild(tdname);
+        tr.appendChild(tdprice);
+        tr.appendChild(tdcount);
+        tr.appendChild(tdoperation);
+        tdoperation.appendChild(butupdate);
+        tdoperation.appendChild(butdelete);
+        tbody.appendChild(tr)
+
+    }
+</script>
+</body>
+</html>

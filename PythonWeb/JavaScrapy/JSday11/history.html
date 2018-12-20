@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>history</title>
+</head>
+<body>
+<script>
+    console.log(history);
+    function getlength() {
+        console.log(history.length);
+    }
+</script>
+<button onclick="getlength()">获取length</button>
+<br>
+<a href="">href=""不变</a>
+<br>
+<a href="#">href="#"变化</a>
+<br>
+<a href="screen.html" target="_blank">新窗口screen</a>
+<a href="screen.html">screen</a>
+<br>
+<button onclick="history.forward()">前进</button>
+<br>
+<button onclick="history.back()">后退</button>
+<br>
+<button onclick="history.go(2)">前进2步</button>
+</body>
+</html>

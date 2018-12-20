@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+ </head>
+ <body>
+  
+	<script>
+		//动态创建并添加元素
+		var $h1 = $("<h1 id='d1'>一级标题</h1>");
+		$("body").append($h1);
+		var $p = $("<p>段落</p>");
+		$("body").prepend($p);
+		//兄弟元素
+		var $span = $("<span>span</span>");
+		var $span2 = $("<span>span</span>");
+		$p.after($span);
+		$p.before($span2);
+		//删除节点
+		$h1.remove();
+
+	</script>
+ </body>
+</html>

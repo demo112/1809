@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		//1. 创建字符串
+		var s1 = "hello";
+		var s2 = new String("hello world");
+		//2. length
+		console.log(s1,s1.length);
+		console.log(s2,s2.length);
+		//3. 遍历字符串
+		for(var i = 0;i < s2.length; i ++){
+			//按照数组的方式访问字符
+			console.log(s2[i]);
+		}
+		//4. 转换大小写
+		var str = s2.toUpperCase();
+		console.log(str,s2);
+		var newstr = str.toLowerCase();
+
+
+	</script>
+ </body>
+</html>

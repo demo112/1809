@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		console.log(window);
+		//1. 全局变量和函数都是window对象的属性和方法
+		var a = 100;
+		function f1(){
+			alert("f1");
+		}
+		//对象访问属性
+		console.log(window.a);
+		window.f1();
+		window.alert("window.alert");
+		window.prompt("请输入数据",0);
+		//确认框
+		window.confirm("是否确定");
+
+
+
+
+
+	</script>
+ </body>
+</html>

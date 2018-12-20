@@ -1,0 +1,157 @@
+/*清空属性*/
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    width: 1921px;
+}
+
+
+/*导航栏*/
+#daohang{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #eeeeee;
+    height: 30px;
+}
+    /*城市选择*/
+.dizhi{
+    border: 0;
+    outline: none;
+    color: #9c9a9c;
+    font-size: 14px;
+    border-radius: 0;
+    line-height: 30px;
+}
+#dizhi {
+    float: left;
+    color: #9c9a9c;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*超链接*/
+.waimai{
+        line-height: 30px;
+}
+.guanggao{
+    float: left;
+    color: #9c9a9c;
+    font-size: 16px;
+    line-height: 30px;
+}
+.shouji{
+    float: right;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.zhanghao{
+    float: right;
+    line-height: 30px;
+}
+.zhanghao a{
+    color: #9c9a9c;
+}
+#zhuce, #gongao, #quanka{
+    height: 20px;
+    border-right: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*首行*/
+/*logo1*/
+#title{
+    height: 80px;
+}
+#title #logo1{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+/*logo2*/
+#title #logo2{
+    height: 80px;
+    width: 160px;
+    float: left;
+}
+#title div{
+    width: 160px;
+    float: right;
+}
+#title div>a{
+    display: block;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+}
+#title input{
+    width: 160px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+}
+/*搜索框*/
+#search1{
+    height: 40px;
+}
+#search2{
+    text-align: center;
+    margin: 0;
+    height: 40px;
+}
+#title span{
+    color: #9c9a9c;
+    font-size: 10px;
+}
+
+
+/*banner页*/
+#banner{
+    height: 400px;
+    width: 1921px;
+    position: relative;
+}
+#banner #banner_holder{
+    height: 400px;
+    width: 1921px;
+    background-image: url("../sucai/images/banner1.jpg");
+    /*background: transparent;*/
+}
+#banner button{
+    /*position: absolute;*/
+    /*bottom: 30px;*/
+    /*left: 50%;*/
+    display: inline-block;
+    padding: 0;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 15px solid greenyellow;
+}
+#change_button{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+/*推荐*/
+#tuijian div{
+    margin: 0 7px;
+    display: inline-block;
+    height: 200px;
+    width: 24%;
+    background: url("../sucai/images/2ba20598135dbba5e97d241ebfa167d9.jpg") no-repeat center center;
+    background-size: cover;
+
+    /*background-color: #64a131;*/
+}
+#tuijian #tuijian1{
+    background: url("../sucai/images/1-270x270-430-9RBRWTU9.jpg") repeat;
+}

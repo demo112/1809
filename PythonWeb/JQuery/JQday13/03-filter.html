@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+    <script src="../jquery-1.11.3.js"></script>
+
+</head>
+<body>
+    <div id="box">
+        <h1>名诗两首</h1>
+        <p id="d1" class="c1">床前明月光</p>
+        <p class="c2">地上鞋两双</p>
+        <p class="c1">天王盖地虎</p>
+        <p>小鸡炖蘑菇</p>
+        <p id="d2" class="c1">床前明月光</p>
+        <p class="c2">地上鞋两双</p>
+        <p class="c1">天王盖地虎</p>
+        <p>小鸡炖蘑菇</p>
+    </div>
+    <div>
+        <p>一如糗百深似海</p>
+    </div>
+    <button onclick="first()">第一个:first</button>
+    <button onclick="last()">最后一个:last</button>
+    <button onclick="odd()">偶数行:odd</button>
+    <button onclick="even()">奇数行:even</button>
+    <br>
+    <button onclick="eq()">行数下标等于:eq</button>
+    <button onclick="lt()">行数下标小于:lt</button>
+    <button onclick="gt()">行数下标等于:gt</button>
+    <button onclick="not()">否定:not</button>
+    <script>
+        function first() {
+            $("p:first").css('color','red');
+            $(".c1:first").css('color','red');
+        }
+        function last() {
+            $("p:last").css('color','green');
+            $(".c1:last").css('color','green');
+        }
+        function odd() {
+            $("p:odd").css('background','pink');
+        }
+        function even() {
+            $("p:even").css('background','lightskyblue');
+        }
+        function eq() {
+            $("p:eq(5)").css('background','orange');
+        }
+        function lt() {
+            $("p:lt(5)").css('background','purple');
+        }
+        function gt() {
+            $("p:gt(5)").css('background','yellow');
+        }
+        function not() {
+            $("p:not(.c1)").css('background','yellowgreen').css('border','3px solid black');
+        }
+    </script>
+</body>
+</html>

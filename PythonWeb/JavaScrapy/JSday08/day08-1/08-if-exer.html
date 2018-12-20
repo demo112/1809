@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		/*
+		var score = prompt("请输入成绩");
+		if(score >= 90){
+
+		}else if(score >= 80){
+
+		}else if(score >= 60){
+
+		}else{
+
+		}
+		*/
+
+		/*
+			1. 闰年影响2月份的总天数
+			2. 用户输入的month,累加整月天数 1 ~ month-1,当前月的天数,加日期得到
+		*/
+		var year = prompt("请输入年");
+		var month = prompt("请输入月");
+		var day = Number(prompt("请输入日"));
+
+		//总天数
+		var sumDay = 0;
+		//闰年判断
+		var isRun = year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+		//天数累加
+		if(month == 1){
+			sumDay += day;
+		}else if (month == 2){
+			sumDay += 31 + day;
+		}else if(month == 3){
+			sumDay += 31 + 28 + day;
+		}else if(month == 4){
+			sumDay += 31 + 28 + 31 + day;
+		}else if(month == 12){
+
+		}
+		//闰年判断
+		if(isRun && month > 2){
+			sumDay += 1;
+		}
+		console.log(year+"年"+month+"月"+day+"日是当年的第"+sumDay+"天");
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

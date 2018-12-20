@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+ </head>
+ <body>
+	<div id="box">
+		<h1>一级标题</h1>
+		<h2 class="c1">二级标题</h2>
+		<h3>
+			三级标题
+			<p>段落</p>
+		</h3>
+		<p class="c2">段落</p>
+	</div>
+	<script>
+		//1. 获取子节点
+		console.log($("#box").children());
+		console.log($("#box").children('.c1'));
+		//2. 获取父节点
+		console.log($('p').parent());
+		console.log($('p').parents());
+		//查找指定选择器的祖先元素
+		console.log($('p').parents('#box'));
+		//3. 获取后代元素
+		console.log("------",$("#box").find('p'));
+		//4. 获取兄弟元素
+		console.log($("h1").next());
+		console.log($("h1").next('.c2'));
+		console.log($("h2").siblings());
+		console.log($("h2").siblings(".c2"));
+
+
+
+
+
+
+
+
+
+
+
+	
+	</script>
+ </body>
+</html>

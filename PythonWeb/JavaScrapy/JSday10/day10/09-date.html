@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<script>
+		//1. 创建日期对象
+		//根据系统当前的时间初始化对象
+		var date1 = new Date();
+		//根据指定的时间初始化对象
+		var date2 = new Date("2001-11-11");
+		console.log(date1,date2);
+		//2. 获取毫秒数
+		console.log(date1.getTime(),date2.getTime());
+		//3. 获取时间分量
+		var year = date1.getFullYear();
+		var month = date1.getMonth();
+		var day = date1.getDate();
+		var week = date1.getDay();
+		console.log(year,month+1,day,week);
+		//获取时分秒
+		var hour =  date1.getHours();
+		var minute = date1.getMinutes();
+		var second = date1.getSeconds();
+		var millisecond = date1.getMilliseconds();
+		console.log(hour,minute,second,millisecond);
+
+		//输出日期字符串
+		console.log(date1);
+		console.log(date1.toString());
+		console.log(date1.toLocaleString());
+		console.log(date1.toLocaleDateString());
+		console.log(date1.toLocaleTimeString());
+
+
+		/*
+		if(date2.getDay() == 0){
+			console.log("星期天");
+		}
+		*/
+
+
+	
+	</script>
+ </body>
+</html>

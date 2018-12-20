@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邮箱</title>
+</head>
+<body>
+<script>
+    var i = "1245@qq.com";
+    var int_at = i.charAt("@");
+    var int_dot = i.charAt(".");
+    var name = i.substring(0, int_at);
+    var company = i.substring(int_at + 1, int_dot);
+
+
+    // var mail = i.split("@");
+    // var name = mail[0];
+    //
+    // var email = mail[1].split(".");
+    // var company = email[0];
+
+    console.log("name, company", name, company);
+</script>
+</body>
+</html>
