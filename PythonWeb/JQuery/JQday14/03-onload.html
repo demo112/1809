@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>事件处理:等待文档加载完毕</title>
+    <script src='../jquery-1.11.3.js'></script>
+    <script>
+        // // window加载完毕
+        // window.onload = function () {
+        //     alert("第1次弹窗")
+        // };
+        // window.onload = function () {
+        //     alert("第2次弹窗")
+        // };
+        // window.onload = function () {
+        //     alert("第3次弹窗")
+        // };
+        // window.onload = function () {
+        //     alert("第4次弹窗")
+        // };
+        $(document).ready(function () {
+            // alert("第1次弹窗")
+        });
+        $(document).ready(function () {
+            // alert("第2次弹窗")
+        });
+        $(document).ready(function () {
+            // alert("第3次弹窗")
+            function show() {
+                alert("show");
+            }
+            $('h1').bind('click',show);
+            $('p').click(function (evt) {
+                // console.log(evt);
+                console.log(evt.offsetX, evt.offsetY)
+            });
+        });
+    </script>
+    <style>
+        p{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<h1>jjjj</h1>
+<p>jjjj</p>
+</body>
+</html>

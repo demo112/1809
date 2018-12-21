@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.11.3.js"></script>
+    <script>
+        var arr = [123,234,345,456,567,678,789,890];
+        var $arr = $(arr);
+        $arr.each(function (index, elem) {
+            console.log(index, elem);
+        });
+        $(function () {
+            $('p').each(function () {
+                console.log(this);
+                $(this).html('<a></a>');
+            })
+        })
+    </script>
+</head>
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+</body>
+</html>
