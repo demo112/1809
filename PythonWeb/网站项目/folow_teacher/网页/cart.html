@@ -5,9 +5,7 @@
     <title>天天果园</title>
     <link rel="stylesheet" href="cart.css">
     <script src="jquery-1.11.3.js"></script>
-    <script src="index.js"></script>
-
-
+    <script src="cart.js"></script>
 </head>
 <body>
 <div id="container">
@@ -35,6 +33,7 @@
             </li>
             <li>满百包邮（环郊外）</li>
             <li><a href="">星夜达</a></li>
+            <li><a href="index.html">返回主页</a></li>
         </ol>
     </div>
     <!--横幅-->
@@ -74,13 +73,13 @@
                 //     }
                 // }
                 // 切换类实现图片切换
-                // function change(n) {
-                //     var $see = $('#banner div img');
-                //     console.log('src');
-                //     $($see).removeClass('see');
-                //     $($see[n]).attr('class','see');
-                //     console.log($see);
-                // }
+                function change(n) {
+                    var $see = $('#banner div img');
+                    console.log('src');
+                    $($see).removeClass('see');
+                    $($see[n]).attr('class','see');
+                    console.log($see);
+                }
             </script>
         </div>
     </div>
@@ -101,99 +100,110 @@
     </div>
     <!--主题-->
     <div id="main">
-        <!--全球量贩。食品生鲜，模块结构复用-->
-        <div class="goodsType">
-            <p class="goodsTitle">
-                <img src="images/t4.png" alt="t4未加载">
-                <a href="">更多</a>
+        <!--标题工具栏-->
+        <div class="title">
+            <p class="checkBox">
+                <label>
+                    <input type="checkbox" name="checkAll" id="checkAll">
+                </label>
+                全选
             </p>
-            <!--商品展示-->
-            <ul>
-                <li>
-                    <img src="./images/1-270x270-695-F2BSB4DC.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="./images/1-270x270-430-9RBRWTU9.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="./images/1-270x270-435-8829CP99.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="./images/1-270x270-701-CB41CHUW.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li class="lastgood">
-                    <img src="./images/1-270x270-2109-SDK5WUW8.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./images/1-270x270-695-F2BSB4DC.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="./images/1-270x270-430-9RBRWTU9.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="./images/1-270x270-435-8829CP99.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="./images/1-270x270-701-CB41CHUW.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-                <li class="lastgood">
-                    <img src="./images/1-270x270-2109-SDK5WUW8.jpg" alt="">
-                    <div>
-                        <a href=""><img src="images/cart.png" alt=""></a>
-                        <p>欢乐时光水果果篮</p>
-                        <span>&yen;188.00/份</span>
-                    </div>
-                </li>
-            </ul>
+            <p class="goods">商品</p>
+            <p class="price">单价</p>
+            <p class="count">数量</p>
+            <p class="sum">小计</p>
+            <p class="action">操作</p>
         </div>
-    </div>
+        <div class="content">
+            <div class="g-item">
+                <p class="checkBox">
+                        <input type="checkbox" name="check">
+                    <img src="images/1-270x270-2114-226C8S26.jpg" alt="图标未加载">
+                </p>
+                <p class="goods">
+                    欢乐时光水果果篮
+                </p>
+                <p class="price">&yen;188</p>
+                <p class="count">
+                    <a href="javaScript:void(0)" class="minus">-</a>
+                        <input type="text" value="1">
+                    <a href="javaScript:void(0)" class="add">+</a>
+                </p>
+                <p class="sum">
+                    <b>&yen;188</b>
+                </p>
+                <p class="action">移除</p>
+            </div>
+            <div class="g-item">
+                <p class="checkBox">
+                        <input type="checkbox" name="check">
+                    <img src="images/1-270x270-2114-226C8S26.jpg" alt="图标未加载">
+                </p>
+                <p class="goods">
+                    欢乐时光水果果篮
+                </p>
+                <p class="price">&yen;188</p>
+                <p class="count">
+                    <a href="javaScript:void(0)" class="minus">-</a>
+                        <input type="text" value="1">
+                    <a href="javaScript:void(0)" class="add">+</a>
+                </p>
+                <p class="sum">
+                    <b>&yen;188</b>
+                </p>
+                <p class="action">移除</p>
+            </div>
+            <div class="g-item">
+                <p class="checkBox">
+                        <input type="checkbox" name="check">
+                    <img src="images/1-270x270-2114-226C8S26.jpg" alt="图标未加载">
+                </p>
+                <p class="goods">
+                    欢乐时光水果果篮
+                </p>
+                <p class="price">&yen;188</p>
+                <p class="count">
+                    <a href="javaScript:void(0)" class="minus">-</a>
+                        <input type="text" value="1">
+                    <a href="javaScript:void(0)" class="add">+</a>
+                </p>
+                <p class="sum">
+                    <b>&yen;188</b>
+                </p>
+                <p class="action">移除</p>
+            </div>
+            <div id="clear"></div>
+        </div>
+
+        <!--标题工具栏-->
+        <!--<div class="content" id="cart-toolbar">-->
+            <!--<div class="commit-right">-->
+                <!--<p class="submit-count">-->
+                    <!--已选择-->
+                    <!--<span>2</span>-->
+                    <!--件商品-->
+                <!--</p>-->
+                <!--<p class="submit-price">-->
+                    <!--总价：-->
+                    <!--&yen188-->
+                <!--</p>-->
+                <!--<p class="submit-btn">-->
+                    <!--去结算-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="content" id="commit-right">
+            <div id="cart-toolbar">
+                <p class="submit-count">
+                    已选择<span></span>件商品
+                </p>
+                <p class="submit-price">
+                    总价 : <span></span>
+                </p>
+                <p class="submit-btn">去结算</p>
+            </div>
+            </div>
+        </div>
 </div>
 </body>
 </html>
