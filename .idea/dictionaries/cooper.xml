@@ -4,6 +4,9 @@
       <w>acfun</w>
       <w>daohang</w>
       <w>dizhi</w>
+      <w>elif</w>
+      <w>endfor</w>
+      <w>endmacro</w>
       <w>gcount</w>
       <w>gname</w>
       <w>gprice</w>
@@ -16,6 +19,7 @@
       <w>lptu</w>
       <w>netstat</w>
       <w>rightnav</w>
+      <w>selftemp</w>
       <w>shouji</w>
       <w>sucai</w>
       <w>tcount</w>
@@ -30,6 +34,8 @@
       <w>uinput</w>
       <w>uname</w>
       <w>upsd</w>
+      <w>ustr</w>
+      <w>wangwc</w>
       <w>yichu</w>
       <w>zhanghao</w>
       <w>zhanwei</w>

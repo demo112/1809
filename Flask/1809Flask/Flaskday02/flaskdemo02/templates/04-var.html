@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1>标签</h1>
+    {% if params.delay < 200 %}
+        <h2>
+            游戏可以继续
+            当前延迟为{{params.delay}}
+        </h2>
+    {% else %}
+        <h2>
+            游戏无法继续
+        </h2>
+    {% endif %}
+
+    {% if params.uname %}
+        <h2>welcome {{params.uname}}</h2>
+    {% else %}
+        <h2>
+            <a href="">
+                请登录
+            </a>
+        </h2>
+    {% endif %}
+    <!--练习：循环tup中的所有的元素-->
+    {% for i in params.tup %}
+        <!--<h3>第{{loop.index0}}次循环</h3>-->
+        <!--<h3>第一次么{{loop.first}}</h3>-->
+        <!--<h3>最后一次么{{loop.last}}</h3>-->
+        <h3 style="background-color:
+               {% if loop.first %}
+                    red
+               {% elif loop.last %}
+                    yellow
+               {% else %}
+                    pink
+               {% endif %};">
+            {{i}}</h3>
+
+        {#<h3
+                {% id loop.first %}
+                style="background-color: red"
+                {% elif loop.last %}
+                style="background-color: yellow"
+                {% else %}
+                style="background-color: pink"
+                {% endif %}
+        >
+            姓名：{{i}}
+        </h3>#}
+
+        {# 行内样式
+        {% if loop.first %}
+            <h1 style="background-color: red">for循环：{{i}}</h1>
+        {% elif loop.last %}
+            <h1 style="background-color: yellow">for循环：{{i}}</h1>
+        {% else %}
+            <h1 style="background-color: pink">for循环：{{i}}</h1>
+        {% endif %}
+    #}
+    {% endfor %}
+
+    {% for i in params.dic.keys() %}
+        <h4>keys循环：{{i}}</h4>
+    {% endfor %}
+
+    {% for i in params.dic.values() %}
+        <h4>values循环：{{i}}</h4>
+    {% endfor %}
+
+    {% for key, value in params.dic.items() %}
+        <h4>items循环：{{i}}</h4><h3>{{key}}:{{value}}</h3>
+    {% endfor %}
+
+
+    <h2>游戏名称:{{params.name}}</h2>
+    <h2>延迟:{{params.delay}}</h2>
+    <h2>刺客（列表）:{{params.lis}}</h2>
+    <h2>刺客（列表）:{{params.lis.0}}</h2>
+    <h2>刺客（列表）:{{params.lis[0]}}</h2>
+    <h2>辅助（元组）:{{params.tup}}</h2>
+    <h2>辅助（元组）:{{params.tup.0}}</h2>
+    <h2>辅助（元组）:{{params.tup[0]}}</h2>
+    <h2>法师（字典）:{{params.dic}}</h2>
+    <h2>游戏（对象）:{{params.game}}</h2>
+    <h2>游戏（对象）:{{params.game.group}}</h2>
+    <h2>游戏（对象）:{{params.game.prt}}</h2>
+    <h2>游戏（对象）:{{params.game.prt()}}</h2>
+</body>
+</html>
