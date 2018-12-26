@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>循环遍历 params.list 中的每个元素</h1>
+    <ul>
+        {% for name in params.list %}
+            <li>
+                <h2>{{name}}</h2>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h1>循环params.dic中的keys</h1>
+    {% for key in params.dic.keys() %}
+        <h2>
+            {{key}}:{{params.dic[key]}}
+        </h2>
+    {% endfor %}
+
+    <h1>循环遍历params.dic中的values</h1>
+    {% for value in params.dic.values() %}
+        <h2>{{value}}</h2>
+    {% endfor %}
+
+    <h1>循环遍历params.dic中的keys和values</h1>
+    {% for key,value in params.dic.items() %}
+        <h2>=========================</h2>
+        <h2>
+            当前循环次数:{{loop.index}}<br>
+            当前循环下标:{{loop.index0}}<br>
+            是否为第一次循环:{{loop.first}}<br>
+            是否为最后一次循环:{{loop.last}}<br>
+        </h2>
+        <h2>{{key}}:{{value}}</h2>
+        <!--
+            如果是第一次循环,将h2的背景改为red色
+            如果是最后一次循环,将h2的背景改为orange色
+            否则,将h2的背景改为 pink 色
+        -->
+        {% if loop.first %}
+            <h2 style="background:red;">{{key}}:{{value}}</h2>
+        {% elif loop.last %}
+            <h2 style="background:orange;">{{key}}:{{value}}</h2>
+        {% else %}
+            <h2 style="background:pink;">{{key}}:{{value}}</h2>
+        {% endif %}
+
+        <h2
+           {% if loop.first %}
+           style="background:red;"
+           {% elif loop.last %}
+           style="background:orange;"
+           {% else %}
+           style="background:pink;"
+           {% endif %}
+        >{{key}}:{{value}}</h2>
+
+        <h2 style="background:
+            {% if loop.first %}
+                red
+            {% elif loop.last %}
+                orange
+            {% else %}
+                pink
+            {% endif %}
+        ;">{{key}}:{{value}}</h2>
+    {% endfor %}
+</body>
+</html>
+
+
+
+
+
+
+

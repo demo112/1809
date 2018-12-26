@@ -5,30 +5,28 @@
     <title>宏</title>
 </head>
 <body>
-    <img src="/static/images/banner1.jpg" alt="1111">
+    {% include "header.html"%}
+    {% macro show_li(str) %}
+        <li>
+            <p style="font-size: 16px;">
+                内容如下
+            </p>
+            <span style="color: orange;">
+                {{str}}
+            </span>
+        </li>
+    {% endmacro %}
+    <ul>
+        {% for name in list %}
+            {{show_li(name)}}
+        {% endfor %}
+    </ul>
+    <h1>调用macro.html宏</h1>
+    {% import "macro.html" as macros %}
+    {{macros.show_ul(list)}}
 
-    <!--{% import "header.html" as header%}-->
-    <!--{% macro show_li(list) %}-->
-        <!--<li>-->
-            <!--<p style="font-size: 16px;">-->
-                <!--内容如下-->
-            <!--</p>-->
-            <!--<span style="color: orange;">-->
-                <!--{{str}}-->
-            <!--</span>-->
-        <!--</li>-->
-    <!--{% endmacro %}-->
-    <!--<ul>-->
-        <!--{% for name in list %}-->
-            <!--{{show_li(name)}}-->
-        <!--{% endfor %}-->
-    <!--</ul>-->
-    <!--<h1>调用macro.html宏</h1>-->
-    <!--{% import "macros.html" as macros %}-->
-    <!--{{macros.show_ul(lis)}}-->
-
-    <!--{% for name in lis %}-->
-        <!--{{macros.show_p(name)}}-->
-    <!--{% endfor %}-->
+    {% for name in list %}
+        {{macros.show_p(name)}}
+    {% endfor %}
 </body>
 </html>

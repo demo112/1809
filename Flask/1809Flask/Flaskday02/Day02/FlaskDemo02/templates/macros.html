@@ -1,0 +1,15 @@
+{% macro show_li(list) %}
+    <ul>
+        {% for str in list %}
+        <li>
+            {{str}}
+        </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}
+
+{% macro show_p(str) %}
+    <p style="font-weight:bold; font-size:18px;">
+        {{str}}
+    </p>
+{% endmacro %}

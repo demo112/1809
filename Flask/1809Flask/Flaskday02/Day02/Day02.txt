@@ -1,0 +1,180 @@
+回顾:
+1.搭建项目结构
+  from flask import Flask
+  app = Flask(__name__)
+
+  @app.route('/')
+  def index():
+    return ""
+
+  if __name__ == "__main__":
+    app.run(debug=True,port=5001,host='0.0.0.0')
+2.路由
+  @app.route('请求地址')
+  视图处理函数
+
+  注意:路由中的地址必须以 / 作为开始, / 表示的网站的根
+
+  1.基本路由
+    @app.route('/')
+
+    @app.route('/login')
+
+    @app.route('/admin/manager/login')
+  2.带参数的路由
+    @app.route('/xxx/<param_name>')
+      参数:用 <> 括起来的内容就是参数
+    def xxxx(param_name):
+      pass
+
+
+    @app.route('/xxx/<param1>/<param2>')
+    def xxxxxx(param1,param2):
+      pass
+  3.指定参数类型
+    类型转换器:  数据类型:
+    类型转换器      作用
+    int:           整数
+    float:         小数
+    path:          字符串,允许有 / (斜杠)
+    缺省:          字符串,不允许有 /(斜杠)
+
+    @app.route('/xxx/<int:age>')
+    def xxxx(age):
+      age无需转换就是整型
+  4.多访问路径匹配同一处理函数
+    @app.route('/地址1')
+    @app.route('/地址2')
+    def xxx():
+      pass
+  5.反向解析
+    反向解析:通过 视图处理函数名称  得到 对应的 访问地址
+    语法:
+      url=url_for('funName',arg1=value1,arg2=value2)
+  6.设置HTTP请求方法
+    @app.route('/地址',methods=['POST','GET'])
+    如果请求方法不对的话,会报 405(Method Not Allowed)
+2.模板 - Templates
+  1.模板的渲染
+    函数:render_template('xxx.html')
+    返回值:该模板对应的字符串
+
+    @app.route('/xxx')
+    def xx():
+      return render_template('xx.html')
+  2.模板中的变量
+    从视图中要传递给模板的动态的数据就是变量
+    传递变量: return render_template('xx.html',变量1=值1,变量2=值2)
+    在模板中取值:{{变量名}}
+
+=================================================
+1.模板 - Templates
+  1.变量
+    能够作为变量的数据类型
+    字符串,整数,小数,列表,元组,字典,对象
+  2.过滤器
+    1.什么是过滤器
+      过滤器是允许在变量输出之前按一定的规则改变变量的值
+    2.语法
+      {{变量|过滤器}}
+
+      Jinja2模板中常见过滤器:
+      过滤器名        说明
+      capitalize     首字符变大写,其他字符变小写
+      lower          将值转换为小写字符
+      upper          将值转换为大写字符
+      title          将值中的每个单词的首字符变大写
+      trim           去掉值两端的空格
+  3.标签
+    1.什么是标签
+      每个标签表示的是不同的服务器端的功能
+    2.常用标签
+      1.if 标签
+        1.基本 if 结构
+          {% if 条件 %}
+
+          {% endif %}
+        2.if  else 结构
+          {% if 条件 %}
+            满足条件要执行的内容
+          {% else %}
+            不满足条件要执行的内容
+          {% endif %}
+          练习:
+            判断年龄,
+              如果年龄>30,网页输出 中老年
+              如果年龄<=30,网页输出 青年人
+        3. if  elif 结构
+          {% if 条件1 %}
+            满足条件1执行的内容
+          {% elif 条件2 %}
+            不满足条件1,但满足条件2执行的内容
+          {% elif 条件3 %}
+            以上俩条件都不满足,但满足条件3执行的内容
+          {% else %}
+            以上仨条件都不满足的时候要执行的内容
+          {% endif %}
+          练习:
+            如果年龄 <= 30 ,输出 青年人
+            如果年龄 > 60  ,输出 老年人
+            否则,输出 中年人
+      2.for结构
+        {% for 变量 in 列表|元组|字典 %}
+        {% endfor %}
+
+        内置变量: loop
+          1.只能在for循环标签中使用
+          2.不用声明直接使用
+          作用:记录本次循环的一些信息
+        loop 中的常用属性:
+          1.index
+            作用:记录当前循环的次数,从1开始计算
+          2.index0
+            作用:同上,从0开始计算
+          3.first
+            作用:表示当前的循环是否为第一次循环
+              True:表示为第一次循环
+              False:表示不是第一次循环
+          4.last
+            作用:表示当前循环是否为最后一次循环
+              True:表示为最后一次循环
+              False:表示非最后一次循环
+      3.macro 标签 (宏)
+        1.作用
+          相当于是在模板中声明函数
+        2.语法
+          使用 {% macro %} ... {% endmacro %}
+
+          声明宏:
+          {% macro 名称(参数列表) %}
+           ... ...
+          {% endmacro %}
+          使用宏:
+          {{宏名称(参数列表)}}
+        3.在独立的模板文件中声明所有的宏
+          1.创建 macro.html 模板文件
+            作用:定义项目中要用到的所有的宏
+          2.在使用宏的模板上,导入 macro.html
+            {% import 'macro.html' as macros %}
+  4.静态文件的处理
+    1.什么是静态文件
+      在Flask中不能与服务器动态交互的文件都是静态文件
+    2.在 Flask 中处理静态文件
+      1.所有的静态文件要放在 static 目录中
+        static 目录要位于项目的 根目录处内
+      2.所有的静态文件必须通过 /static/ 路径访问
+        /static 表示的要到静态资源目录中继续搜索
+
+作业:
+  1.创建Flask 项目 - Blog
+  2.搭建基本目录结构
+    static 目录
+    templates 目录
+    run.py : 声明路由以及视图,创建程序并启动服务
+  3.搭建Blog程序
+    将 xx.html copy 进 teampltes 中
+    将 图片/css/js copy 进 static 中
+  4.配置 模板中对静态文件的引用操作
+    将路径都更改为 静态路径
+  5.http://localhost:5000/
+    能够在浏览器中显示 index.html 中的内容

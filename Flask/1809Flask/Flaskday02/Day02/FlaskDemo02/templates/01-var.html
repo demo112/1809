@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>姓名:{{params.name}}</h1>
+    <h1>年龄:{{params.age}}</h1>
+    <h1>工资:{{params.salary}}</h1>
+    <!-- 输出 元组 -->
+    <h1>元组:{{params.tup}}</h1>
+    <h1>元组中的第一个元素:{{params.tup[0]}}</h1>
+    <h1>元组中的第一个元素:{{params.tup.0}}</h1>
+    <!-- 输出 列表 -->
+    <h1>列表:{{params.list}}</h1>
+    <h1>列表中中的第二个元素:{{params.list[1]}}</h1>
+    <h1>列表中中的第二个元素:{{params.list.1}}</h1>
+    <!-- 输出 字典 -->
+    <h1>字典:{{params.dic}}</h1>
+    <h1>键为C的元素的值为:{{params.dic['C']}}</h1>
+    <h1>键为C的元素的值为:{{params.dic.C}}</h1>
+    <!-- 输出 对象 -->
+    <h1>对象:{{params.dog}}</h1>
+    <h1>对象的属性:{{params.dog.name}}</h1>
+    <h1>对象的方法:{{params.dog.eat()}}</h1>
+</body>
+</html>

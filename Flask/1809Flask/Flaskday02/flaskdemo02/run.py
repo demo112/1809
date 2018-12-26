@@ -66,15 +66,16 @@ def var():
 
 
 @app.route("/05-filter")
-def filter():
+def filter1():
     ustr = "this is a test string"
     return render_template("05-filter.html", params=locals())
 
 
-@app.route("/06-macro")
+@app.route("/05-macro")
 def marco():
-    # lis = ["孙悟空", "西门庆", "刘姥姥", "小乔"]
-    return render_template("05-macro.html")
+    lis = ["孙悟空", "西门庆", "刘姥姥", "小乔"]
+    return render_template("05-macro.html", list=lis)
+
 
 @app.route("/image")
 def image():
