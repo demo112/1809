@@ -12,11 +12,14 @@
     <option name="renderExternalDocumentation" value="true" />
   </component>
   <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday02/flaskdemo02/templates" />
         <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday02/homework/Blog/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday02/test/tampates" />
+        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday03/flaskdemo03/templates" />
+        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday03/Blog/templates" />
+        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday03/flaskdemo03/temp" />
       </list>
     </option>
   </component>

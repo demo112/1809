@@ -1,0 +1,11 @@
+{% extends '02-parent.html' %}
+{% block title %}
+<title>child</title>
+{% endblock %}
+{% block content %}
+<h1>子模版头部</h1>
+<h1>子模版核心</h1>
+<h1>子模版底部</h1>
+{% endblock %}
+
+{{super(02-parent.html)}}
