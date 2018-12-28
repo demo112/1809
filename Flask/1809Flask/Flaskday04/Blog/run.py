@@ -1,5 +1,30 @@
 from flask import Flask, render_template, request
+from flask_sqlalchemy import SQLAlchemy
+import hashlib
+
+
+m = hashlib.sha256()
+m.update(b"Nobody inspects")
+m.update(b" the spammish repetition")
+m.digest()
+
+
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@localhost:3306/blog'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+
+
+class Blog(db.Model):
+    __tablename__ = 'blog'
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(200), nullable=False, unique=True)
+    email = db.Column(db.String(200), nullable=False)
+    url = db.Column(db.String(800), nullable=False)
+    password = db.Column(db.String(200), nullable=False)
+
+
+db.create_all()
 
 
 @app.route("/")
@@ -48,3 +73,5 @@ def register():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
