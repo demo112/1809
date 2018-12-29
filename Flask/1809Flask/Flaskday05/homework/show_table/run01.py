@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
-from sqlalchemy import or_, func
+from sqlalchemy import or_
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@localhost:3306/flask05'
@@ -82,10 +82,65 @@ def adduser_views():
 def query_views():
     """获取查询对象"""
     query = db.session.query(User)
-    query_id = db.session.query(User.id, User.uname)
-    querys = db.session.query(User, Student, Teacher)
-    print(query, '\r\n', query_id, '\r\n', querys)
-    print(type(query))
+
+    # query_id = db.session.query(User.id, User.uname)
+    # querys = db.session.query(User, Student, Teacher)
+    # print(query, '\r\n', query_id, '\r\n', querys)
+    # print(type(query))
+
+    """查询执行函数"""
+    al = query.all()
+    print(al)
+    # 示例：查询所有的信息
+    for i in al:
+        print("id:%d, uname:%s, uage:%d, uemail:%s" % (i.id, i.uname, i.uage, i.uemail))
+
+    # 练习：查询所有数据的id和name
+    users = db.session.query(User.id, User.uname)
+    for i in users:
+        print("id:%d, uname:%s" % (i.id, i.uname))
+
+    fist = query.first()
+    print(fist)
+
+    fist_or_404 = query.first_or_404()
+    print(fist_or_404)
+
+    """获取数据的数量"""
+    count = query.count()
+    print(count)
+
+    """查询对象选择器"""
+
+    """filter"""
+    # young = db.session.query(User).filter(or_(User.uage >= 10, User.id > 2)).all()
+    # young2 = db.session.query(User).filter(User.id == 2).first()
+    # young3 = db.session.query(User).filter_by(id=3).first()
+    # # 性能优化
+    # young23 = db.session.query(User).filter(User.uage >= 18, User.uage <= 18).all()
+    # young4 = db.session.query(User).filter(User.uemail.like('%w%')).all()
+    # young5 = db.session.query(User).filter(User.uage.in_([16, 18, 19])).all()
+    # young6 = db.session.query(User).filter(User.uage.between(16, 19)).all()
+    # print(
+    #     young, '\n',
+    #     young2, '\n',
+    #     young3, '\n',
+    #     young23, '\n',
+    #     young4, '\n',
+    #     young5, '\n',
+    #     young6, '\n',
+    #     '\n'
+    # )
+    """其他"""
+    young7 = db.session.query(User).limit(2).offset(4).all()
+    young8 = db.session.query(User).order_by("id desc").first().uage
+    young9 = db.session.query(User).order_by("uage desc, id asc").first().uage
+    print(
+        young7, '\n',
+        young8, '\n',
+        young9, '\n',
+        '\n'
+    )
     return "<script>" \
            "alert('查询成功')" \
            "</script>"
@@ -95,18 +150,6 @@ def query_views():
 def select_views():
     users = db.session.query(User).all()
     return render_template('form.html', users=users)
-
-
-@app.route('/05func')
-def func_views():
-    """聚合函数的使用"""
-    """查询user表中的所有人的平均年龄"""
-    avg_age1 = db.session.query(func.avg(User.uage)).first()
-    """按照age进行分组求每组中平均年龄，和总和"""
-    avg_age = db.session.query(User.uage, func.avg(User.uage), func.sum(User.uage)).group_by('uage').all()
-    print(avg_age)
-    # print(avg_age[0])
-    return "chenggong"
 
 
 if __name__ == '__main__':

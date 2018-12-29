@@ -25,6 +25,7 @@
       <w>netstat</w>
       <w>pagebg</w>
       <w>pymysql</w>
+      <w>querys</w>
       <w>reglogin</w>
       <w>rightnav</w>
       <w>selftemp</w>
@@ -46,6 +47,7 @@
       <w>tremove</w>
       <w>tuijian</w>
       <w>uage</w>
+      <w>ucode</w>
       <w>uemail</w>
       <w>uimg</w>
       <w>uinput</w>

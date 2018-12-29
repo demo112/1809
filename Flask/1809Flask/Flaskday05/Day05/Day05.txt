@@ -1,164 +1,152 @@
-﻿1.响应对象
-  1. 通过 make_response() 构建响应对象
-    from flask import make_response
+1.模型类的映射管理
+	1.什么是映射管理
+		对模型类/实体类的修改允许再映射回数据库
+	2.依托于第三方库完成管理
+		1.flask-script
+			pip3 install flask-script
+			包:flask_script
+			类:Manager
+				作用:可以对项目进行管理,如:启动项目,添加命令
+		2.flask-migrate
+			pip3 install flask-migrate
+			包:flask_migrate
+			类:
+				1.Migrate
+					作用:用于管理 app 和 db 之间的协调关系
+				2.MigrateCommand
+					作用:允许在终端中提供实体类迁移的命令
+	3.实现数据库的迁移
+		1.python3 run01.py db init
+			作用:做一些初始化的行为操作
+			特点:一个项目中只执行一次就可以了
+		2.python3 run01.py db migrate
+			作用:将编写好的实体类生成中间文件
+			特点:只要检测到实体类有修改,就会生成中间文件
+		3.python3 run01.py db upgrade
+			作用:将中间文件映射回数据库
+2.ORM中的CRUD
+	1.增加 - C(Create)
+		1.创建实体的对象,并为属性赋值
+			user = User()
+			user.uname = 'wangwc'
+			user.age = 18
+		2.将实体对象增加回数据库
+			db.session.add(实体对象)
+			#针对非查询操作,必须要手动提交回数据库
+			db.session.commit()
+		3.配置操作自动提交
+			针对所有非查询操作
+			配置成功后,会在执行完视图之后,整体将行为提交回数据库
+			app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
+	2.查询 - R(Retrieve)
+		1.基于 db.session 进行查询
+			1.db.session.query()
+				该函数会返回一个Query对象,类型为BaseQuery
+				该返回值中会包含针对某个实体或实体中的列所有的查询操作
+				语法:
+					1.db.session.query(实体类)
+						查询对应实体类中所有列的数据
+						ex:
+							db.session.query(User)
+							等同于:select * from user
+					2.db.session.query(实体类.属性1,实体类.属性2)
+						查询对应实体类中部分列的数据
+						ex:
+							db.session.query(User.id,User.uname)
+							等同于:
+								select user.id,user.uname from user
+			2.查询执行函数
+				目的:在query()的基础上的得到最终的数据
+				语法:db.session.query(xxx).查询执行函数()
+				函数           说明
+				all()          以列表的方式返回query()中所有的数据
+				first()        以实体对象的方式返回query()中的第一条数据,如果没有结果,则返回None
+				first_or_404() 效果同上,如果查询不到数据,则响应404
+				count()        返回查询结果的数量
+			3.查询过滤器函数
+				作用:在db.session.query()的基础上,进行条件筛选
+				语法:db.session.query().查询过滤器函数().查询执行函数()
+				过滤器函数          说明
+				filter()            按指定条件进行过滤
+				filter_by()         按等值条件过滤时使用
+				limit()             获取前几行数据
+				order_by()          排序
+				group_by()          分组
 
-    resp = make_response("xxx")
-    #通过resp设置其他的响应操作(如 cookie)
-    return resp
-  2. 重定向
-    由服务器通知浏览器向一个新的地址发送请求
-    from flask import redirect
-    return redirect("地址")
-2.文件上传
-  1.注意问题
-    表单中
-    1.method必须为post
-    2.enctype必须为multipart/form-data
-  2.服务器端
-    1.获取上传的文件
-      f = request.files['xxx']
-    2.将文件保存至指定的目录处
-      f.save('路径')
-      注意:
-        1.路径要精确到文件名
-        2.路径中所涉及到的目录必须要提前创建好
-3.Models
-  1.什么是模型
-    数据库中的表在编程语言中被"类化"后的体现
-  2.模型框架 - ORM
-    ORM : Object Relational Mapping
+				过滤器函数的详解:
+				1.filter()
+					作用:实现查询中的各种条件
+					注意:条件必须由 实体类.属性 构成
+					1.查询年龄大于17的user的信息
+						db.session.query(User).filter(User.uage>17).all()
+					2.查询年龄大于17并且id大于1的user的信息
+						db.session.query(User).filter(User.uage>17,User.id>1).all()
+					3.查询年龄大于17或者id大于1的user的信息
+						注意:查询 或 的操作,要借助于 or_()
+						用法:or_(条件1,条件2)
+						db.session.query().filter(or_(xxx)).all()
+					4.查询id的值为2的user的信息
+						注意:等值判断要用 == 
+						db.session.query().filter(User.id==2).first()
+					5.查询uemail中包含 w 的user的信息
+						select * from user where uemail like '%w%'
+						注意:模糊查询like需要使用实体类的属性所提供的like()完成查询
+						db.session.query(User).filter(User.uemail.like('%w%')).all()
+					6.模糊查询 - in
+						注意:模糊查询in需要使用实体类的属性所提供的in_()完成查询
+						db.session.query(User).filter(User.uage.in_([15,17,19])).all()
+					7.模糊查询 - between and
+						注意:模糊查询between and 需要使用实体类的属性所提供between(值1,值2)完成查询
+						db.session.query(User).filter(User.uage.between(13,15)).all()
+				2.filter_by()
+					作用:只做等值条件筛选过滤,并且只用于单表查询
+					特点:
+						1.不用 实体类.属性名,直接使用 属性名即可
+						2.不用 == ,而用 = 
+					db.session.query(User).filter_by(id=1).first()
+				3.limit()
+					作用:获取前几行数据
+					语法:db.session.query(User).limit(num).all()
+					1.db.session.query(User).limit(1).all()
+						获取前1条数据
+					2.使用 offset() 可以完成数据的偏移
+						db.session.query(User).limit(2).offset(3).all()
+						跳过前3条数据,再获取剩余的前2条数据
+				4.order_by()
+					1.User表中的数据按id降序排序
+						db.session.query(User).order_by("id desc")
+					2.User表中的数据按年龄升序排序,id降序排序
+						db.session.query(User).order_by("age,id desc")
 
-    Python : SQLAlchemy
-  3.ORM 的三大特征
-    1.数据表 到 编程类 的映射
-    2.数据类型的映射
-    3.关系映射
-      一对一,一对多,多对多
-  4.Flask 中使用 ORM框架完成模型的创建
-    1.配置
-      app.config['SQLALCHEMY_DATABASE_URI']="mysql://用户名:密码@主机:端口/数据库"
-    2.创建数据库实例
-      db = SQLAlchemy(app)
-    3.创建模型
-      class CLASSNAME(db.Model):
-        __tablename__ = "TABLENAME"
-        COLUMN_NAME = db.Column(db.TYPE,OPTIONS)
+				练习:
+					1.访问路径 /03-queryall
+					2.能够渲染 03-queryall.html 模板
+					3.在模板中显示
+						用表格显示以下内容:
+						id    姓名    年龄    邮箱    操作
+						1     wangwc  16     xxxx@163  删除 修改
+						2     Rapwang 18     xxxx@163  删除 修改
 
-      CLASSNAME : 类名,模型名,根据表名而定义出来的
-      TABLENAME : 指定当前模型类所关联的表
-      COLUMN_NAME : 属性,映射的表中的列
-      TYPE : 映射到列的数据类型
-      OPTIONS : 列选项
 
-      TYPE :
-        Integer
-        BigInteger
-        SmallInteger
-        Float
-        Numric
-        Boolean
-        String(length)
-        Text
-        Date
-        Time
-        DateTime
-      OPTIONS:
-        primary_key
-        unique
-        index
-        nullable
-        default
-===================================================
-1.数据库操作
-  1.插入
-    1.创建实体类的对象
-    2.完成插入
-      db.session.add(实体对象)
-      db.session.commit()
-  2.查询
-    1.基于 db.session 进行查询
-      1. db.session.query(Models1,Models2,...)
-        参数:要查询的实体类(表),如果是多个实体类的话,相当于要做多表连接查询
-        返回:对应的类的一个查询对象
-      2. 查询执行函数
-        目的:在query()的基础上得到最终的数据
-        语法:db.session.query(Models).查询执行函数()
-        1.all():以列表的方式返回query对象中所有的查询数据
-        2.first():返回query对象中的第一个查询结果,
-          如果没有结果,返回None
-        3.first_or_404():返回query对象中的第一个查询结果,
-          如果没有结果的话则终止程序并响应404
-        4.count():返回query对象中的查询结果的数量
-      3.查询过滤器函数
-        作用:专门对数据进行筛选,返回部分行数据
-        1.filter()    按指定条件进行过滤(单表,多表,定值,不定值)
-        2.filter_by() 按等值条件进行过滤
-        3.limit()     按限制行数量获取结果
-        4.order_by()  按指定列进行排序
-        5.group_by()  按指定条件进行分组
+		2.基于 实体类 进行查询
 
-        语法:
-        db.sessin.query().过滤器函数().执行函数()
+	
 
-        过滤器函数详解:
-        1.filter()
-          注意:条件必须由 实体类.属性 组成
-          1.查询年龄大于 30 的人的信息
-            db.session.query(Users).filter(Users.age>30).all()
-          2.查询id为1的人的信息
-            db.session.query(Users).filter(Users.id==1).first()
-            注意:filter()做等值判断时必须使用 == 
-          3.查询年龄大于30并且id大于1的用户的信息
-            filter(条件1,条件2,...) : and
-            db.session.query(Users).filter(Users.age>30,Users.id>1).all()
-          4.查询年龄大于30或者id为1的用户的信息
-            查询或者操作,需要使用or_()
-            filter(or_(条件1,条件2))
 
-            from sqlalchemy import or_
-            db.session.query(Users).filter(or_(Users.age>30,Users.id==1)).all()
-          5.查询 email 中包含 'w' Users的信息
-            db.session.query(Users).filter(Users.email.like('%w%'))
-          6.查询 id 在 [2,4] 列表中的Users的信息
-            db.session.query(Users).filter(Users.id.in_([2,4])).all()
-        2.filter_by()
-          注意:只能做等值判断,不能做不等值
-          查询id为1的users的信息
-          db.session.query(Users).filter_by(id=1).first()
-        3.limit()
-          1.获取 users 表中的前2条数据
-            db.session.query(Users).limit(2).all()
-            select * from users limit 2
-          2.获取 users 表中过滤前3条数据后剩余的前2条数据
-            select * from users limit 3,2
-            db.session.query(Users).limit(2).offset(3).all()
-            
-        4.order_by()
-          # 按照 id 倒序排序
-          select * from users order by id desc;
-          # 先按照年龄倒序排序,再按照id升序排序
-          select * from users order by age desc,id asc;
 
-          db.session.query(Users).order_by("age desc,id asc").all()
-        5.group_by()
-          1.将 users 表中的数据按照 age 进行分组
-            db.session.query(Users.age).group_by('age').all()
-        6.聚合函数
-          1.查询users表中所有人的平均年龄
-            select avg(age) from users;
+select * from user limit 2,3
 
-            from sqlalchemy import func
-            db.session.query(func.avg(Users.age).label('avgAge')).all()
-          2.users表中,按年龄分组,再查每组的年龄平均值
-            select age,avg(age) from users group by age
+会话
 
-            db.session.query(func.avg(Users.age)).group_by('age').all()
 
-          聚合函数:
-            1.func.avg() : 求平均值
-            2.func.sum() : 求和
-            3.func.max() : 求最大值
-            4.func.min() : 求最小值
-            5.func.count() : 求不为空的数量
-    2.基于 Models 类进行查询
-      Models.query.查询过滤器函数().查询执行函数()
+ID:xxx 姓名:xxxx 年龄:xxxx 邮箱:xxxx
+ID:xxx 姓名:xxxx 年龄:xxxx 邮箱:xxxx
+
+
+
+
+
+
+
+
+
