@@ -26,6 +26,8 @@ class User(db.Model):
     uname = db.Column(db.String(30))
     uage = db.Column(db.Integer)
     uemail = db.Column(db.String(200))
+    isActive = db.Column(db.Boolean, default=True)
+
 
     def __repr__(self):
         return "<User:%r>" % self.uname

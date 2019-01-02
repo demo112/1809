@@ -23,7 +23,8 @@
         <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday03/flaskdemo03/temp" />
         <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday04/Flaskdemo04/templates" />
         <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday05/Flaskdemo05/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday05/homework/show_table/template" />
+        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday05/homework/show_table/templates" />
+        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday06/Flaskdemo06/templates" />
       </list>
     </option>
   </component>
