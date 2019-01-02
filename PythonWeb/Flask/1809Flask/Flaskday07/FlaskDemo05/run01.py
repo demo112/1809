@@ -349,7 +349,7 @@ def showteachers_views():
     else:
         id = request.args['id']
         courses = Course.query.filter_by(id=id).first()
-        teachers = course.teachers.all()
+        teachers = courses.teachers.all()
 
     return render_template('11-showteachers.html',params=locals())
 

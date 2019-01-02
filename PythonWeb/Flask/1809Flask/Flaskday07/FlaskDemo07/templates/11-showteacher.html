@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>课程信息</title>
+</head>
+<body>
+    <div>所选课程
+        <select id="selCourse" onchange="change(this.value)">
+            <option value="0">全部</option>
+            {% for i in params.courses %}
+                <option value="{{ i.id }}"
+                        {% if params.course and params.course.id == i.id %}
+                            selected
+                        {% endif %}
+                >{{ i.cname }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>课程</th>
+            </tr>
+            {% for teacher in params.teachers %}
+                <tr>
+                    <td>{{ teacher.tname }}</td>
+                    <td>{{ teacher.tage }}</td>
+                    <td>{{ teacher.course.cname }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <script>
+        function change(course_id) {
+            {#alert("当前想看课程的id是" + course_id);#}
+            window.location.href='/11-showteacher?id=' + course_id;
+        }
+    </script>
+</body>
+</html>

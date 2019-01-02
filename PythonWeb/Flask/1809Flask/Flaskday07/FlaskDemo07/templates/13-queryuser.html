@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>课程信息</title>
+    <script>
+    function findIt() {
+        var url = '/13-queryuser';
+        var uname = document.getElementsByName('letter')[0].value.trim();
+        if (uname.length>0) {
+            url += '?uname=' + uname
+        }
+        location.href = url;
+    }
+</script>
+</head>
+<body>
+<div>
+    用户姓名：
+    <input type="text" value="{{ params.uname }}" name="letter">
+    <button onclick="findIt()">🔍</button>
+    <table border="1px solid red">
+        <tr>
+            <th>用户姓名</th>
+            <th>用户年龄</th>
+            <th>夫人姓名</th>
+            <th>夫人年龄</th>
+        </tr>
+        {% for i in params.user %}
+            <tr>
+                <td>{{ i.uname }}</td>
+                <td>{{ i.uage }}</td>
+                <td>{{ i.wife.wname }}</td>
+                <td>{{ i.wife.wage }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</body>
+</html>
