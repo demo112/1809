@@ -20,46 +20,66 @@ migrate = Migrate(app, db)
 manager.add_command('db', MigrateCommand)
 
 
+# 创建实体类
 class User(db.Model):
-    __tablename__ = 'user'
+    __tablename__ = "user"
     id = db.Column(db.Integer, primary_key=True)
     uname = db.Column(db.String(30))
     uage = db.Column(db.Integer)
     uemail = db.Column(db.String(200))
+    # 增加一个属性-isActive,默认值为True
     isActive = db.Column(db.Boolean, default=True)
 
     def __repr__(self):
         return "<User:%r>" % self.uname
 
 
+# 创建Student实体类
 class Student(db.Model):
-    __tablename__ = "student"
+    __tablename__ = 'student'
     id = db.Column(db.Integer, primary_key=True)
     sname = db.Column(db.String(30))
-    sage = db.Column(db.Integer)
+    sage = db.Column(db.SmallInteger)
     isActive = db.Column(db.Boolean, default=True)
 
     def __repr__(self):
         return "<User:%r>" % self.uname
 
 
+# 创建Teacher实体类
 class Teacher(db.Model):
-    __tablename__ = "teacher"
+    __tablename__ = 'teacher'
     id = db.Column(db.Integer, primary_key=True)
-    tname = db.Column(db.String(30))
-    tage = db.Column(db.Integer)
+    tname = db.Column(db.String(30), nullable=True)
+    tage = db.Column(db.BigInteger, nullable=False)
+    # 增加对Course(一)类的引用
+    course_id = db.Column(
+        db.Integer,
+        db.ForeignKey('course.id')
+    )
 
-    def __repr__(self):
-        return "<User:%r>" % self.uname
 
-
+# 创建Course实体类
 class Course(db.Model):
+    """insert into course(cname) values("Python基础"), ("Python高级"), ("数据库基础"), ("Web基础"), ("服务器端开发");"""
     __tablename__ = "course"
     id = db.Column(db.Integer, primary_key=True)
-    cname = db.Column(db.String(50))
+    cname = db.Column(db.String(30), nullable=False)
+
+    # 增加关联属性和反向引用关系
+    # 关联属性:在course对象中通过哪个属性能够得到对应的所有的teacher对象
+    # 反向引用:在teacher对象中通过哪个属性能够得到它对应的course
+    teachers = db.relationship(
+        'Teacher',
+        backref="course",
+        lazy="dynamic"
+    )
 
     def __repr__(self):
-        return "<User:%r>" % self.uname
+        return "<Course:%r>" % self.cname
+
+
+db.create_all()
 
 
 @app.route('/')
@@ -112,7 +132,7 @@ def func_views():
     return "chenggong"
 
 
-@app.route('/add')
+@app.route('/06-add')
 def add_to():
     users = User()
     users.uname = 'wang3'
@@ -120,6 +140,48 @@ def add_to():
     users.uemail = 'wang114@163.com'
     db.session.add(users)
     return "添加成功"
+
+
+@app.route('/07-delete/<int:uid>', methods=['GET', "POST"])
+def delete_views(uid):
+    """更新数据"""
+    user = db.session.query(User).filter_by(id=uid).first()
+    db.session.delete(user)
+    return redirect('/table')
+
+
+@app.route('/08-addteacher')
+def addteacher_views():
+    """
+        每个teacher对象都有一个属性course_id（手动添加）
+        每个teacher对象都有一个属性course（反向引用）
+    """
+    # 方式一：通过反向引用关系属性增加数据
+    # 1。1获取ID为1的课程（course）对象
+    course = Course.query.filter_by(id=1).first()
+    # 创建teacher对象并制定数据
+    teacher = Teacher()
+    teacher.tname = "魏老师"
+    teacher.tage = 42
+    # 为teacher对象指定关联的course对象
+    teacher.course = course
+    # 将teacher传回数据库
+    db.session.add(teacher)
+
+    # 方式二：通过外间类增加数据
+    teacher = Teacher()
+    teacher.tname = "王老师"
+    teacher.tage = 31
+    # 通过外间列添加数据
+    teacher.course_id = 1
+    db.session.add(teacher)
+    return "教师添加成功"
+
+
+@app.route("/09-regteacher", methods=["GET", "POST"])
+def regteacher():
+    if request.form.methods == "GET":
+        return render_template('09-rgeteacher.html')
 
 
 @app.route('/check')
@@ -138,7 +200,7 @@ def table_views():
 def add_views():
     if request.method == "GET":
         users = db.session.query(User).all()
-        return render_template('adduser.html',users=users)
+        return render_template('adduser.html', users=users)
     else:
         user = User()
         user.uname = request.form.get('uname')
@@ -169,14 +231,6 @@ def change_views():
         # return render_template('table_change.html', users=users)
         # 将请求重新定向到table上
         return redirect('/table')
-
-
-@app.route('/delete/<int:id>', methods=['GET', "POST"])
-def delete_views(id):
-    """更新数据"""
-    user = db.session.query(User).filter_by(id=id).first()
-    db.session.delete(user)
-    return redirect('/table')
 
 
 @app.route('/count')

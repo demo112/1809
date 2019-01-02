@@ -17,14 +17,7 @@
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday02/flaskdemo02/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday02/homework/Blog/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday03/Blog/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday03/flaskdemo03/temp" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday04/Flaskdemo04/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday05/Flaskdemo05/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday05/homework/show_table/templates" />
-        <option value="$MODULE_DIR$/Flask/1809Flask/Flaskday06/Flaskdemo06/templates" />
+        <option value="$MODULE_DIR$/PythonWeb/Flask/1809Flask/Flaskday06/Flaskdemo06/templates" />
       </list>
     </option>
   </component>

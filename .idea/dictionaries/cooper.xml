@@ -2,6 +2,7 @@
   <dictionary name="cooper">
     <words>
       <w>acfun</w>
+      <w>addteacher</w>
       <w>adduser</w>
       <w>ations</w>
       <w>chenggong</w>
@@ -27,8 +28,11 @@
       <w>netstat</w>
       <w>pagebg</w>
       <w>pymysql</w>
+      <w>queryall</w>
       <w>querys</w>
       <w>reglogin</w>
+      <w>regteacher</w>
+      <w>rgeteacher</w>
       <w>rightnav</w>
       <w>selftemp</w>
       <w>shouji</w>
