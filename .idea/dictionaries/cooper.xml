@@ -4,6 +4,7 @@
       <w>acfun</w>
       <w>addteacher</w>
       <w>adduser</w>
+      <w>addwife</w>
       <w>ations</w>
       <w>chenggong</w>
       <w>daohang</w>
@@ -13,6 +14,8 @@
       <w>endmacro</w>
       <w>ftime</w>
       <w>gcount</w>
+      <w>getcourse</w>
+      <w>getteacher</w>
       <w>gname</w>
       <w>gprice</w>
       <w>guanggao</w>
@@ -30,12 +33,15 @@
       <w>pymysql</w>
       <w>queryall</w>
       <w>querys</w>
+      <w>queryuser</w>
       <w>reglogin</w>
       <w>regteacher</w>
       <w>rgeteacher</w>
       <w>rightnav</w>
       <w>selftemp</w>
       <w>shouji</w>
+      <w>showteacher</w>
+      <w>showteachers</w>
       <w>sname</w>
       <w>spammish</w>
       <w>sqlalchemy</w>

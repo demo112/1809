@@ -5,7 +5,7 @@
     <title>教师注册</title>
 </head>
 <body>
-<form action="09-rgeteacher.html" enctype="multipart/form-data" method="post">
+<form action="/09-regteacher" enctype="multipart/form-data" method="post">
     <table>
         <tr>
             <td>老师姓名</td>
@@ -13,20 +13,20 @@
         </tr>
         <tr>
             <td>老师年龄</td>
-            <td><input type="text" name="tname"></td>
+            <td><input type="text" name="tage"></td>
         </tr>
         <tr>
             <td>所教课程</td>
             <td>
-                <select name="course" id="course">
-                    <option value="">Python基础</option>
-                    <option value="">Python高级</option>
-                    <option value="">数据库基础</option>
-                    <option value="">服务器端开发</option>
+                <select name="course_id" id="course_id">
+                    {% for course in courses %}
+                        <option value={{ course.id }}>{{ course.cname }}</option>
+                    {% endfor %}
                 </select>
             </td>
         </tr>
     </table>
+    <input type="submit">
 </form>
 </body>
 </html>

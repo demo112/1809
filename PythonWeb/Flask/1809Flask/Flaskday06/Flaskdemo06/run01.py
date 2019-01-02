@@ -29,6 +29,7 @@ class User(db.Model):
     uemail = db.Column(db.String(200))
     # 增加一个属性-isActive,默认值为True
     isActive = db.Column(db.Boolean, default=True)
+    wife = db.relationship('Wife', backref='user', uselist=False)
 
     def __repr__(self):
         return "<User:%r>" % self.uname
@@ -77,6 +78,17 @@ class Course(db.Model):
 
     def __repr__(self):
         return "<Course:%r>" % self.cname
+
+
+class Wife(db.Model):
+    __tablename__ = 'wife'
+    id = db.Column(db.Integer, primary_key=True)
+    wname = db.Column(db.String(30))
+    wage = db.Column(db.Integer)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), unique=True)
+
+    def __repr__(self):
+        return '<Wife:%r>' % self.wname
 
 
 db.create_all()
@@ -158,15 +170,15 @@ def addteacher_views():
     """
     # 方式一：通过反向引用关系属性增加数据
     # 1。1获取ID为1的课程（course）对象
-    course = Course.query.filter_by(id=1).first()
-    # 创建teacher对象并制定数据
-    teacher = Teacher()
-    teacher.tname = "魏老师"
-    teacher.tage = 42
-    # 为teacher对象指定关联的course对象
-    teacher.course = course
-    # 将teacher传回数据库
-    db.session.add(teacher)
+    # course = Course.query.filter_by(id=1).first()
+    # # 创建teacher对象并制定数据
+    # teacher = Teacher()
+    # teacher.tname = "魏老师"
+    # teacher.tage = 42
+    # # 为teacher对象指定关联的course对象
+    # teacher.course = course
+    # # 将teacher传回数据库
+    # db.session.add(teacher)
 
     # 方式二：通过外间类增加数据
     teacher = Teacher()
@@ -180,8 +192,85 @@ def addteacher_views():
 
 @app.route("/09-regteacher", methods=["GET", "POST"])
 def regteacher():
-    if request.form.methods == "GET":
-        return render_template('09-rgeteacher.html')
+    if request.method == "GET":
+        courses = Course().query.all()
+        return render_template('09-rgeteacher.html', courses=courses)
+    else:
+        teacher = Teacher()
+        teacher.tname = request.form['tname']
+        teacher.tage = request.form['tage']
+        teacher.course_id = request.form['course_id']
+        db.session.add(teacher)
+        return "注册成功"
+
+
+# 通过course获取teachers
+@app.route('/10-getteacher')
+def getteacher_views():
+    """通过course获取teachers"""
+    # 1.获取id为1的的course信息
+    course = Course.query.filter_by(id=1).first()
+    # print(course.teachers)
+    # print(type(course.teachers))
+    teacher_list = course.teachers.all()
+    for te in teacher_list:
+        print(te.tname)
+        print(te.tage)
+    return '获取数据成功'
+
+
+# 通过teacher获取course
+@app.route('/10-getcourse')
+def getcourse_views():
+    """通过course获取teachers"""
+    # 1.获取id为1的的course信息
+    teacher = Teacher.query.filter_by(id=1).all()
+    for co in teacher:
+        print(co.course.cname)
+    return '获取数据成功'
+
+
+@app.route('/11-showteacher')
+def showteacher():
+    course = Course.query.all()
+    if "id" not in request.args or request.args['id'] == '0':
+        teachers = Teacher.query.all()
+    else:
+        id = request.args['id']
+        course = Course.query.filter_by(id=id).first()
+        teachers = course.teachers.all()
+    return render_template('11-showteacher.html', params=locals())
+    # return "get"
+
+@app.route('/addwife')
+def addwife():
+    # # 通过外建属性user_id关联user与wife
+    # wife = Wife()
+    # wife.wname = "赵旭WC"
+    # wife.wage = 38
+    # wife.user_id = 2
+    # db.session.add(wife)
+
+    # 通过反向引用关系属性关联user与wife
+    user = User.query.filter_by(id=3).first()
+    wife = Wife()
+    wife.wname = "SB赵旭"
+    wife.wage = 250
+    wife.user = user
+    db.session.add(wife)
+    return "增加数据成功"
+
+
+@app.route('/13-queryuser')
+def queryuser():
+    if 'uname' in request.args:
+        # 获取参数
+        uname = request.args['uname']
+        # 按照参数构建条件并查询数据
+        user = User.query.filter(User.uname.like('%' + uname + '%')).all()
+    else:
+        user = User.query.all()
+    return render_template('13-queryuser.html', params=locals())
 
 
 @app.route('/check')
