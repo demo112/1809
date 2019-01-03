@@ -58,6 +58,7 @@ class Teacher(db.Model):
         db.Integer,
         db.ForeignKey('course.id')
     )
+    wife = db.relationship('Wife', backref='teacher', uselist=False)
 
 
 # 创建Course实体类
@@ -86,6 +87,7 @@ class Wife(db.Model):
     wname = db.Column(db.String(30))
     wage = db.Column(db.Integer)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), unique=True)
+    teacher_id = db.Column(db.Integer, db.ForeignKey('teacher.id'), unique=True)
 
     def __repr__(self):
         return '<Wife:%r>' % self.wname
@@ -263,19 +265,20 @@ def addwife():
     return "增加数据成功"
 
 
-@app.route('/12.5-regwife', methods=["GET", 'POST'])
+@app.route('/12.5-rgewife', methods=["GET", 'POST'])
 def regwife():
     teachers = Teacher.query.all()
     if request.method == "GET":
-        return render_template('12', teachers=teachers)
+        return render_template('12.5-rgewife.html', teachers=teachers)
     else:
         wife = Wife()
-        tid = request.form['id']
-        teacher = Teacher.query.filter_by(id=tid).first()
+        uid = request.form['wife_id']
+        teacher = Teacher.query.filter_by(id=uid).first()
         wife.wname = request.form['wname']
         wife.wage = request.form['wage']
         wife.teacher = teacher
         db.session.add(wife)
+        print('aaaa')
         return '添加成功'
 
 
