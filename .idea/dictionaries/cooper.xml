@@ -2,26 +2,36 @@
   <dictionary name="cooper">
     <words>
       <w>acfun</w>
+      <w>addcookie</w>
+      <w>addcookies</w>
       <w>addgoods</w>
+      <w>addsession</w>
       <w>addteacher</w>
       <w>adduser</w>
       <w>addwife</w>
       <w>ations</w>
+      <w>bgfasdfsdfsvbewioranhgviowegobirvwnilbuesrh</w>
+      <w>bgpqievklqbenvbewioranhgviowegobirvwnilbuesrh</w>
       <w>chenggong</w>
       <w>daohang</w>
+      <w>deletecookies</w>
       <w>dizhi</w>
       <w>elif</w>
       <w>endfor</w>
       <w>endmacro</w>
       <w>ftime</w>
       <w>gcount</w>
+      <w>getcookie</w>
+      <w>getcookies</w>
       <w>getcourse</w>
+      <w>getsession</w>
       <w>getteacher</w>
       <w>glodrapwang</w>
       <w>gname</w>
       <w>gprice</w>
       <w>guanggao</w>
       <w>guoyuan</w>
+      <w>huanying</w>
       <w>huiyuan</w>
       <w>imgs</w>
       <w>indexs</w>
@@ -39,6 +49,8 @@
       <w>queryteacher</w>
       <w>queryuser</w>
       <w>reglogin</w>
+      <w>regsiter</w>
+      <w>regster</w>
       <w>regstudent</w>
       <w>regteacher</w>
       <w>regwife</w>
@@ -74,6 +86,7 @@
       <w>uinput</w>
       <w>uname</w>
       <w>upsd</w>
+      <w>upsw</w>
       <w>useranme</w>
       <w>ustr</w>
       <w>wangwc</w>
@@ -81,6 +94,7 @@
       <w>yichu</w>
       <w>zhanghao</w>
       <w>zhanwei</w>
+      <w>zhaoxu</w>
     </words>
   </dictionary>
 </component>

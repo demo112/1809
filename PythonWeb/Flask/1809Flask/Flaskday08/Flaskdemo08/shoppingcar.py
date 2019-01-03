@@ -60,6 +60,7 @@ def adduser():
     buyer.uname = '屈亚伟'
     buyer.uage = 19
     db.session.add(buyer)
+    return "添加成功"
 
 
 @app.route('/addgoods')
