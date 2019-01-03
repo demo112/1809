@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>教师注册</title>
+</head>
+<body>
+<form action="/12.5-rgewife" enctype="multipart/form-data" method="post">
+    <table>
+        <tr>
+            <td>夫人姓名</td>
+            <td><input type="text" name="wname"></td>
+        </tr>
+        <tr>
+            <td>夫人年龄</td>
+            <td><input type="number" name="wage"></td>
+        </tr>
+        <tr>
+            <td>丈夫名字</td>
+            <td>
+                <select name="wife_id" id="wife_id">
+                    {% for teacher in teachers %}
+                        <option value={{ teacher.id }}>{{ teacher.tname }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit">
+</form>
+</body>
+</html>

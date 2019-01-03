@@ -2,6 +2,7 @@
   <dictionary name="cooper">
     <words>
       <w>acfun</w>
+      <w>addgoods</w>
       <w>addteacher</w>
       <w>adduser</w>
       <w>addwife</w>
@@ -16,6 +17,7 @@
       <w>gcount</w>
       <w>getcourse</w>
       <w>getteacher</w>
+      <w>glodrapwang</w>
       <w>gname</w>
       <w>gprice</w>
       <w>guanggao</w>
@@ -33,14 +35,18 @@
       <w>pymysql</w>
       <w>queryall</w>
       <w>querys</w>
+      <w>querystudent</w>
+      <w>queryteacher</w>
       <w>queryuser</w>
       <w>reglogin</w>
+      <w>regstudent</w>
       <w>regteacher</w>
       <w>regwife</w>
       <w>rgeteacher</w>
       <w>rgewife</w>
       <w>rightnav</w>
       <w>selftemp</w>
+      <w>shoppingcar</w>
       <w>shouji</w>
       <w>showteacher</w>
       <w>showteachers</w>

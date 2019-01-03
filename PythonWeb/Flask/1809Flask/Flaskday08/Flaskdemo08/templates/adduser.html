@@ -1,0 +1,30 @@
+{% extends 'table.html' %}
+{%block adduser%}
+<form action="/adduser" enctype="multipart/form-data" method="post">
+<table>
+    <tr>
+        <td>姓名：</td>
+        <td>
+            <input type="text" required="" name="uname">
+        </td>
+    </tr>
+    <tr>
+        <td>年龄：</td>
+        <td>
+            <input type="number" required="" name="uage">
+        </td>
+    </tr>
+    <tr>
+        <td>邮箱：</td>
+        <td>
+            <input type="email" required="" name="uemail">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="提交">
+        </td>
+    </tr>
+</table>
+</form>
+{% endblock %}

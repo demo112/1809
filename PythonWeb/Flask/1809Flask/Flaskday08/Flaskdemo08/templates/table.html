@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>名单</title>
+    <script>
+        function onclick1(id) {
+            if (confirm("请确认是否删除"))
+            {
+                location.href="/delete/" + id
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="/table" enctype="multipart/form-data" method="post">
+<table>
+    <tr>
+        <th>id</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>邮箱</th>
+        <th>操作</th>
+    </tr>
+    {% for i in users %}
+        <tr>
+            <th>{{ i.id }}</th>
+            <th>{{ i.uname }}</th>
+            <th>{{ i.uage }}</th>
+            <th>{{ i.uemail }}</th>
+            <th>
+{#                <input type="submit" value="修改">#}
+{#                <input type="submit" value="删除">#}
+                <a href="/update?id={{i.id}}">修改</a>
+                <a onclick="onclick1({{i.id}})">删除</a>
+            </th>
+        </tr>
+    {% endfor %}
+    <tr>
+        <th>
+            <a href="/adduser">添加</a>
+        </th>
+    </tr>
+</table>
+</form>
+{% block change %}
+{% endblock %}
+{%block adduser%}
+{% endblock %}
+</body>
+</html>

@@ -61,16 +61,16 @@ class Teacher(db.Model):
     # 一对一
     wife = db.relationship('Wife', backref='teacher', uselist=False)
     # 多对多
-    student = db.relationship(
-
+    students = db.relationship(
         'Student',
         # 在老师的反向引用关系中（学生）针对学生表的查询设置
         backref=db.backref('teachers', lazy='dynamic'),
         # 针对的老师表的查询设置
         lazy='dynamic',
         # 针对关联表的反向引用关系
-        sencondary='teacher_student'
+        secondary='teacher_student'
         )
+
 
 # 创建Course实体类
 class Course(db.Model):
@@ -381,6 +381,29 @@ def count_views2():
     for i in range(len(index2)):
         print(index2[i])
     return "chenggong"
+
+
+@app.route('/14-regstudent')
+def regstudent():
+    tea = Teacher.query.filter_by(id=4).first()
+    stu = Student.query.filter_by(id=1).first()
+    stu.teachers.append(tea)
+    # or
+    # tea.students.append(stu)
+    return "增加关联数据成功"
+
+
+@app.route('/15-queryteacher')
+def queryteacher():
+    tea = Teacher.query.filter_by(id=4).first()
+    print(tea.tname)
+    students = tea.students.all()
+    for i in students:
+        print(i.sname)
+        print(i.sage)
+    # or
+    # tea.students.append(stu)
+    return "增加关联数据成功"
 
 
 if __name__ == '__main__':
