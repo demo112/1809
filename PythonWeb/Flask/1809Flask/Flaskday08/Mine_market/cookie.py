@@ -33,8 +33,14 @@ def md5(string):
 class User(db.Model):
     __tablename__ = 'user'
     id = db.Column(db.Integer, primary_key=True)
-    uname = db.Column(db.String(100), unique=True)
-    upsw = db.Column(db.String(100), unique=True)
+    uname = db.Column(db.String(100))
+    upsw = db.Column(db.String(100))
+    nickname = db.Column(db.String(100))
+
+    def __init__(self, uname, upwd, nickname):
+        self.uname = uname
+        self.upwd = upwd
+        self.nickname = nickname
 
 
 db.create_all()
