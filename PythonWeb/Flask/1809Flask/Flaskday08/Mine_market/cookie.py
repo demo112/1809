@@ -4,6 +4,7 @@ from flask import Flask, session
 from flask_sqlalchemy import SQLAlchemy
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
+from werkzeug.security import generate_password_hash,check_password_hash
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@localhost:3306/login_guoyuan'
@@ -55,6 +56,7 @@ def index():
 def adduser():
     user = User()
     user.uname = md5('cooper')
+    user.nickname= md5('coco')
     user.upsw = md5('111111')
     db.session.add(user)
     flag = '成功注册'
