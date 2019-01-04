@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>float</title>
+    <style>
+        #nav{
+            width: 540px;
+            /*height: 100px;*/
+            overflow: hidden;
+
+            margin: 0 auto;
+            background-color: green;
+        }
+        #main{
+            height: 500px;
+            background-color: orange;
+        }
+        #nav a{
+            float: left;
+            width: 100px;
+            text-align: center;
+            margin-right: 10px;
+            background-color: red;
+            line-height: 100px;
+        }
+        #nav .no-margin{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <a href="">淘宝</a>
+        <a href="">淘宝</a>
+        <a href="">淘宝</a>
+        <a href="">淘宝</a>
+        <a href="" class="no-margin">淘宝</a>
+    </div>
+    <div id="main"></div>
+</body>
+</html>

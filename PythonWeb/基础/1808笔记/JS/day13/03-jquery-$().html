@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	window.onload = function (){
+		var h1 = document.getElementsByTagName('h1')[0];
+		var $h1 = $('h1');
+		console.log("JS :",h1);
+		console.log("JQ :",$h1);
+		//原生对象使用原生方法,JQ对象使用JQ方法,不能混用
+		//html() -> innerHTML
+		//$h1.html("<a href='#'>超链接</a>");
+
+		//jq->dom
+		var newH1 = $h1[0];
+		//newH1.innerHTML = "<a href='#'>超链接</a>";
+
+		//dom->jq
+		var $newH1 = $(newH1);
+		$newH1.html("<a href='#'>超链接2</a>");
+		/*
+			不同对象不能混用方法 :
+			h1.html() : 报错 ,方法不存在
+			$h1.innerHTML : 访问不同类型的属性,不报错,
+						没有效果,当前对象类型中不存在该
+						属性,这行代码表示添加属性
+						window.a = 10;
+		*/
+	};
+  
+  </script>
+ </head>
+ <body>
+	<h1>一级标题</h1>
+ </body>
+</html>

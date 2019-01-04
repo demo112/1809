@@ -1,0 +1,233 @@
+
+一、服务器系统：
+CentOS 7.4
+
+二、安装Nginx
+1/ 安装epel库
+命令： yum install epel-release -y 
+2/ 安装Nginx
+命令： yum -y install nginx
+3/ 启动nginx
+命令： systemctl start nginx.service
+4/ 访问IP地址，查看nginx网页
+命令： (云主机公网IP地址）xxxxxxxx
+5/ 查看nginx默认页面地址及配置文件地址
+在nginx默认页面中查看默认网页地址：（/usr/share/nginx/html）
+及配置文件地址（ /etc/nginx/nginx.conf）
+
+
+
+
+三、创建、配置虚拟主机
+1、创建虚拟主机根目录
+命令：mkdir -p /var/www/www.guanhaitt.com/public_html
+2、 根目录下创建测试首页文件
+命令： vim  /var/www/www.guanhaitt.com/public_html/index.html
+3、 编辑index文件
+命令：编辑需要的index.html文件，保存
+4、创建nginx配置文件
+命令： vim /etc/nginx/conf.d/vitual.conf
+5、 编辑nginx配置文件
+server{
+	listen 80;
+	server_name www.guanhaitt.com;
+
+	root /var/www/www.guanhaitt.com/public_html;
+	index index.html;
+}
+保存，退出
+6、检测nginx
+命令： nginx -t
+查看nginx服务是否ok
+7、重启nginx服务
+命令： systemctl restart nginx.service
+8、访问网址
+访问网址，正常显示则虚拟主机配置成功
+
+
+四、部署MySQL数据库
+1、更新操作系统
+命令： yum update -y
+2、安装mariadb(支持mysql)
+命令：yum install mariadb-server -y
+3、启动mariadb
+命令：systemctl start mariadb.service
+4、配置mysql
+命令：mysql_secure_installation
+1）root 密码默认为空，直接回车；
+2）设置root用户密码：Y
+3）输入两次密码
+4）关闭匿名用户：Y
+5）关闭远程登陆：Y
+6）删除测试数据库：Y
+7）刷新权限：Y
+5、测试登陆MySQL
+命令：mysql -uroot -pXXXXX
+
+
+五、配置部署Django项目
+1、安装python3环境(3.6)
+1）安装release包
+命令：yum install http://centos7.iuscommunity.org/ius-release.rpm -y
+2）安装python3.6命令
+命令：yum install -y python36u
+3）安装相关依赖包
+命令：yum install -y python36u-pip python36u-devel
+
+
+2、配置pip源
+1）创建pip目录
+命令：mkdir ~/.config/pip/
+2）编辑pip配置文件
+命令：vim  ~/.config/pip/pip.conf
+3）清华镜像pypi使用帮助
+参考网址：https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
+复制：
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+复制到pip配置文件中
+（引入清华园）
+
+
+
+
+4）进入home地址
+命令： cd /home/
+5）创建项目文件夹
+命令：mkdir django
+6）进入项目文件夹
+命令：cd django/
+7）创建虚拟环境
+命令：python3.6 -m venv venv
+8）执行虚拟环境
+命令： . venv/bin/activate
+3、安装django环境
+命令：pip install django
+
+
+
+4、测试django项目
+1）创建项目
+django-admin startproject my 
+2）进入项目
+cd my/
+3）创建app
+python manage.py startapp mine
+4）打开配置文件
+vim my/settings.py
+修改配置allowedhost =['*']
+5）启动运行项目
+命令：python manage.py runserver 0.0.0.0:80
+
+
+5、安装ftp，（从windows上传文件到linux）
+1）安装winSCP（ftp软件）
+windows下载winSCP
+2）登录winSCP
+在winSCP中输入云主机的公网地址，云主机用户名和密码，登录。
+3）文件传输
+在winSCP中将windows系统中的项目包上传到云主机指定地址。
+
+
+6、uwsgi 安装及配置
+1）安装gcc
+命令：yum install -y gcc
+2）退出虚拟环境
+命令：deactivate
+
+#pip install --upgrade pip
+#pip install setuptools==33.1.1
+
+3）安装uwsgi
+命令：python3.6 -m pip install uwsgi
+
+4）测试uwsgi
+命令：uwsgi --http:80 --chdir /home/django/fruitshop  --home=/home/django/venv  --module  fruitshop.wsgi
+5）退出uwsgi
+ps -ef | grep uwsgi
+
+6）配置，创建配置文件目录
+命令：mkdir -p /home/django_conf
+7）创建文件
+命令：vim /home/django_conf/uwsgi.ini
+8）编辑配置文件
+[uwsgi]
+	# 指定和nginx通信的端口
+	socket= 127.0.0.1:8001
+	# 项目路径
+	chdir= /home/django/friutshop
+	# wsgi.py路径
+	wsgi-file=  friutshop/wsgi.py
+	# 设置使用插件
+	plugins = python
+	# 虚拟环境
+	virtualenv = /home/django/venv/
+	# 进程数
+	processes=4
+	# 线程数
+	threads=2
+	#socket文件权限
+	chmod-socket = 664
+	chown-socket = nginx:nginx
+	# 配置监控
+	vacuum = true
+	# 本项目占用uwsgi的端口
+	stats=127.0.0.1:8081
+
+7、nginx配置/启动
+1）创建配置文件
+命令：vim /etc/nginx/conf.d/fruitshop.conf
+2）配置文件
+server{
+	listen 8000;
+	server_name www.guanhaitt.com;
+	charset utf-8;
+	
+	location /media {
+	    alias  /home/django/fruitshop/media;
+	}
+
+	location /static{
+	  alias /home/django/fruitshop/static;
+	}
+	location /{
+		include uwsgi_params;
+		uwsgi_pass 127.0.0.1:8001;
+	}
+}
+3）启动nginx
+命令：systemctl  start  nginx.service
+4）拷贝uwsgi_params文件到项目路径下
+命令：cp /etc/nginx/uwsgi_params  /home/django/fruitshop
+
+
+8、supervisor 安装与配置（必须安装python2）
+1）安装python2
+命令：yum install python-pip -y
+2）安装supervisor
+命令：python -m pip install supervisor
+3）配置导入
+命令：echo_supervisord_conf  >  /etc/supervisord.conf
+4）编辑配置文件
+命令：vim /etc/supervisord.conf
+5）文件底部添加配置内容
+文件拖到底部粘贴配置内容：
+[program:fruitshop]
+command = /usr/bin/uwsgi --ini  /home/django_conf/uwsgi.ini
+directory = /home/django/fruitshop
+startsecs = 0
+stopwaitsecs=0
+autostart=true
+autorestart=true
+保存退出
+6）启动supervisord
+命令：supervisord  -c /etc/supervisord.conf
+
+
+
+
+
+
+
+1）查看80端口被谁占用
+lsof －i :80

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <style>
+	#d1{
+		color:red;
+	}
+	.c1{
+		color:green;
+	}
+	.c2{
+		background:orange;
+	}
+  </style>
+  <script>
+	window.onload = function (){
+		//$("h1").attr("id","d1");
+		//针对class属性及类选择器
+		$("h2").addClass("c1");
+		$("h2").addClass("c2");
+		//链式调用
+		$("h3").addClass("c1").addClass('c2').attr("id","d1");
+
+	};
+	//动态切换
+	function toggle(){
+		//切换元素class属性值
+		$('h1').toggleClass('c1');
+	}
+  </script>
+ </head>
+ <body>
+	<h1>周一</h1>
+	<h2>周二</h2>
+	<h3>周三</h3>
+<!--onclick 元素内联绑定的事件函数,必须是全局函数  -->
+	<button onclick="toggle()">点击</button>
+ </body>
+</html>

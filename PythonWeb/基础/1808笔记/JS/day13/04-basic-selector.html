@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	window.onload = function (){
+		//1. 标签选择器
+		$('p').css("border","1px solid green");
+		//2. id选择器
+		$('#d1').css("color","red");
+		//3. class选择器
+		$(".c1").css('color','green');
+		//4. 群组选择器
+		$("h1,p").css("font-size","24px");
+	
+	};
+  </script>
+ </head>
+ <body>
+	<h1>星期五,要放假了</h1>
+	<p id="d1">星期一</p>
+	<p class="c1">星期二</p>
+	<p class="c1">星期三</p>
+ </body>
+</html>

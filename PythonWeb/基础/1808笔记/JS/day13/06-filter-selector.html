@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+	window.onload = function(){
+		//1. :first :last
+		$("p:first").css("color","red");
+		$("p:last").css("color","green");
+		//2. 奇偶行(行号从1开始)
+		$("p:even").css("background","orange");
+		$("p:odd").css("background","pink");
+		//3. 下标匹配 (下标从0开始)
+		$("p:eq(2)").css("background","red");
+		$("p:lt(2)").css("background","white");
+		$("p:gt(2)").css("font-size","24px");
+		//4. 否定筛选
+		$(":not(p,body,html)").css("border","1px solid blue");
+	};
+  </script>
+ </head>
+ <body>
+	<p>星期一</p>
+	<p>星期二</p>
+	<p>星期三</p>
+	<p>星期四</p>
+	<p>星期五</p>
+	<p>星期六</p>
+	<p>星期七</p>
+	<div>
+		<p>星期一</p>
+		<p>星期二</p>
+		<p>星期三</p>
+		<p>星期四</p>
+		<p>星期五</p>
+		<p>星期六</p>
+		<p>星期七</p>
+	</div>
+ </body>
+</html>
