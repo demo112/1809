@@ -97,13 +97,13 @@ def login_views():
             url = session.get('url', '/')
             resp = redirect(url)
             if 'isSave' in request.form:
-                resp.set_cookie('uname', uname, 60 * 60 * 24 * 365 *20)
+                resp.set_cookie('uname', uname, 60 * 60 * 24 * 365 * 20)
                 """此处密码是明文"""
-                resp.set_cookie('upwd', upwd, 60 * 60 * 24 * 365 *20)
+                resp.set_cookie('upwd', upwd, 60 * 60 * 24 * 365 * 20)
             return resp
         else:
             # 登陆失败
-            return render_template('login.html',errMSG="用户名或密码不正确1")
+            return render_template('login.html', errMSG="用户名或密码不正确1")
 
 
 if __name__ == "__main__":

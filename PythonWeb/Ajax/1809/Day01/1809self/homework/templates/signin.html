@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <script>
+
+        function createXhr() {
+            let xhr = null;
+            if (window.XMLHttpRequest) {
+                xhr = new XMLHttpRequest();
+                {#alert('支持:' + xhr);#}
+            } else {
+                xhr = new ActiveXObject('Microsoft.XMLHTTP');
+                {#alert('不支持:' + xhr);#}
+            }
+            return xhr;
+        }
+
+        function tip(id) {
+            var xhr = createXhr();
+            var input_name = document.getElementsByName('uname')[0].value;
+            xhr.open('get', '/check?uname=' + input_name, true);
+            xhr.onreadystatechange = function () {
+                var rep;
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    rep = xhr.responseText;
+                    document.getElementById(id).innerHTML = rep;
+                } else {
+                    rep = "服务状态异常";
+                    document.getElementById(id).innerHTML = rep;
+                }
+            };
+            xhr.send(null)
+        }
+    </script>
+</head>
+<body>
+<form action="/signin" enctype="multipart/form-data" method="post">
+    <div>
+        <span>
+            登录名称：<input type="text" name="uname" onchange="tip('nameaj')">
+        </span>
+        <span id="nameaj">11</span>
+    </div>
+    <div>
+        <span>
+            用户密码：<input type="password" name="upwd" onblur="tip('psaj')">
+        </span>
+        <span id="psaj">11</span>
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>检测浏览器是否支持XMLghttpRequest对象</title>
+    <script>
+        function btnClick() {
+            console.log(window.XMLHttpRequest)
+        }
+
+        function createXhr() {
+            let xhr = null;
+            if (window.XMLHttpRequest) {
+                xhr = new XMLHttpRequest();
+                alert('支持:' + xhr);
+            } else {
+                xhr = new ActiveXObject('Microsoft.XMLHTTP');
+                alert('不支持:' + xhr);
+            }
+            return xhr;
+        }
+
+        function textXhr() {
+            let xhr = createXhr();
+            console.log(xhr);
+        }
+    </script>
+</head>
+<body>
+<button onclick="btnClick()">测试XHR</button>
+<button onclick="textXhr()">返回XMLHttpRequest对象</button>
+</body>
+</html>

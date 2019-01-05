@@ -37,11 +37,14 @@
       <w>indexs</w>
       <w>lastgood</w>
       <w>leftnav</w>
+      <w>lghttp</w>
       <w>lptu</w>
       <w>mlogo</w>
       <w>modific</w>
+      <w>nameaj</w>
       <w>netstat</w>
       <w>pagebg</w>
+      <w>psaj</w>
       <w>pymysql</w>
       <w>queryall</w>
       <w>querys</w>
@@ -62,6 +65,7 @@
       <w>shouji</w>
       <w>showteacher</w>
       <w>showteachers</w>
+      <w>signin</w>
       <w>sname</w>
       <w>spammish</w>
       <w>sqlalchemy</w>
@@ -92,6 +96,7 @@
       <w>ustr</w>
       <w>wangwc</w>
       <w>wname</w>
+      <w>xmlhttp</w>
       <w>yichu</w>
       <w>zhanghao</w>
       <w>zhanwei</w>
