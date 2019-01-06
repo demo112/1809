@@ -31,7 +31,7 @@ class User(db.Model):
 @app.route('/01-register',methods=['GET','POST'])
 def register_views():
     if request.method == 'GET':
-        return render_template("01-register.html")
+        return render_template("signin.html")
     else:
         uname = request.form['uname']
         upwd = request.form['upwd']
@@ -95,7 +95,7 @@ def login_views():
             # else:
             #     #之前没保存过密码
             #     return render_template('login.html')
-            return render_template('login.html')
+            return render_template('backup/login.html')
     else:
         #接收前端传递过来的用户名和密码
         uname = request.form['uname']
@@ -116,7 +116,7 @@ def login_views():
 
         else:
             #登录失败
-            return render_template('login.html',errMsg='用户名或密码不正确')
+            return render_template('backup/login.html', errMsg='用户名或密码不正确')
 
 if __name__ == "__main__":
     manager.run()

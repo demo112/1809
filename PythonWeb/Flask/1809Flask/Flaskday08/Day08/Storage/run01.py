@@ -34,9 +34,9 @@ def register_views():
                 if uname=='admin' and upwd=='admin':
                     return "您已成功登录过"
                 else:
-                    return render_template('03-register.html')
+                    return render_template('backup/03-register.html')
             else:
-                return render_template('03-register.html')
+                return render_template('backup/03-register.html')
     else:
         #1.获取uname和upwd的值
         uname=request.form['uname']
@@ -56,7 +56,7 @@ def register_views():
             return resp
         else:
             #登录失败
-            return render_template('03-register.html',errMsg='用户名或密码不正确')
+            return render_template('backup/03-register.html', errMsg='用户名或密码不正确')
 
 if __name__ == "__main__":
     app.run(debug=True)

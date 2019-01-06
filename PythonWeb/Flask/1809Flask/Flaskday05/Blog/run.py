@@ -58,7 +58,7 @@ def index3(id_name=None):
 @app.route('/login.html', methods=["GET", "POST"])
 def login():
     if request.method == "GET":
-        return render_template('login.html')
+        return render_template('backup/login.html')
     elif request.method == "POST":
         username = request.form['username']
         password = request.form['password']

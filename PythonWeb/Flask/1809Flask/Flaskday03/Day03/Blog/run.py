@@ -25,7 +25,7 @@ def info(id):
 #5.访问路径 /login
 @app.route('/login')
 def login():
-    return render_template('login.html')
+    return render_template('backup/login.html')
 
 #6.访问路径 /register
 @app.route('/register')

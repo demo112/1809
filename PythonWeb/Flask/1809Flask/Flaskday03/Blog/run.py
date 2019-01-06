@@ -31,7 +31,7 @@ def index3(id_name=None):
 @app.route('/login')
 @app.route('/login.html')
 def login():
-    return render_template('login.html')
+    return render_template('backup/login.html')
 
 
 # 访问路径 /register

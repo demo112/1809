@@ -53,7 +53,7 @@ def info(id):
 def login():
     #判断用户的请求意图再决定该响应什么内容
     if request.method == "GET":
-        return render_template('login.html')
+        return render_template('backup/login.html')
     else:
         username=request.form.get('username')
         password=request.form.get('password')
