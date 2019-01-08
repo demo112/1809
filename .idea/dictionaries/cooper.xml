@@ -12,7 +12,9 @@
       <w>ations</w>
       <w>bgfasdfsdfsvbewioranhgviowegobirvwnilbuesrh</w>
       <w>bgpqievklqbenvbewioranhgviowegobirvwnilbuesrh</w>
+      <w>btnshow</w>
       <w>checkrepeat</w>
+      <w>checkuname</w>
       <w>chenggong</w>
       <w>daohang</w>
       <w>deletecookies</w>
@@ -52,6 +54,7 @@
       <w>querystudent</w>
       <w>queryteacher</w>
       <w>queryuser</w>
+      <w>reapet</w>
       <w>reglogin</w>
       <w>regsiter</w>
       <w>regster</w>
@@ -67,6 +70,7 @@
       <w>showteacher</w>
       <w>showteachers</w>
       <w>signin</w>
+      <w>signupd</w>
       <w>sname</w>
       <w>spammish</w>
       <w>sqlalchemy</w>

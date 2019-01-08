@@ -22,8 +22,6 @@ $(function () {
            })
         });
 
-
-
         // 图片轮播
         let imgIndex = 0;
         let timerId = setInterval(autoPlay,1000);
@@ -87,7 +85,6 @@ function check_name(name) {
     // console.log(name, input);
     xhr.onreadystatechange = function () {
         let rep = null;
-        // todo 此处开始无法识别昵称和绩手机号
         if (name === 'uemail') {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 rep = xhr.responseText;
@@ -115,4 +112,17 @@ function check_name(name) {
         }
     };
     xhr.send(null)
+}
+
+
+function check_pwd_same() {
+    let p1 = document.getElementsByName('upwd1').value;
+    let p2 = document.getElementsByName('upwd2').value;
+    console.log(p1, p2);
+    if (p1 === p2){
+        console.log('我们不一样');
+        // todo 无法验证重复
+        this.style = 'background-color: red';
+        this.setAttribute('placeholder','两次输入不一致')
+    }
 }

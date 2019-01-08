@@ -13,8 +13,16 @@
     <div id="Nav">
         <ul class="rightNav">
             <li>
-                <a href="/signup">[ 登 陆 ]</a>
-                <a href="/signin">[ 注 册 ]</a>
+                {% block user_log %}
+                    <input type="hidden" name="isSignup" value="0">
+                    {% if user %}
+                        <a href="#">{{ nickname }}</a>
+                        <a href="/logout">[ 注  销 ]</a>
+                    {% else %}
+                        <a href="/signup">[ 登 陆 ]</a>
+                        <a href="/signin">[ 注 册 ]</a>
+                    {% endif %}
+                {% endblock %}
             </li>
             <li><b></b><a href="">果园公告</a></li>
             <li><b></b><a href="">券卡兑换</a></li>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../static/Js/jquery-1.11.3.js"></script>
+    <script src="../static/Js/common.js"></script>
+    <script>
+        $(function () {
+            $('#btnshow').click(function () {
+                let xhr = createXhr();
+                xhr.open('get', '/04_json',true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        let res = xhr.responseText;
+                        res = JSON.parse(res);
+                        console.log(typeof(res));
+                        console.log(res);
+                        $.each(res, function (i,obj) {
+                            console.log(obj.id, obj.uname, obj.nickname)
+                        })
+                    }
+                };
+                xhr.send(null)
+            })
+        })
+    </script>
+</head>
+<body>
+
+
+
+
+</body>
+</html>

@@ -20,12 +20,25 @@
                 <form action="/signup" enctype="multipart/form-data" method="post">
                     <div class="form-line">
                         <p class="clearstamp">手机号</p>
-                        <label>
-                            <input
-                                    class="uinput"
-                                    type="text"
-                                    name="uphone">
-                        </label>
+                        {% if errMSG %}
+                            <label>
+                                <input
+                                        class="uinput"
+                                        type="text"
+                                        name="uphone"
+                                        placeholder="用户名或密码错误"
+                                        style="background-color: pink"
+                                >
+                            </label>
+                        {% else %}
+                            <label>
+                                <input
+                                        class="uinput"
+                                        type="text"
+                                        name="uphone">
+                            </label>
+                        {% endif %}
+
                     </div>
                     <div class="form-line">
                         <p class="clearstamp">密码</p>

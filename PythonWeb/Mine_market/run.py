@@ -35,12 +35,19 @@ class User(db.Model):
 @app.route('/index')
 @app.route('/guoyuan')
 def index_views():
-    # todo 完善判断逻辑：cookies和session
-    # 判断session中是否有uname
-    # if 'uname' in session:
-    #     uname = session.get('uname')
-    #     user = User.query.filter_by(uname=uname).first()
-    return render_template('index.html', params=locals())
+    #  完善判断逻辑：cookies和session
+    # 判断session中是否有nickname
+    if 'nickname' in session:
+        nickname = session.get('nickname')
+        user = User.query.filter_by(nickname=nickname).first()
+        return render_template('index.html', nickname=nickname, user=user)
+    # 判断cookies中是否有nickname
+    if 'nickname' in request.cookies:
+        nickname = request.cookies['nickname']
+        user = User.query.filter_by(nickname=nickname).first()
+        return render_template('index.html', nickname=nickname, user=user)
+
+    return render_template('index.html', user=None)
 
 
 @app.route('/signin', methods=['GET', 'POST'])
@@ -51,26 +58,23 @@ def register_views():
         uemail = request.form['uemail']
         nickname = request.form['nickname']
         uphone = request.form['uphone']
-        upwd1 = request.form['upwd1']
-        upwd2 = request.form['upwd2']
-        if upwd1 == upwd2:
-            upwd = generate_password_hash(upwd1)
-            user = User(uemail, nickname, uphone, upwd)
-            # 使用generate_password_hash()对upwd进行加密,并接收加密后的结果
-            db.session.add(user)
-            # 将数据保存进session即可
-            session['nickname'] = user.nickname
-            return redirect('/')
-        else:
-            return render_template('signin.html', errMsg='用户密码不一致')
+        upwd = request.form['upwd1']
+        # todo 使用JS进行判断，减轻服务器负担
+        upwd = generate_password_hash(upwd)
+        user = User(uemail, nickname, uphone, upwd)
+        # 使用generate_password_hash()对upwd进行加密,并接收加密后的结果
+        db.session.add(user)
+        # 将数据保存进session即可
+        session['nickname'] = user.nickname
+        return redirect('/')
 
 
 @app.route('/check')
 def check():
-    name = request.args['uemail']
     tag = request.args['tag']
-    print(name, tag, 3)
+    # print(name, tag, 3)
     if tag == 'uemail':
+        name = request.args['uemail']
         user = User.query.filter_by(uemail=name).first()
         if user:
             msg = '已被使用'
@@ -78,6 +82,7 @@ def check():
             msg = '允许使用'
         return msg
     elif tag == 'nickname':
+        name = request.args['nickname']
         user1 = User.query.filter_by(nickname=name).first()
         if user1:
             msg = '已被使用'
@@ -85,6 +90,7 @@ def check():
             msg = '允许使用'
         return msg
     elif tag == 'uphone':
+        name = request.args['uphone']
         user2 = User.query.filter_by(uphone=name).first()
         if user2:
             msg = '已被使用'
@@ -110,19 +116,22 @@ def login_views():
     else:
         uphone = request.form['uphone']
         upwd = request.form['upwd']
+
         print(uphone, upwd)
         # 验证用户名即密码是否正确
         user = User.query.filter_by(uphone=uphone).first()
+        nickname = user.nickname
         if user and check_password_hash(user.upwd, upwd):
             print('登陆成功')
             # 将uname的值放入session
             session['uphone'] = uphone
             # 判断是否要存cookie
-            url = session.get('url', '/')
+            url = session.get('Referer', '/')
             resp = redirect(url)
+            resp.set_cookie('nickname', nickname, 60 * 60 * 24 * 365 * 20)
             if 'remember' in request.form:
                 resp.set_cookie('uphone', uphone, 60 * 60 * 24 * 365 * 20)
-                """此处密码是明文"""
+                # 此处密码是明文
                 resp.set_cookie('upwd', upwd, 60 * 60 * 24 * 365 * 20)
             return resp
         else:
@@ -132,15 +141,16 @@ def login_views():
 
 @app.route('/logout')
 def logout_views():
+    # url = request.headers.get('Referer', '/')
     url = request.headers.get('Referer', '/')
     resp = redirect(url)
-    # 判断session中是否有uname,如果有的话则清空
-    if 'uname' in session:
-        del session['uname']
-    # 判断cookie中是否有uname,如果有则清空
-    if 'uname' in request.cookies:
-        resp.delete_cookie('uname')
-    # 返回到"从哪来回哪去,不知道从哪来回首页"
+    if 'uphone' in session:
+        del session['uphone']
+    if 'uphone' in request.cookies:
+        resp.delete_cookie('uphone')
+        resp.delete_cookie('upwd')
+        resp.delete_cookie('nickname')
+    # 返回到"从哪来回哪去, 不知道从哪来回首页"
     return resp
 
 

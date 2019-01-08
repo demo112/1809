@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json格式</title>
+</head>
+<body>
+<script src="../jquery-1.11.3.js"></script>
+<script>
+    let obj = {
+        "id" :1,
+        "uname" :'wang',
+        "upwd" :'123456',
+        "nickname" :'王老师'
+    };
+    console.log(obj.id);
+    console.log(obj.uname);
+
+    let arr = [
+        {
+            'id': 1,
+            'uname': "wang",
+            'upwd': '123456',
+            'nickname': '王老师'
+        },
+        {
+            'id': 2,
+            'uname': "wei",
+            'upwd': '234567',
+            'nickname': '魏老师'
+        },
+        {
+            'id': 3,
+            'uname': "lv",
+            'upwd': '345678',
+            'nickname': '吕老师'
+        }
+    ];
+    for (let i=0; i<arr.length; i++) {
+        let obj = arr[i];
+        console.log(obj.id, obj.uname, obj.upwd, obj.nickname);
+    }
+
+    //way1
+    $arr = $(arr);
+    $arr.each(function (i, obj) {
+        console.log('索引', i, 'name=', obj.uname);
+    });
+
+    //way2
+    $.each(arr, function (i, obj) {
+        console.log('索引', i, 'nickname=', obj.nickname);
+    });
+</script>
+
+</body>
+</html>

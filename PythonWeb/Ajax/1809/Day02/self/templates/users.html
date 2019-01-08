@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>json格式</title>
+</head>
+<body>
+<script src="../jquery-1.11.3.js"></script>
+<script>
+    var arr = [
+        {
+            'id': 1,
+            'uname': "wang",
+            'ugender': 'm',
+            'uemail': 'wang@163.com'
+        },
+        {
+            'id': 2,
+            'uname': "meng",
+            'ugender': 'f',
+            'uemail': 'meng@163.com'
+        },
+        {
+            'id': 3,
+            'uname': "lv",
+            'ugender': 'm',
+            'uemail': 'lv@163.com'
+        },
+    ];
+    $(function () {
+        $('#btnshow').click(function () {
+            let html = '';
+            $.each(arr, function (i, obj) {
+                html += '<tr>';
+                html += '<td>' + obj.uname + '</td>';
+                html += '<td>' + obj.ugender + '</td>';
+                html += '<td>' + obj.uemail + '</td>';
+                html += '</tr>';
+            });
+            $('#content').html(html);
+        })
+    })
+
+</script>
+    <table border="1px" width="300px">
+        <thead>
+            <tr>
+                <th>用户名称</th>
+                <th>用户性别</th>
+                <th>电子邮箱</th>
+            </tr>
+        </thead>
+        <tbody id="content">
+        </tbody>
+    </table>
+    <button id="btnshow">显示</button>
+</body>
+</html>

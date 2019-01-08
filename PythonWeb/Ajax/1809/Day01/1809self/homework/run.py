@@ -34,7 +34,7 @@ def adduser():
 
 
 @app.route('/')
-@app.route('/signin', methods=['GET',"POST"])
+@app.route('/signin', methods=['GET', "POST"])
 def signin():
     if request.method == "GET":
         return render_template('signin.html')
@@ -43,7 +43,7 @@ def signin():
         upwd = request.form['upwd']
         user = User.query.filter_by(uname=uname).first()
         if user and upwd == user.upwd:
-             return render_template('index.html')
+             return render_template("index.html")
 
 
 @app.route('/check')
