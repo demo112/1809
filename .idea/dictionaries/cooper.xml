@@ -12,6 +12,7 @@
       <w>ations</w>
       <w>bgfasdfsdfsvbewioranhgviowegobirvwnilbuesrh</w>
       <w>bgpqievklqbenvbewioranhgviowegobirvwnilbuesrh</w>
+      <w>btnload</w>
       <w>btnshow</w>
       <w>checkrepeat</w>
       <w>checkuname</w>
@@ -41,12 +42,15 @@
       <w>lastgood</w>
       <w>leftnav</w>
       <w>lghttp</w>
+      <w>loadcity</w>
+      <w>loadpro</w>
       <w>lptu</w>
       <w>mlogo</w>
       <w>modific</w>
       <w>nameaj</w>
       <w>netstat</w>
       <w>pagebg</w>
+      <w>pname</w>
       <w>psaj</w>
       <w>pymysql</w>
       <w>queryall</w>

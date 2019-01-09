@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>省市联查</title>
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script>
+        function load_pro() {
+            $.ajax({
+               url: '/05-loadpro',
+               type: 'get',
+               async: false,
+               dataType: 'json',
+               success: function (data) {
+                   let html = '';
+                   $.each(data, function (i, obj) {
+                      html += '<option value=' + obj.id + '>';
+                      html += obj.pname;
+                      html += '</option>'
+                   });
+                   $('#select_pro').html(html)
+               }
+
+            });
+        }
+        /*根据省份的pid加载城市*/
+        function load_city(pid) {
+            console.log(pid);
+            $.ajax({
+                url: '/06-loadcity',
+                data: 'pid=' + pid,
+                type: 'get',
+                async: true,
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    let html = '';
+                    $.each(data, function (i, obj) {
+                        html += '<option value=' + i + '>';
+                        html += obj.cname;
+                        html += '</option>'
+                    });
+                    $('#select_city').html(html);
+                }
+            })
+        }
+        $(function () {
+            load_pro();
+            load_city($('#select_pro').val());
+            $('#select_pro').change(function () {
+                load_city($('#select_pro').val())
+            });
+        })
+    </script>
+</head>
+<body>
+    <select id="select_pro"></select>
+    <select id="select_city"></select>
+</body>
+</html>

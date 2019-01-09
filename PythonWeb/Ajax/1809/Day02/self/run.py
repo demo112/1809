@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, redirect, session
 from flask_sqlalchemy import SQLAlchemy
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
-from raven.utils.stacks import to_dict
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:123456@127.0.0.1:3306/login_guoyuan"
@@ -72,7 +72,7 @@ def json_make():
     #     },
     # ]
     users = User.query.all()
-    lis = to_dict([x for x in users])
+    lis = [x.to_dict() for x in users]
     # 自定义方法：将对象的所有属性封装到一个字典
     jsonStr = json.dumps(lis)
     return jsonStr

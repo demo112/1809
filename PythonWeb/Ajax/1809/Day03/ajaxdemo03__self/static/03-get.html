@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $('#btn_get').click(function () {
+                //使用$.get()向server附送一个ajax请求，返回一串普通文本
+                //$.get('/03-server', function (data) {
+                //    alert('响应的数据：' + data)
+                //});
+                //向03-server发送请求
+                //参数1：uname 值 wang
+                //参数2：uage  值 18
+                let params = {
+                    "uname":"wang",
+                    "uage": "18",
+                };
+                $.get('/04-server', params, function (data) {
+                    alert("响应回的数据" + data);
+                    $('#data').html('<p>' + "响应回的数据" + data + "</p>")
+                });
+                $.get('03-server', function (data) {
+                    $.each(data, function (i, obj) {
+                        console.log("用户名"+ obj.uname);
+                        console.log("用户名"+ obj.uage)
+                    });
+
+                }, 'json');
+            });
+        });
+    </script>
+</head>
+<body>
+<button id="btn_get">使用gET方式请求数据</button>
+<p id="data"></p>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        $(function () {
+            $('#btnshow').click(
+                function () {
+                    let xhr = createXhr();
+                    xhr.open('get', '/05-users', true);
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState === 4 && xhr.status === 200) {
+                            let arr = JSON.parse(xhr.responseText);
+                            console.log(arr);
+                            let html = '';
+                            $.each(arr, function (i, obj) {
+                                html += "<tr>";
+                                    html += '<td>' + obj.id+ '</td>';
+                                    html += '<td>' + obj.uemail+ '</td>';
+                                    html += '<td>' + obj.nickname+ '</td>';
+                                html += "</tr>";
+                            });
+                            $('#content').html(html);
+                        }
+                    };
+                    xhr.send(null)
+                }
+            )
+        })
+    </script>
+</head>
+<body>
+    <button id="btnshow">显示</button>
+    <table border="1px" width="300px">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>登录名</th>
+            <th>昵称</th>
+        </tr>
+        </thead>
+        <tbody id="content">
+
+        </tbody>
+    </table>
+</body>
+</html>

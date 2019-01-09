@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>show</title>
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            //通过ajax发起请求获取服务器响应
+            $('#btnSend').click(function () {
+                $.get('http://127.0.0.1:5000/01-server', function (data) {
+                    console.log(data)
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="btnSend">向01-server发送请求</button>
+</body>
+</html>

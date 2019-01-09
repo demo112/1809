@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        $(function(){
+
+            function check_login(){
+                var url = "/05-login";
+                var params = "lname="+$("#lname").val();
+                $.get(url,params,function(data){
+                    if(data.status == 1){
+                        $("#lname-show").html(data.text);
+                    }else{
+                        $("#lname-show").html(data.text);
+                    }
+                },'json');
+            }
+
+            //为#lname绑定blur事件
+            $("#lname").blur(check_login);
+
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <p>
+            登录名称 : <input type="text" id="lname">
+            <span id="lname-show"></span>
+        </p>
+        <p>
+            登录密码 : <input type="password" id="lpwd">
+        </p>
+        <p>
+            用户名称 : <input type="text" id="uname">
+        </p>
+        <p>
+            <button>注册</button>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询建议</title>
+    <style>
+        #show{
+            position: absolute;
+            width: 300px;
+            border: 1px solid black;
+            left: 75px;
+            top: 40px;
+            background-color: skyblue;
+            display: none;
+        }
+    </style>
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script>
+        function find() {
+            $('#show').html('');
+            let key = document.getElementById('find').value;
+            console.log(key);
+            if (key.length === 0) {
+                $('#show').css('display', 'none');
+            }else {
+                $.get('/05-find', 'key=' + key, function (data) {
+                    console.log(data);
+                    if (data.length > 0) {
+                        let html = '';
+                        $.each(data, function (i, obj) {
+                            //let html = $("<p>" + obj.uname + "</p>");
+                            //$('#show').append(html)
+                            html += "<p>" + obj.uname + "</p>";
+                        });
+                        $('#show').html(html).css('display', 'block');
+                    }
+                    else {
+                        $('#show').css('display', 'none');
+                    }
+                }, 'json');
+            }
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <div>
+        用户名：
+        <input id="find" type="text" oninput="find()">
+    </div>
+    <div id="show"></div>
+</body>
+</html>
