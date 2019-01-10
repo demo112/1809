@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS&JQ跨域：航班信息</title>
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script>
+        function btnshow() {
+            let script = document.createElement("script");
+            script.src = 'http://127.0.0.1:5000/03-flight?callback=XXX';
+            script.type = 'text/javascript';
+            document.body.append(script);
+        }
+
+        function XXX(data) {
+            let html = '';
+            html += '<p>航了个班：' + data.flightNO + '</p>';
+            html += '<p>出了个发：' + data.from + '</p>';
+            html += '<p>到了个达：' + data.to + '</p>';
+            html += '<p>起飞时间：' + data.date + '</p>';
+            $('#screen').html(html)
+        }
+
+        function btnshow_JQ() {
+            $.ajax({
+                url: "http://127.0.0.1:5000/03-flight",
+                type: 'get',
+                dataType: 'jsonp',
+                success: function (data) {
+                    let html = '';
+                    html += '<p>航J Q班：' + data.flightNO + '</p>';
+                    html += '<p>出J Q发：' + data.from + '</p>';
+                    html += '<p>到J Q达：' + data.to + '</p>';
+                    html += '<p>起飞时间：' + data.date + '</p>';
+                    $('#screen').html(html)
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+    <button id="btnshow" onclick="btnshow()">显示航班信息</button>
+    <button id="btnshow_JQ" onclick="btnshow_JQ()">JQ显示航班信息</button>
+    <div id="screen"></div>
+</body>
+</html>
