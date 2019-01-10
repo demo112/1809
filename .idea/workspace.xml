@@ -1,25 +1,549 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/users/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/manager.py" afterDir="false" />
+    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="ajaxday04跨域请求响应">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/01-基本的程序结构.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/02-项目结构-简约版.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/03-项目结构-完整版.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/.idea/AJAXDemo03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/AJAXDemo03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/static/01-load.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/static/02-head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/static/03-get.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/static/04-search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/static/05-province.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo03/static/js/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/.idea/AJAXDemo04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/AJAXDemo04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/static/01-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/static/02-crossdomain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/static/03-flight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/AJAXDemo04/static/js/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/.idea/BlogNew.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/app/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/app/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/app/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/app/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/BlogNew/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/Day04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/AjaxDay04teacher/跨域练习.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/Ajaxdemo04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/dictionaries/cooper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/static/01-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/static/02-crossdomain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/static/03-flight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/static/JS/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/easy_install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/easy_install-3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/flask" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/pip3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/pip3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/bin/python3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Click-7.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Click-7.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Click-7.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Click-7.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Click-7.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Click-7.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Jinja2-2.10.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/MarkupSafe-1.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/MarkupSafe-1.1.0.dist-info/LICENSE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/MarkupSafe-1.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/MarkupSafe-1.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/MarkupSafe-1.1.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/MarkupSafe-1.1.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/Werkzeug-0.14.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/_bashcomplete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/_termui_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/_textwrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/_unicodefun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/_winconsole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/formatting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/termui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/click/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/easy-install.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/blueprints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/ctx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/debughelpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/json/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/json/tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/templating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/flask/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous-1.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous-1.1.0.dist-info/LICENSE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous-1.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous-1.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous-1.1.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous-1.1.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/exc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/jws.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/signer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/timed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/itsdangerous/url_safe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/_identifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/asyncfilters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/asyncsupport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/bccache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/compiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/debug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/defaults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/environment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/ext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/idtracking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/lexer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/loaders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/nativetypes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/nodes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/sandbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/jinja2/visitor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/markupsafe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/markupsafe/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/markupsafe/_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/markupsafe/_native.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/markupsafe/_speedups.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/markupsafe/_speedups.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/basecommand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/baseparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/build_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/cmdoptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/completion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/locations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/models/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/resolve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/deprecation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/glibc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/hashes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/outdated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/packaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/temp_dir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/bazaar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/git.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/subversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/ansi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/initialise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/win32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/winterm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/manifest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/resources.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/idnadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/intranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/package_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/uts46data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/ipaddress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/requirements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/bar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/spinner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/certs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/packages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/retrying.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/selectors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/setuptools.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/_internal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/_reloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/atom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/fixers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/iterio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/jsrouting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/limiter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/profiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/securecookie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/testtools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/contrib/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/datastructures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/repr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/FONT_LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/console.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/debugger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/less.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/source.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/shared/ubuntu.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/debug/tbtools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/formparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/posixemulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/routing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/serving.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/testapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/useragents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/websocket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/lib/python3.7/site-packages/werkzeug/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/pip-selfcheck.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.cnf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +617,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="544">
+              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <folding>
+                <element signature="e#65#303#0" />
+                <element signature="e#337#575#0" />
+                <element signature="e#612#944#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <element signature="e#97#120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +643,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#40#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -219,8 +757,8 @@
         <option value="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/users/views.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/main/__init__.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/__init__.py" />
-        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" />
       </list>
     </option>
@@ -278,40 +816,6 @@
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="1809Flask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="1809Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="Flaskday08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,15 +832,6 @@
               <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="BlogNew" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogNew" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -519,6 +1014,8 @@
       <workItem from="1546916131686" duration="20062000" />
       <workItem from="1547001096011" duration="516000" />
       <workItem from="1547020124245" duration="12131000" />
+      <workItem from="1547082290127" duration="27000" />
+      <workItem from="1547082321857" duration="2647000" />
     </task>
     <task id="LOCAL-00001" summary="添加网页用素材&#10;&#10;(cherry picked from commit 9a49c8d900abe485715f2623299923d6d48cdc4b)">
       <created>1543829594837</created>
@@ -783,7 +1280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="586426000" />
+    <option name="totallyTimeSpent" value="589100000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -795,8 +1292,8 @@
     <frame x="960" y="23" width="960" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" visible="true" weight="0.14936441" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.25054467" />
+      <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.03177966" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" weight="0.10675381" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17238913" />
       <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36480686" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />
@@ -1265,29 +1762,6 @@
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#40#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#97#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1295,10 +1769,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#97#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding>
+            <element signature="e#65#303#0" />
+            <element signature="e#337#575#0" />
+            <element signature="e#612#944#0" />
+          </folding>
         </state>
       </provider>
     </entry>
