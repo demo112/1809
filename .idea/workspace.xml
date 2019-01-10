@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="" />
+    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="果园项目集成">
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +56,7 @@
     <SUITE FILE_PATH="coverage/1809$.coverage" NAME="抓去数据类型——图片 Coverage Results" MODIFIED="1544861289523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../私学/爬虫/网页基础概念" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_canshu_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_canshu.py) Coverage Results" MODIFIED="1545637833825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$11.coverage" NAME="11 Coverage Results" MODIFIED="1545119197960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday12" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Project_BlogNew_manager_py_.coverage" NAME="Flask (PythonWeb/Project/BlogNew/manager.py) Coverage Results" MODIFIED="1547028054299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Project_BlogNew_manager_py_.coverage" NAME="Flask (PythonWeb/Project/BlogNew/manager.py) Coverage Results" MODIFIED="1547090800642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_login_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/login.py) Coverage Results" MODIFIED="1545642859060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day02_self_run_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day02/self/run.py) Coverage Results" MODIFIED="1546910348928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01__py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/返回网页.py) Coverage Results" MODIFIED="1545640068120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -71,15 +80,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="61" selection-start-line="60" selection-end-line="61" />
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#65#303#0" />
-                <element signature="e#337#575#0" />
-                <element signature="e#612#944#0" />
+                <element signature="e#42#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="421">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="e#97#120#0" expanded="true" />
               </folding>
@@ -98,17 +105,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
+        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="57">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding>
+                <element signature="e#22#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#27#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -166,11 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/templates/login.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/templates/index.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/templates/signin.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/static/02-ajax_get.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Mine_market/templates/signin1.html" />
         <option value="$PROJECT_DIR$/PythonWeb/Mine_market/static/index.js" />
         <option value="$PROJECT_DIR$/PythonWeb/Mine_market/static/Css/login.css" />
         <option value="$PROJECT_DIR$/PythonWeb/Mine_market/static/Css/signup.css" />
@@ -214,9 +244,14 @@
         <option value="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/users/views.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/main/__init__.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/__init__.py" />
-        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" />
-        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py" />
       </list>
     </option>
   </component>
@@ -289,6 +324,24 @@
               <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="BlogNew" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="BlogNew" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="BlogNew" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
@@ -479,7 +532,7 @@
       <workItem from="1547001096011" duration="516000" />
       <workItem from="1547020124245" duration="12131000" />
       <workItem from="1547082290127" duration="27000" />
-      <workItem from="1547082321857" duration="2951000" />
+      <workItem from="1547082321857" duration="7241000" />
     </task>
     <task id="LOCAL-00001" summary="添加网页用素材&#10;&#10;(cherry picked from commit 9a49c8d900abe485715f2623299923d6d48cdc4b)">
       <created>1543829594837</created>
@@ -747,11 +800,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547085765433</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="果园项目集成">
+      <created>1547085786732</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1547085786732</updated>
+    </task>
+    <task id="LOCAL-00040" summary="果园项目集成">
+      <created>1547085818060</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1547085818060</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589404000" />
+    <option name="totallyTimeSpent" value="593694000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -761,23 +828,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.03177966" />
+      <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" visible="true" weight="0.11970339" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.18627451" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17238913" />
       <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36480686" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49928468" weight="0.3240469" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6372549" weight="0.09322034" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6372549" visible="true" weight="0.23516949" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39485458" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.3230932" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.667756" weight="0.34216103" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6666667" weight="0.34216103" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3627451" side_tool="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33333334" side_tool="true" weight="0.34216103" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" weight="0.2595339" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6026012" weight="0.30084747" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3257468" />
@@ -919,24 +987,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Mine_market/templates/index_signup_after.html" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16624" column="13" selection-start-line="16624" selection-start-column="13" selection-end-line="16624" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/Mine_market/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/Mine_market/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
@@ -1182,9 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1230,9 +1277,6 @@
     <entry file="file:///usr/local/lib/python3.7/site-packages/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1240,34 +1284,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#633#978#0" />
+            <element signature="e#1008#1711#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="123" column="24" lean-forward="true" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#42#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="421">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="e#97#120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/models.py">
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="61" selection-start-line="60" selection-end-line="61" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding>
-            <element signature="e#65#303#0" />
-            <element signature="e#337#575#0" />
-            <element signature="e#612#944#0" />
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#27#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

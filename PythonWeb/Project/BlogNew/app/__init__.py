@@ -32,5 +32,10 @@ def create_app():
     # 关联db和app
     # 用app初始化db
     db.init_app(app)
+    # 将main程序与app关联到一起
+    from .main import main as main_blueprint
+    from .users import user as user_blueprint
+    app.register_blueprint(main_blueprint)
+    app.register_blueprint(user_blueprint)
     print(__name__)
     return app

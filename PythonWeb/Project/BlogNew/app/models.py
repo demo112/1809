@@ -30,10 +30,10 @@ class Reply(db.Model):
     """回复"""
     __tablename__ = 'reply'
     id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.ID'), nullable=True)
-    topic_id = db.Column(db.Integer, db.ForeignKey('topic.id'), nullable=True)
     content = db.Column(db.Text, nullable=False)
     reply_time = db.Column(db.DateTime, nullable=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.ID'), nullable=True)
+    topic_id = db.Column(db.Integer, db.ForeignKey('topic.id'), nullable=True)
 
 
 class Topic(db.Model):
@@ -48,13 +48,8 @@ class Topic(db.Model):
     blogtype_id = db.Column(db.Integer, db.ForeignKey('blogtype.id'), nullable=True)
     category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.ID'), nullable=True)
-    replys = db.relationship(
+    replies = db.relationship(
         'Reply',
-        backref='topic',
-        lazy = 'dynamic'
-    )
-    vokes = db.relationship(
-        'Voke',
         backref='topic',
         lazy = 'dynamic'
     )
@@ -70,20 +65,17 @@ class User(db.Model):
     url = db.Column(db.String(50), nullable=True)
     upwd = db.Column(db.String(50), nullable=False)
     is_author = db.Column(db.Boolean, default=False)
-    replys = db.relationship(
+    replies = db.relationship(
         'Reply',
         backref='user',
         lazy = 'dynamic'
     )
-    topics = db.relationship(
+
+    vokes_topics = db.relationship(
         'Topic',
-        backref='user',
-        lazy = 'dynamic'
-    )
-    vokes = db.relationship(
-        'Voke',
-        backref='user',
-        lazy = 'dynamic'
+        secondary='voke',
+        backref=db.backref('voke_users'),
+        lazy='dynamic'
     )
 
 

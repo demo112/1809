@@ -1,5 +1,7 @@
-"""管理和启项目
-通过manager（）对象管理项目，并添加数据迁移的指令"""
+"""
+管理和启项目
+通过manager（）对象管理项目，并添加数据迁移的指令
+"""
 from .app import create_app
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
