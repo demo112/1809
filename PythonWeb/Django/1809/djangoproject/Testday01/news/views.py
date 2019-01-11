@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("这是music应用中的index访问的路径")
+    return HttpResponse("这是news应用中的index访问的路径")

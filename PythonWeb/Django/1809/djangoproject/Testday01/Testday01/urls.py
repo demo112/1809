@@ -31,4 +31,7 @@ urlpatterns = [
 # app路由
 urlpatterns += [
     url(r'^music/', include('music.urls')),
+    url(r'^index/', include('index.urls')),
+    url(r'^sport/', include('sport.urls')),
+    url(r'^news/', include('news.urls')),
 ]
