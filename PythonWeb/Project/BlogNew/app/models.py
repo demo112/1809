@@ -65,6 +65,11 @@ class User(db.Model):
     url = db.Column(db.String(50), nullable=True)
     upwd = db.Column(db.String(50), nullable=False)
     is_author = db.Column(db.Boolean, default=False)
+    topics = db.relationship(
+        'Topic',
+        backref='user',
+        lazy = 'dynamic'
+    )
     replies = db.relationship(
         'Reply',
         backref='user',
@@ -74,7 +79,7 @@ class User(db.Model):
     vokes_topics = db.relationship(
         'Topic',
         secondary='voke',
-        backref=db.backref('voke_users'),
+        backref=db.backref('voke_users',lazy='dynamic'),
         lazy='dynamic'
     )
 

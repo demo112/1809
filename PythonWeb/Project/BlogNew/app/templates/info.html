@@ -27,11 +27,12 @@
 				<li><a href="index.html">网站首页</a> </li>
 				<li><a href="list.html">文章列表</a>
 					<ul class="sub-nav">
-						<li><a href="list.html">Python</a></li>
-						<li><a href="list.html">python Web</a></li>
-						<li><a href="list.html">爬虫</a></li>
-						<li><a href="list.html">人工智能</a></li>
-						<li><a href="list.html">JS实例索引</a></li>
+                      {% for cate in params.categories %}
+                          <li>
+        {#                        循环生成的选项列#}
+                              <a href="/list?id={{ cate.id }}">{{ cate.cate_name }}</a>
+                          </li>
+                      {% endfor %}
 					</ul>
 				</li>
 				<li><a href="photo.html">我的相册</a>
@@ -43,8 +44,13 @@
 			</nav>
 		</div>
 		<!--menu end-->
-		<a href="login.html" id="login" target="_blank">登录</a>
-    	<a href="register.html" id="register" target="_blank">注册</a>
+          {% if params.user %}
+            <a href="" id="login" target="_blank">欢迎{{ params.uname }}</a>
+            <a href="/logout" id="register" target="_blank">注销</a>
+          {% else %}
+            <a href="/login" id="login" target="_blank">登录</a>
+            <a href="/register" id="register" target="_blank">注册</a>
+          {% endif %}
 		<!--mnav begin-->
 		<div id="mnav">
 			<h2><a href="index.html" class="mlogo">皮爷の博客</a><span class="navicon"></span></h2>
@@ -143,8 +149,16 @@
 				<div class="hide_box"></div>
 			</div>
 			<div class="nextinfo">
-				<p>上一篇：<a href="info.html">作为一个设计师,如果遭到质疑你是否能恪守自己的原则?</a></p>
-				<p>下一篇：<a href="list.html">返回列表</a></p>
+                {% if params.topic_before %}
+                    <p>上一篇：<a href="/info?id={{ params.topic_before.id }}">{{ params.topic_before.title }}</a></p>
+                {% else %}
+                    <p>上一篇：<a href="/index">木有了</a></p>
+                {% endif %}
+                {% if params.topic_after %}
+				    <p>下一篇：<a href="/info?id={{ params.topic_after.id }}">{{ params.topic_after.title }}</a></p>
+                {% else %}
+                    <p>上一篇：<a href="/index">木有了</a></p>
+                {% endif %}
 			</div>
 			<div class="news_pl">
 				<h2>文章评论</h2>

@@ -16,6 +16,7 @@
       <w>btnload</w>
       <w>btnshow</w>
       <w>bule</w>
+      <w>catepory</w>
       <w>checkrepeat</w>
       <w>checkuname</w>
       <w>chenggong</w>
@@ -25,6 +26,7 @@
       <w>elif</w>
       <w>endfor</w>
       <w>endmacro</w>
+      <w>fader</w>
       <w>ftime</w>
       <w>gcount</w>
       <w>getcookie</w>

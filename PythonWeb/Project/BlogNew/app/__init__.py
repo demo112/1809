@@ -26,8 +26,7 @@ def create_app():
     app.config["DEBUG"] = True
     app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root:123456@localhost:3306/blog'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config["SQLALCHEMY_COMMIT_ON TEARDOWN"] = True
-    app.config["SQLALCHEMY_COMMIT_ON TEARDOWN"] = True
+    app.config["SQLALCHEMY_COMMIT_ON_TEARDOWN"] = True
     app.config['SECRET_KEY'] = 'bgfasdfsdfsvbewioranhgviowegobirvwnilbuesrh'
     # 关联db和app
     # 用app初始化db
