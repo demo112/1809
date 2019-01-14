@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    uname: {{ uname }}<br>
+    uage: {{ uage }}<br>
+    ls: {{ ls }}<br>
+    ls.0: {{ ls.0 }}<br>
+    dic: {{ dic }}<br>
+    dic.swk: {{ dic.swk }}<br>
+    person: {{ person }}<br>
+    person.uname: {{ person.uname }}<br>
+    person.intro: {{ person.intro }}<br>
+    <h3>
+        {% for str in ls %}
+            {% if forloop.counter == 1 %}
+                <p style="background-color: skyblue">
+            {% elif forloop.counter == 2 %}
+                <p style="background-color: red">
+            {% elif forloop.counter == 3 %}
+                <p style="background-color: pink">
+            {% endif %}
+                {{ str }}
+                {{ forloop.counter }}
+            </p>
+        {% endfor %}
+    </h3>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% load static %}
+    <h5>通过/static/的方式访问静态资源</h5>
+    <img src="/static/images/1.jpg" alt="1" width="10%">
+    <img src="/static/images/2.jpg" alt="2" width="10%">
+    <img src="/static/images/3.jpg" alt="3" width="10%">
+    <h5>通过 static标签 的方式访问静态资源</h5>
+    <img src="{% static 'images/4.jpg' %}" alt="4" width="10%">
+    <img src="{% static 'images/5.jpg' %}" alt="5" width="10%">
+    <img src="{% static 'images/6.jpg' %}" alt="6" width="10%">
+</body>
+</html>
