@@ -1,10 +1,21 @@
 {% extends 'signup.html' %}
+
+{% block style %}
+<style>
+    .right{
+        position: relative;
+        float: right;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+</style>
+{% endblock %}
 {% block title %}
 <title>注册</title>
 {%  endblock %}
 
 {% block left %}
-<div class="right" style="margin-top: 20px;">
+<div class="right">
                 <form action="/signin" enctype="multipart/form-data" method="post">
                     <div class="form-line">
                         <p class="clearstamp">账号邮箱</p>

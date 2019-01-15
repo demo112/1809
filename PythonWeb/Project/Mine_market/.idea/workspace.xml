@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acba89b7-b63b-4299-ad0d-7345fbd451a7" name="Default Changelist" comment="" />
+    <list default="true" id="acba89b7-b63b-4299-ad0d-7345fbd451a7" name="Default Changelist" comment="onload">
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mine_market.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mine_market.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/Js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signin.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Mine_market$Flask__run_py_.coverage" NAME="Flask (run.py) Coverage Results" MODIFIED="1547479359095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/signin.html" />
+        <option value="$PROJECT_DIR$/static/Js/index.js" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="1057" />
+    <option name="width" value="720" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,6 +55,17 @@
               <item name="Mine_market" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mine_market" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Mine_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mine_market" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mine_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mine_market" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -44,7 +78,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +92,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Flask (run.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="Mine_market" />
+      <option name="target" value="$PROJECT_DIR$/run.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (run.py)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -69,6 +125,9 @@
       <option name="presentableId" value="Default" />
       <updated>1547039774410</updated>
       <workItem from="1547039776782" duration="210000" />
+      <workItem from="1547468523258" duration="1198000" />
+      <workItem from="1547469911698" duration="3581000" />
+      <workItem from="1547513781648" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="onload">
       <created>1547039839743</created>
@@ -81,32 +140,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210000" />
+    <option name="totallyTimeSpent" value="4992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1057" extended-state="0" />
+    <frame x="720" y="23" width="720" height="804" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14011799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49891067" visible="true" weight="0.32953367" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50108933" side_tool="true" visible="true" weight="0.32953367" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49891067" weight="0.2514045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49782136" weight="0.32953367" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108933" side_tool="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,9 +196,59 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="onload" />
     <option name="LAST_COMMIT_MESSAGE" value="onload" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/widgetsnbextension/static/extension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="19536" selection-start-line="19536" selection-end-line="19536" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="96" column="58" lean-forward="true" selection-start-line="96" selection-start-column="58" selection-end-line="96" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

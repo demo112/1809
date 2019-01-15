@@ -15,6 +15,20 @@
 
 
 $(function () {
+
+        $('[name="upwd2"]').change(
+            console.log($(this).val());
+            console.log("111");
+            // function () {
+            // let p1 = $('[name=upwd1]').val();
+            // let p2 = $('[name=upwd2]').val();
+            // console.log(p1, p2);
+            // if (p1 === p2){
+            //     alert('111');
+            // } else {
+            //     alert('111');
+            // }
+        });
         // 下拉菜单，添加点击时间，传值显示
         $(".select li").each(function () {
            $(this).click(function () {
@@ -50,7 +64,7 @@ $(function () {
             // 鼠标移出，重启定时器
             timerId = setInterval(autoPlay,1000);
         })
-    });
+    })
 
 function createXhr() {
     let xhr = null;
@@ -114,15 +128,3 @@ function check_name(name) {
     xhr.send(null)
 }
 
-
-function check_pwd_same() {
-    let p1 = document.getElementsByName('upwd1').value;
-    let p2 = document.getElementsByName('upwd2').value;
-    console.log(p1, p2);
-    if (p1 === p2){
-        console.log('我们不一样');
-        // todo 无法验证重复
-        this.style = 'background-color: red';
-        this.setAttribute('placeholder','两次输入不一致')
-    }
-}
