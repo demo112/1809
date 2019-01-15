@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang=zh">
+<head>
+    <meta charset="UTF-8">
+    <title>作者</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>邮箱</th>
+            <th>操作</th>
+        </tr>
+        {% for au in a.a %}
+            <tr>
+            <td>{{ au.name }}</td>
+            <td>{{ au.age }}</td>
+            <td>{{ au.email }}</td>
+            <td>
+                <a href="">删除</a>
+                <a href="/05-update/{{ au.id }}/">修改</a>
+            </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

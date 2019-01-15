@@ -19,5 +19,6 @@ urlpatterns = [
     url(r'^05-child/$',views.child),
     #访问路径:06-thisisatest_user_login_path
     url(r'^06-thisisatest_user_login_path/$',views.test_views,name='log'),
-    url(r'^07-thisisanother_user_register/(\d{4})/$',views.reg_views,name='reg'),
+    url(r'^07-thisisanother_user_register/(\d{4})/$',
+        views.reg_views,name='reg'),
 ]

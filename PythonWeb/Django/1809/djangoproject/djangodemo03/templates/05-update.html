@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang=zh">
+<head>
+    <meta charset="UTF-8">
+    <title>作者</title>
+</head>
+<body>
+<form action="/update">
+    <table>
+        <tr>
+            <td>姓名</td>
+            <td>
+                <input type="text" name="name" value="{{ author.name }}">
+            </td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td>
+                <input type="number" name="age" value="{{ author.age }}">
+            </td>
+        </tr>
+        <tr>
+            <td>邮箱</td>
+            <td>
+                <input type="email" name="email" value="{{ author.email }}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

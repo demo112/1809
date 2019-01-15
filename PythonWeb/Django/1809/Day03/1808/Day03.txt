@@ -1,0 +1,242 @@
+﻿复习
+1.URL
+  1.基本结构
+    from django.conf.urls import url
+    urlpatterns = [
+      url()
+    ]
+  2.url语法结构
+    url(regex,views,kwargs=None,name=None)
+      1.regex : 地址匹配模式
+      2.views : 视图处理函数
+      3.kwargs : 传递到视图中的参数,类型为字典
+      4.name : 为url函数起别名
+  3.通过 url 向视图传参
+    1.通过地址传参
+      在 regex 处,通过正则表达式的子组表示要传递的参数
+      url(r'^show/(\d{4})/(\S+)',show_views)
+
+      def show_views(request,num,str):
+        pass
+    2.通过kwargs传参
+      dic = {
+        'name':'xxx',
+        'age':123,
+      }
+      url(r'^show/$',show_views,dic)
+
+      def show_views(request,name,age):
+        pass
+2.应用(app)
+  1.创建以及注册
+    1.创建应用
+      ./manage.py startapp 应用名称
+    2.注册应用
+      在 settings.py 中
+      INSTALLED_APPS = [
+        'xxxxxx',
+        '应用名称',
+      ]
+  2.分布式的路由系统
+    主路由配置文件不负责处理具体的请求
+    而是将请求转发给不同的应用
+    由应用来处理具体的请求
+
+    http://localhost:8000/news/xxx/xxx
+    url(r'^news/',include('news.urls')),
+3.模板 - Templates
+  1.模板的配置
+    在 settings.py 中 TEMPLATES 变量
+    1.BACKEND
+    2.DIRS : [os.path.join(BASE_DIR,'templates')]
+    3.APP_DIRS : True
+  2.模板的加载方式
+    1.通过 loader 加载模板
+      from django.template import loader
+      t=loader.get_template('xxx.html')
+      html=t.render()
+      return HttpResponse(html)
+    2.通过 render() 加载并响应模板
+      from django.shortcuts import render
+      return render(request,'xxx.html')
+  3.模板的语法
+    1.变量
+      1.传递变量到模板
+        1.loader
+          t = loader.get_template('xxx.html')
+          html = t.render({变量字典})
+          return HttpResponse(html)
+        2.render
+          return render(request,'xxx.html',{参数字典})
+      2.在模板中使用变量
+        {{变量}}
+===================================================
+1.模板
+  1.模板中的语法
+    1.变量(略)
+    2.标签
+      1.作用
+        将服务器端功能嵌入到模板中
+      2.语法
+        {% 标签内容 %}
+      3.常用标签
+        1.for
+          语法:
+            {% for 变量 in 元组|列表|字典 %}
+            {% endfor %}
+
+          内置变量:forloop
+            允许通过forloop得到本次循环的一些信息
+            forloop.counter : 当前循环遍历的次数
+            forloop.first : 判断是否为第一次循环
+            forloop.last : 判断是否为最后一次循环
+        2.if
+          语法
+            1.
+              {% if xxx %}
+              {% endif %}
+            2.
+              {% if xxx %}
+              {% else %}
+              {% endif %}
+            3.
+              {% if xxx %}
+              {% elif xxx %}
+              {% else %}
+              {% endif %}
+
+        练习:
+           ['孙悟空', '西门庆', '曹操', '林黛玉']
+           在模板中循环遍历,
+           第一项的内容背景颜色为红色(red)
+           最后一项的内容背景颜色为黄色(yellow)
+           中间两项内容的背景颜色为粉色(pink)
+    3.过滤器
+      1.什么是过滤器
+        在变量输出显示之前,要对变量进行筛选和过滤
+      2.语法
+        {{变量|过滤器:参数}}
+    4.静态文件
+      1.什么是静态文件
+        不能被解释器动态解析的文件就是静态文件
+      2.Django中的静态文件的处理
+        (Django中必须要设置静态文件相关信息之后才能使用)
+        在 settings.py 中设置静态文件相关信息
+        1.设置静态文件的访问路径
+          STATIC_URL = "/s/"
+          如果访问路径是http://localhost:8000/s/xxx的时候,那么就到静态文件的存储目录中去查找静态文件而不走路由的解析
+        2.设置静态文件的存储目录
+          指定静态文件保存在服务器上的哪个文件夹中
+          STATICFILES_DIRS=(os.path.join(BASE_DIR,'static'),)
+          静态文件目录的存放位置:
+          1.在项目的根目录处创建一个 static 目录,用于保存静态文件
+          2.每个应用中也可以创建一个 static 目录,用于保存静态文件
+        3.访问静态文件
+          1.通过静态文件访问路径去访问
+            /static/images/naruto.jpg
+          2.使用 {% static %} 访问静态资源
+            {% static %}表示的就是静态资源的访问路径
+            1.在模板的最顶层增加
+              {% load static %}
+            2.在使用静态资源时
+              <img src="{% static 'images/naruto.jpg'%}">
+          练习：
+            1.创建项目 - FruitDay,并创建应用 index
+            2.搭建模板和静态文件
+            3.搭建首页模板 - index.html
+            4.设置静态文件的相关配置
+            5.将index.html的静态文件改成Django版本
+    5.模板的继承
+      1.在父模板中
+        标识出哪些内容在子模板中允许被重写
+        {% block 块名 %}
+          xxxx xxxx
+        {% endblock %}
+        block 作用:
+          1.在父模板中正常显示
+          2.在子模板中,允许被修改
+            如果不修改的话,则按照父模板的内容来显示
+      2.在子模板中
+        1.指定继承自哪个父模板
+          {% extends '父模板名称' %}
+        2.覆盖父模板中的内容
+          {% block 块名 %}
+          {% endblock %}
+      练习:实现FriutDay中的登录和注册
+        1. http://localhost:8000/login
+          能够看到 login.html 模板
+        2. http://localhost:8000/register
+          能够看到 register.html 模板
+        3.让 register.html 模板 继承自 login.html
+          并按照register的样式进行修改
+    6.url()的name参数
+      1.url()语法
+        url(regex,views,kwargs,name)
+          name:为了给当前的url起别名,在反向解析地址时使用
+      2.反向解析
+        通过url()的别名生成对应的访问地址
+        1.在模板上做反向解析
+          1.基本解析
+            {% url '别名' %}
+          2.带参数解析
+            {% url '别名' '参数1' '参数2' %}
+        2.在视图上做反向解析
+          1.基本解析
+            url = reverse('别名')
+            url 就是通过别名解析出来的地址
+          2.带参数解析
+            url = reverse('别名',args=('参数1','参数2'))
+2.模型 - Models
+  1.什么是模型
+    根据数据库中表结构而创建出来的class
+  2.ORM
+    三大特征:
+      1.数据表 到 编程类的映射
+      2.数据类型的映射
+      3.关系映射
+  3.创建 和 配置数据库
+    1.创建数据库
+      create database webdb default charset utf8 collate utf8_general_ci;
+    2.Django中的数据库配置
+      settings.py中 DATABASES 变量负责配置数据库信息
+      DATABASES = {
+        'default':{
+          'ENGINE':'django.db.backends.sqlite3',
+          'NAME':''
+        }
+      }
+
+      1.ENGINE : 指定连接到的数据库的引擎
+        取值:'django.db.backends.mysql'
+      2.NAME : 指定要连接的数据库的名称
+        取值:'webdb'
+      3.USER : 指定进入到数据库的用户名
+        取值:'root'
+      4.PASSWORD : 指定进入到数据库的密码
+        取值:'123456'
+      5.HOST : 指定要连接的主机地址
+        取值:'localhost' 或 '127.0.0.1'
+      6.PORT : 指定主机上开放的端口
+        取值: 3306
+
+      注意:Django中的ORM以来与 mysqldb
+        在初始化项目的时候
+          import pymysql
+          pymysql.install_as_mysqldb()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app = Flask(static_folder='s',static_url='/s')
+将所有的静态文件保存在 s 目录中
+并允许通过 /s 路径去访问 s 目录内的东西
