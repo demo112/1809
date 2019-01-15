@@ -82,7 +82,7 @@ function check_name(name) {
     let xhr = createXhr();
     let input = document.getElementsByName(name)[0].value;
     xhr.open('get', '/check?' + name + '=' + input + '&tag=' + name, true);
-    // console.log(name, input);
+    console.log(name, input);
     xhr.onreadystatechange = function () {
         let rep = null;
         if (name === 'uemail') {
@@ -115,14 +115,9 @@ function check_name(name) {
 }
 
 
-function check_pwd_same() {
-    let p1 = document.getElementsByName('upwd1').value;
-    let p2 = document.getElementsByName('upwd2').value;
-    console.log(p1, p2);
-    if (p1 === p2){
-        console.log('我们不一样');
-        // todo 无法验证重复
-        this.style = 'background-color: red';
-        this.setAttribute('placeholder','两次输入不一致')
-    }
-}
+
+$(function () {
+   $('#upwd2').blur(function () {
+       console.log($(this).val());
+   })
+});

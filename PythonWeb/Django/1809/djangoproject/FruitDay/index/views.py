@@ -7,7 +7,7 @@ def index(request):
     return render(request, 'index.html')
 
 
-def login(request):
+def signin(request):
     """注册"""
     return render(request, 'signin.html')
 

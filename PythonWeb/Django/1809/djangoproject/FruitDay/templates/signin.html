@@ -1,19 +1,23 @@
 {% extends 'signup.html' %}
 
 {% block style %}
-<style>
+<!--suppress ALL -->
+    <link rel="stylesheet" href="../static/css/signin.css">
+    <style>
     .right{
         position: relative;
         float: right;
         margin-top: 10px;
         margin-right: 40px;
     }
+
 </style>
 {% endblock %}
 {% block title %}
 <title>注册</title>
 {%  endblock %}
 
+{#注册选项#}
 {% block left %}
 <div class="right">
                 <form action="/signin" enctype="multipart/form-data" method="post">
@@ -57,6 +61,7 @@
                         <label>
                             <input
                                     class="uinput"
+                                    id="upwd1"
                                     type="password"
                                     name="upwd1"
                                     placeholder="请输入6-20位密码"
@@ -71,6 +76,7 @@
                         <label>
                             <input
                                     class="uinput"
+                                    id="upwd2"
                                     type="password"
                                     name="upwd2"
                                     placeholder="请再次确认"

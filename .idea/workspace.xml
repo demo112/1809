@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="">
+    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="BlogNew&#10;博客静态资源导入">
+      <change afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1809.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1809.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,50 +82,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#643#675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="120" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,8 +133,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday09/homework/while输入.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday10/07-regExp.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday09/homework/查找最大值.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday10/07-regExp.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday12/创建购物车.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -239,7 +206,6 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
     <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="1057" />
@@ -253,6 +219,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="1809" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,7 +270,7 @@
               <item name="Django" type="462c0819:PsiDirectoryNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="Testday01" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
@@ -302,19 +279,28 @@
               <item name="Django" type="462c0819:PsiDirectoryNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="Testday01" type="462c0819:PsiDirectoryNode" />
-              <item name="Testday01" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="1809" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,7 +318,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/FlaskDemo05/run01.py" />
   </component>
   <component name="RecentsManager">
@@ -390,6 +376,9 @@
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -520,6 +509,7 @@
       <workItem from="1547082290127" duration="27000" />
       <workItem from="1547082321857" duration="33944000" />
       <workItem from="1547178203457" duration="1167000" />
+      <workItem from="1547514258297" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="添加网页用素材&#10;&#10;(cherry picked from commit 9a49c8d900abe485715f2623299923d6d48cdc4b)">
       <created>1543829594837</created>
@@ -819,7 +809,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621564000" />
+    <option name="totallyTimeSpent" value="622254000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -828,11 +818,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="960" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11970339" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.2962963" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.30283225" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17238913" />
       <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36480686" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />
@@ -989,26 +979,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day03/homework/province__city.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day03/homework/static/province_city.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/Blog/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Project/Blog/templates/about.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1286,41 +1256,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/__init__.py">
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/PythonWeb/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/__init__.py">
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/settings.py">
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/FruitDay/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="120" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#643#675#0" expanded="true" />
+            <element signature="e#225#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/FruitDay/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="120" selection-start-line="119" selection-start-column="1" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
