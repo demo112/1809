@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+    <p>
+        {% for field in form_register %}
+            {{ field.label }}
+            {{ field }}
+            <br>
+        {% endfor %}
+        <input type="submit" value="提交">
+    </p>
+</form>
+</body>
+</html>

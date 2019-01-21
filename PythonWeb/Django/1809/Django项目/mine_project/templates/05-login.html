@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+</head>
+<body>
+<form action="/05-login/" method="post">
+    {% csrf_token %}
+<p>
+    {% for fo in form_user %}
+        {{ fo.label }}
+        {{ fo }}
+    {% endfor %}
+    <input type="submit">
+</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <table width="500" border="1">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email</th>
+      <th>OP</th>
+    </tr>
+    {% for author in authors %}
+      <tr>
+        <td>{{ author.id }}</td>
+        <td>{{ author.name }}</td>
+        <td>{{ author.age }}</td>
+        <td>{{ author.email }}</td>
+        <td>
+          <a href="/05-delete/{{ author.id }}/">删除</a>
+          <a href="#">修改</a>
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
