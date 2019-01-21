@@ -21,7 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'ry1#t=%40l5$cliny+$3i(u-@^#grh^slj!$ipjfg$qw%no_1v'
-
+SESSION_COOKIE_AGE = 60*30
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -76,8 +77,12 @@ WSGI_APPLICATION = 'FruitDay.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'fruitday',
+        'USER': 'root',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
+        'POST': 3306,
     }
 }
 

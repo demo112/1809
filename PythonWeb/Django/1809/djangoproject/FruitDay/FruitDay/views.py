@@ -9,4 +9,4 @@ def index(request):
 
 def login(request):
     """登陆"""
-    return render(request,'signup.html')
+    return render(request, 'login.html')

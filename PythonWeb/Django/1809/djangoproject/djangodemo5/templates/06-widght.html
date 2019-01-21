@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>小部件</title>
+</head>
+<body>
+<form action="/06-widget/" method="post">
+    {% csrf_token %}
+    <p>
+        {% for int in widget_form %}
+            {{ int.label }}
+            {{ int }}
+            <br>
+        {% endfor %}
+        <input type="Tel">
+        <input type="submit">
+    </p>
+</form>
+</body>
+</html>

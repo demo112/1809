@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>作者</title>
+    <script src="../static/js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $("#delete").click(
+                function () {
+                if (confirm('你真的要neng死他么？')) {
+                    id = $(this).val();
+                    location.href="/09-delete/" + id
+                }
+            })
+        })
+    </script>
 </head>
 <body>
     <table>
@@ -18,8 +30,9 @@
             <td>{{ au.age }}</td>
             <td>{{ au.email }}</td>
             <td>
-                <a href="">删除</a>
-                <a href="/05-update/{{ au.id }}/">修改</a>
+                <button id="delete" value="{{ au.id }}">删除</button>
+{#                <a href="/05-update/{{ au.id }}/">修改</a>#}
+                <a href="{% url 'upgrade' au.id %}">修改</a>
             </td>
             </tr>
         {% endfor %}

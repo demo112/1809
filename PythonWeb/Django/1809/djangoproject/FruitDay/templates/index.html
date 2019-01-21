@@ -15,12 +15,12 @@
             <li>
                 {% block user_log %}
                     <input type="hidden" name="isSignup" value="0">
-                    {% if user %}
+                    {% if none %}
                         <a href="#">{{ nickname }}</a>
-                        <a href="/logout">[ 注  销 ]</a>
+                        <a href="/">[ 注  销 ]</a>
                     {% else %}
-                        <a href="/signup">[ 登 陆 ]</a>
-                        <a href="/signin">[ 注 册 ]</a>
+                        <a href="/login/">[ 登 陆 ]</a>
+                        <a href="/signup/">[ 注 册 ]</a>
                     {% endif %}
                 {% endblock %}
             </li>
