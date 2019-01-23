@@ -1,0 +1,111 @@
+目标 : 在浏览器输入 www.rabbit.com 回车
+       进入到Django项目主页
+1. 概念
+  1. Django项目(Web应用)
+  2. Web服务
+    1. nginx : 高并发处理的好 
+    2. Apache : 稳定
+      LNMP : Linux Nginx MySQL Python/PHP/Perl 
+      LAMP : Linux Apache MySQL Python/PHP/Perl
+  3. uwsgi
+    是Web服务器与Web框架之间一种简单而通用的接口
+2. 项目部署
+  1. 部署环境准备
+    1. 确保Django项目能够运行
+    2. 安装Web服务nginx(用apt-get去安装)
+      1. 安装
+        sudo apt-get install nginx
+      2. 启动
+        sudo /etc/init.d/nginx restart
+      3. 验证
+        打开浏览器输入: 127.0.0.1:80 -> Welcome to Nginx
+    3. 安装uwsgi(务必用pip3去安装)
+      1. 安装
+        sudo pip3 install uwsgi
+      2. 验证
+        uwsgi --http :9000 --chdir /home/tarena/myproject/fruitday/ --module fruitday.wsgi
+  2. 在线商城部署
+    1. 配置uwsgi(配置文件)
+      和nginx通信端口 自身启动占用的端口
+      1. 在项目目录(manager.py所在路径)中新建uwsgi启动文件:fruitdayUwsgi.ini
+      2. 在配置文件中写入如下内容:
+        [uwsgi]
+        # 指定和nginx通信的端口
+        socket=127.0.0.1:8001
+        # 项目路径
+        chdir=/home/tarena/myproject/fruitday
+        # wsgi.py路径
+        wsgi-file=fruitday/wsgi.py
+        # 进程数
+        processes=4
+        # 线程数
+        thread=2
+        # uwsgi自身占用端口
+        stats=127.0.0.1:8080
+    2. 配置nginx(配置文件)
+      1. sudo -i 
+      2. cd /etc/nginx/sites-enabled/
+      3. vi projectNginx.conf
+        server{
+            # 指定本项目监听端口,浏览器输入端口
+            listen 80;
+            # 域名
+            server_name www.rabbit.com;
+            # 指定字符集
+            charset utf-8;
+
+            # 指定收集静态文件路径
+            location /static{
+                alias /home/tarena/myproject/fruitday/static;
+          }
+            # 和uwsgi通信端口和通信文件
+            location /{
+              include uwsgi_params;
+              uwsgi_pass 127.0.0.1:8001;
+          }
+            
+        }
+      4. 拷贝uwsgi_params到项目根目录
+        1. sudo -i
+        2. cd /etc/nginx
+        3. cp uwsgi_params /home/tarena/myproject/fruitday
+      5. 改掉nginx默认的server(80)
+        1. sudo -i 
+        2. cd /etc/nginx/sites-enabled
+        3. vi deault #把listen的端口由80改为800
+          server {
+            listen 800 default_server;
+            listen [::]:80 default_server;
+      6. 重启nginx服务
+        sudo /etc/init.d/nginx restart      
+    3. 收集静态文件
+      1. 在settings.py文件中添加路径(STATIC_ROOT)
+        STATIC_ROOT = '/home/tarena/myproject/fruitday/static'
+      2. 收集静态文件
+        1. cd /home/tarena/myproject/fruitday
+        2. python3 manage.py collectstatic
+    4. 添加本地DNS解析
+      1. sudo -i 
+      2. vi /etc/hosts
+        127.0.0.1    www.rabbit.com
+      3. 重启网络服务
+        sudo /etc/init.d/networking restart
+    5. uwsgi启动项目
+      1. 切换到项目目录
+        cd /home/tarena/myproject/fruitday 
+      2. 利用uwsgi启动项目
+        uwsgi --ini fruitdayUwsgi.ini 
+    6. 打开浏览器,输入 www.rabbit.com
+       直接进入项目主页
+       
+
+
+
+
+
+
+
+
+
+
+
