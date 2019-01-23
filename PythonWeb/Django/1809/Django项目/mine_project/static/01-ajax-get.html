@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax_get</title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        function btnAjax() {
+            //$.get(url, data, callback(), type)
+            $.get(
+                '/11_ajax_get/',
+                function (data) {
+                    $('#show').html(data)
+                }
+            )
+        }
+
+        function btnAjax_with_params() {
+            let params = {
+                'uname': 'wang',
+                'upwd': '123456',
+            };
+            $.get('/12-ajax-params/', params, function (data) {
+                $('#show_params').html(data)
+            })
+        }
+    </script>
+</head>
+<body>
+    <button onclick="btnAjax()">
+        发送ajax请求
+    </button>
+    <p id="show"></p>
+
+    <button onclick="btnAjax_with_params()">
+        发送带参数ajax请求
+    </button>
+    <p id="show_params"></p>
+</body>
+</html>
+

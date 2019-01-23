@@ -1,3 +1,6 @@
+import json
+
+from django.core import serializers
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
@@ -11,7 +14,6 @@ from index import models
 
 def index(request):
     """主页"""
-
     return render(request, 'index.html')
 
 
@@ -29,11 +31,11 @@ def login(request):
         # 继续判断cookie有没有保存密码
         if 'uphone' in request.COOKIES and 'id' in request.COOKIES:
             # 存在，判断正确性
-            id = request.COOKIES['id']
+            uid = request.COOKIES['id']
             uphone = request.COOKIES['uphone']
-            user = models.Users.objects.filter(id=id, uphone=uphone)
+            user = models.Users.objects.filter(id=uid, uphone=uphone)
             if user:
-                request.session['id'] = id
+                request.session['id'] = uid
                 request.session['uphone'] = uphone
                 return redirect(url)
             else:
@@ -89,7 +91,7 @@ def signup(request):
             user = models.Users()
             user.uphone = uphone
             upwd = request.POST.get("upwd")
-            user.upwd = generate_password_hash(upwd)
+            user.upwd = upwd
             user.uemail = request.POST.get("uemail")
             user.uname = request.POST.get("uname")
             try:
@@ -101,3 +103,53 @@ def signup(request):
             except Exception as ex:
                 print(ex)
             return render(request, 'signup.html', {'errMSG': '请联系管理员'})
+
+
+def check_login(request):
+    """判断主页是否有用户登陆"""
+    # 判断session中是否有用户信息
+    if 'id' in request.session and 'uphone' in request.session:
+        uid = request.session['id']
+        uname = models.Users.objects.get(id=uid).uname
+        dic = {
+            'login_status': 1,
+            'uname': uname,
+        }
+    else:
+        dic = {
+            'login_status': 0,
+        }
+    json_str = json.dumps(dic)
+    return HttpResponse(json_str)
+
+
+def check_uphone(request):
+    uphone = request.GET['uphone']
+    user = models.Users.objects.filter(uphone=uphone)
+    if user:
+        # todo 注册时处理手机号存在时的ajax
+        return HttpResponse('手机号重复')
+    else:
+        return HttpResponse('允许使用👌')
+
+
+def logout(request):
+
+    return None
+
+
+def type_goods(request):
+    ls = []
+    # 读取所有类型及对应产品
+    types = models.GoodsType.objects.all()
+    for each_type in types:
+        type_json = json.dumps(each_type.to_dict())
+        # print(type_json)
+        all_goods = each_type.goods_set.all()
+        goods_json = serializers.serialize('json', all_goods)
+        dic = {
+            'type': type_json,
+            'goods': goods_json,
+        }
+        ls.append(dic)
+    return HttpResponse(json.dumps(ls))

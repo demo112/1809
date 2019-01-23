@@ -9,5 +9,13 @@ urlpatterns = [
     # 匹配　login/
     url(r'^signup/$', views.signup),
     url(r'^login/$', views.login),
-    url(r'^', views.index),
+    url(r'^logout/$', views.logout),
+    url(r'^$', views.index),
+]
+
+
+urlpatterns += [
+    url(r'^check_login/$', views.check_login),
+    url(r'^check_uphone/$', views.check_uphone),
+    url(r'^type_goods/$', views.type_goods),
 ]

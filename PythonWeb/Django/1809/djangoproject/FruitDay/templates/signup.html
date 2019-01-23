@@ -30,7 +30,6 @@
                                     class="uinput"
                                     type="text"
                                     name="uemail"
-                                    onblur="check_name('uemail')"
                             >
                         </label>
                         <p id="check_email"></p>
@@ -42,20 +41,17 @@
                                     class="uinput"
                                     type="text"
                                     name="uname"
-                                    onblur="check_name('uname')"
                             >
                         </label>
                         <p id="check_nickname"></p>
                     </div>
                     <div class="form-line">
                         <p class="clearstamp">手机号</p>
-                        <label>
-                            <input
-                                    class="uinput"
-                                    type="text"
-                                    name="uphone"
-                                    onblur="check_name('uphone')">
-                        </label>
+                        <input
+                                class="uinput"
+                                type="text"
+                                name="uphone"
+                                onblur='btn_check_phone()'>
                         <p id="check_phone">{{ errMSg }}</p>
                     </div>
                     <div class="form-line">

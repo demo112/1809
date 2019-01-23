@@ -24,3 +24,4 @@ urlpatterns = [
 urlpatterns += [
     url(r'^', include('index.urls'))
 ]
+

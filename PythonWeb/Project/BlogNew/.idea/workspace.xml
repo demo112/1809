@@ -2,130 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1743ed71-ee52-44f8-a8fa-4e116d8b4dd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/11-otm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/12-mtm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/index/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/01-showrequest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/02-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/03-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/04-register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/05-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/06-widght.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/.idea/runConfigurations/DjangoBlog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/css/comments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/css/login_reglogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/css/m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/5794.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/alipay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/auicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/author.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/b04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/b05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/banner01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/banner02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/banner03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/bi05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/bitbug_favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/category.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/commentPhoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/comments.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/date.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/dsbz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/dzbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/newsbg03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/page_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/page_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/page_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/page_time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/re_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/searchbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/tags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/time.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/toppic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/toppic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/wx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/images/zd01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/jquery.easyfader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/scrollReveal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/wangEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/js/xcConfirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/upload/20190110181811969911.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/static/upload/20190110182116546580.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/gbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/photo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/release.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DjangoBlog/templates/time.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mine_market/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/FruitDay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/FruitDay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/djangodemo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/djangodemo03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/djangodemo03/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/djangodemo03/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/03-queryall.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/03-queryall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/05-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/05-update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JQuery/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/static/js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mine_market/.idea/Mine_market.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mine_market/.idea/Mine_market.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mine_market/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mine_market/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mine_market/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mine_market/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/Js/jquery-1.11.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/djangodemo5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/djangodemo5/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoBlog/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,6 +103,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BlogNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogNew" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,17 +165,17 @@
       <updated>1547726232143</updated>
       <workItem from="1547726233641" duration="949000" />
       <workItem from="1547727207088" duration="3514000" />
-      <workItem from="1547810358385" duration="1949000" />
+      <workItem from="1547810358385" duration="2284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6412000" />
+    <option name="totallyTimeSpent" value="6747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="983" y="23" width="937" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2592179" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45810056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

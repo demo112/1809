@@ -2,130 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191dd20e-6205-4e0c-a5fb-b308385fd5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/11-otm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/12-mtm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/index/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/01-showrequest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/02-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/03-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/04-register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/05-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo5/templates/06-widght.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/DjangoBlog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/comments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/login_reglogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/5794.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/alipay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/auicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/author.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/b04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/b05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bi05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bitbug_favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/category.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/commentPhoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/comments.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/date.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dsbz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dzbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/newsbg03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page_time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/re_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/searchbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/time.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/toppic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/toppic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zd01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.easyfader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/scrollReveal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/wangEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/xcConfirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20190110181811969911.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20190110182116546580.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/gbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/photo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/release.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/time.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mine_market/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/FruitDay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/FruitDay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/01-ajax-get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/css/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/css/signup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-2109-SDK5WUW8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-2114-226C8S26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-2163-8PBW628F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-27316-F2BUCPRH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-3356-T4P73D4B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-3877-BXDY6KCU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-430-9RBRWTU9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-435-8829CP99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-695-F2BSB4DC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/1-270x270-701-CB41CHUW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/25af37592bf484fbeaef1cc4ff1e09c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/2ba20598135dbba5e97d241ebfa167d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/904419aa2e364412b3c07c3cbda24ef9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/d72b849b461c08d991c265df00a1bfde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/huiyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/t4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/作业.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/天天果园首页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/images/购物车.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/templates/13-ajax-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/images/t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/images/t2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/images/t3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/djangodemo5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/djangodemo5/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/djangodemo5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/djangodemo5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/Django项目/mine_project/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources/8353bd1a-b097-4bec-8dc8-5cccbfc6dae8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources/f0ecd418-ce10-478e-8fe2-2aae24be5887.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dataSources/f0ecd418-ce10-478e-8fe2-2aae24be5887.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/FruitDay/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/FruitDay/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/djangodemo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/djangodemo03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/djangodemo03/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/djangodemo03/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/03-queryall.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/03-queryall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/05-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/templates/05-update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JQuery/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/static/js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mine_market/.idea/Mine_market.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mine_market/.idea/Mine_market.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mine_market/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mine_market/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mine_market/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mine_market/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,16 +116,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topic/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/topic/admin.py">
+        <entry file="file://$PROJECT_DIR$/users/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -194,21 +125,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="19">
               <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
@@ -218,9 +137,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoBlog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="760">
               <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
@@ -234,50 +162,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="456">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#644#685#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#167#184#0" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoBlog/urls.py">
+        <entry file="file://$PROJECT_DIR$/topic/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="e#644#685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://afc5693e-293a-4309-b83f-ef3727250e5a/schema/blog/table/reply">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="38">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>^</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -288,19 +219,20 @@
         <option value="$PROJECT_DIR$/DjangoBlog/__init__.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/index/urls.py" />
-        <option value="$PROJECT_DIR$/index/views.py" />
         <option value="$PROJECT_DIR$/DjangoBlog/urls.py" />
-        <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/DjangoBlog/settings.py" />
+        <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/topic/models.py" />
+        <option value="$PROJECT_DIR$/index/views.py" />
+        <option value="$PROJECT_DIR$/index/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="98" />
-    <option name="y" value="45" />
-    <option name="width" value="1382" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="985" />
+    <option name="y" value="23" />
+    <option name="width" value="935" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -325,7 +257,12 @@
             <path>
               <item name="DjangoBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="topic" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,12 +342,14 @@
       <option name="presentableId" value="Default" />
       <updated>1547726464277</updated>
       <workItem from="1547726465612" duration="4984000" />
-      <workItem from="1547810349799" duration="3225000" />
+      <workItem from="1547810349799" duration="6287000" />
+      <workItem from="1548156453102" duration="998000" />
+      <workItem from="1548222804000" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8209000" />
+    <option name="totallyTimeSpent" value="12309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,25 +361,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="45" width="1382" height="877" extended-state="1" />
+    <frame x="985" y="23" width="935" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16940299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17021276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.40509555" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34868422" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -482,13 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://afc5693e-293a-4309-b83f-ef3727250e5a/schema/blog/table/reply">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://afc5693e-293a-4309-b83f-ef3727250e5a/schema/blog/table/reply" />
     <entry file="file:///usr/local/lib/python3.7/site-packages/django/db/models/fields/related.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -496,68 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoBlog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#644#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#167#184#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="234" column="15" lean-forward="true" selection-start-line="234" selection-start-column="15" selection-end-line="234" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/topic/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -567,6 +443,74 @@
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoBlog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#644#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

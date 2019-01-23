@@ -2,55 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="BlogNew&#10;博客静态资源导入">
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/index/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/.idea/FruitDay.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/FruitDay/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/FruitDay/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/FruitDay/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/FruitDay/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/index/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-2109-SDK5WUW8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-2114-226C8S26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-2163-8PBW628F.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-27316-F2BUCPRH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-3356-T4P73D4B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-3877-BXDY6KCU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-430-9RBRWTU9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-435-8829CP99.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-695-F2BSB4DC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/1-270x270-701-CB41CHUW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/25af37592bf484fbeaef1cc4ff1e09c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/2ba20598135dbba5e97d241ebfa167d9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/904419aa2e364412b3c07c3cbda24ef9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/d72b849b461c08d991c265df00a1bfde.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/huiyuan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/images/t4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/static/js/jquery-1.11.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Day02/FruitDay/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/templates/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/static/Js/jquery-1.11.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/DjangoBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/DjangoBlog/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +76,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -243,10 +199,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="787" />
+    <option name="y" value="1103" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -257,17 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="1809" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,6 +275,17 @@
               <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
               <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="1809" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -538,6 +495,7 @@
       <workItem from="1547082321857" duration="33944000" />
       <workItem from="1547178203457" duration="1167000" />
       <workItem from="1547514258297" duration="1247000" />
+      <workItem from="1548033280508" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="添加网页用素材&#10;&#10;(cherry picked from commit 9a49c8d900abe485715f2623299923d6d48cdc4b)">
       <created>1543829594837</created>
@@ -837,7 +795,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622811000" />
+    <option name="totallyTimeSpent" value="622840000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -846,11 +804,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="960" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="48" y="23" width="960" height="1057" extended-state="0" />
     <layout>
       <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11970339" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.30283225" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.3093682" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17238913" />
       <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36480686" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />

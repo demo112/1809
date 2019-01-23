@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../static/Css/signup.css">
     <script src="../static/Js/jquery-1.11.3.js"></script>
     <script src="../static/Js/index.js"></script>
-
     {% block style %}
     <style></style>
     {% endblock %}
@@ -35,6 +34,7 @@
                         {% if errmsg %}
                             <label>
                                 <input
+                                        id="uphone"
                                         class="uinput"
                                         type="text"
                                         name="uphone"
@@ -50,7 +50,7 @@
                                         name="uphone">
                             </label>
                         {% endif %}
-
+                        <p id="err"></p>
                     </div>
                     <div class="form-line">
                         <p class="clearstamp">密码</p>
