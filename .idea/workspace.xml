@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="BlogNew&#10;博客静态资源导入">
-      <change afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/static/Js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/djangodemo03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/BlogNew/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Project/DjangoBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Project/DjangoBlog/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/1809.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1809.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/templates/01-login.html" />
         <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/templates/01-register.html" />
         <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/run01.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/static/01-register.html" />
@@ -185,6 +183,7 @@
         <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/templates/info.html" />
         <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/manage.py" />
+        <option value="/private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/fz3temp-2/settings.py" />
       </list>
     </option>
   </component>
@@ -199,7 +198,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="787" />
     <option name="y" value="1103" />
     <option name="width" value="1440" />
@@ -214,6 +213,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="1809" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,7 +274,7 @@
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
               <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
@@ -274,18 +284,7 @@
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
               <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="1809" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -496,6 +495,7 @@
       <workItem from="1547178203457" duration="1167000" />
       <workItem from="1547514258297" duration="1247000" />
       <workItem from="1548033280508" duration="29000" />
+      <workItem from="1548240669089" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="添加网页用素材&#10;&#10;(cherry picked from commit 9a49c8d900abe485715f2623299923d6d48cdc4b)">
       <created>1543829594837</created>
@@ -791,11 +791,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547175696818</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="check point">
+      <created>1548240692477</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1548240692477</updated>
+    </task>
+    <task id="LOCAL-00044" summary="check point">
+      <created>1548240715793</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1548240715793</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622840000" />
+    <option name="totallyTimeSpent" value="623609000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -804,10 +818,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="23" width="960" height="1057" extended-state="0" />
+    <frame x="787" y="1103" width="1440" height="877" extended-state="0" />
     <layout>
       <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11970339" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.3093682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.2074392" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17238913" />
       <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36480686" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />
@@ -822,7 +836,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6666667" weight="0.34216103" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33333334" side_tool="true" weight="0.34216103" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" visible="true" weight="0.25906736" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" visible="true" weight="0.31847134" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6026012" weight="0.30051813" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3257468" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.6938998" weight="0.32953367" />
@@ -949,7 +963,8 @@
     <MESSAGE value="ajaxday04跨域请求响应" />
     <MESSAGE value="果园项目集成" />
     <MESSAGE value="BlogNew&#10;博客静态资源导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlogNew&#10;博客静态资源导入" />
+    <MESSAGE value="check point" />
+    <option name="LAST_COMMIT_MESSAGE" value="check point" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -964,9 +979,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/Blog/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Flask/1809Flask/Flaskday02/homework/Blog/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1262,11 +1274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/FruitDay/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/Testday01/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
@@ -1281,6 +1288,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/fz3temp-2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/FruitDay/FruitDay/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="125" column="23" lean-forward="true" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
         </state>
       </provider>
     </entry>
