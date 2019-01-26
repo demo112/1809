@@ -3,17 +3,33 @@
     <words>
       <w>avant</w>
       <w>baidu</w>
+      <w>chaxun</w>
+      <w>cleafix</w>
       <w>datebase</w>
+      <w>ershou</w>
+      <w>getpage</w>
+      <w>jianjie</w>
       <w>khtml</w>
+      <w>lianjiadb</w>
       <w>maoyan</w>
       <w>maxthon</w>
       <w>myset</w>
+      <w>naihan</w>
+      <w>naihandb</w>
+      <w>naojin</w>
+      <w>neihan</w>
       <w>netclr</w>
+      <w>parsepage</w>
+      <w>prase</w>
+      <w>qiushidb</w>
       <w>releasetime</w>
       <w>rlist</w>
       <w>spiderdb</w>
       <w>spyder</w>
+      <w>tarenacode</w>
       <w>tencent</w>
+      <w>tieba</w>
+      <w>writemongo</w>
     </words>
   </dictionary>
 </component>

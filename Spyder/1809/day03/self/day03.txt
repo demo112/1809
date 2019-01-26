@@ -141,8 +141,8 @@ Day03笔记
       //book/title | //book/price
   7. 函数
     1. contains() :匹配一个属性值中包含某些字符串的节点
-      //title[contains(@lang,"e")]
-      //div[contains(@class,"njjzw")]
+//title[contains(@lang,"e")]
+//div[contains(@class,"njjzw")]
         <div class="njjzw10389403">
         <div class="njjzw12302932">
         <div class="njjzw23092838">

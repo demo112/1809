@@ -2,65 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec27760d-e48d-4794-8674-d2952b175df4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/01-requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/01_cookie访问人人网.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/02-图片爬取示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/02_requests示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/03-params示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/03_图片爬取示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/04_查询参数params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/05_普通代理示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/06_私密代理示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/07_tarenacode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/08_有道翻译requests.pos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/09_xpath练习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/day03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/my.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/代理IP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day03/self/颖宝.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/1809.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/1809.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/05-内涵段子爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/06-tarena爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/base_[path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/有道破解/06-有道翻译requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/有道破解/salt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/有道破解/sign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/有道破解/ts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day03/self/有道破解/youdaoJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/self/02-xpath示例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/self/百度贴吧/百度贴吧爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/self/百度贴吧/糗事百科.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/self/链家/链家网爬取信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/有道破解/07_有道翻译破解版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/有道破解/salt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/有道破解/sign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/有道破解/ts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1809/day04/有道破解/youdaoJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/afsafqfadf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/ip测试小公举.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/user_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/小插件/00-自动变色.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/小插件/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工具包/笔记tarena爬取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonWeb/Project/DjangoBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonWeb/Project/DjangoBlog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/01-urlopen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/01_quote示例.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/01_urlopen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/02-request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/02_Request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/03-百度搜索.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/03_urlencode示例.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/04-lianxi_baidutiba.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/04_百度贴吧数据抓取.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/05_百度贴吧数据抓取(类).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/06_有道翻译POST.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/day01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/tieba_class.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day01/美女1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/01_贪婪与非贪婪.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/02-联系正则分组.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/02_正则分组.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/03-猫眼top100爬取信息.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/03_正则分组练习.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/04_内涵脑筋急转弯正则.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/05_csv模块示例.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/06_猫眼电影正则.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/07_pymongo回顾.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/08_猫眼电影存入mongo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/09_pymysql回顾.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/10_MaoYanToMysql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/Top100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/day02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/use_mongo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/use_mysql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/userAgent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/内涵.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/猫眼.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/猫眼电影.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day02/脑筋急转弯.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808/day03/day03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1808/day03/day03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1809/User-agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1809/day03/self/day03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1809/day03/self/day03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1809/ip_sea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/工具包/ip_sea.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1809/ip测试小公举.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_agent.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,20 +47,30 @@
     <option name="initialCount" value="10000" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Spyder$.coverage" NAME="启信宝爬取信息 Coverage Results" MODIFIED="1548260588934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
-    <SUITE FILE_PATH="coverage/Spyder$ip_2.coverage" NAME="ip测试小公举 2 Coverage Results" MODIFIED="1548308002541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809" />
-    <SUITE FILE_PATH="coverage/Spyder$use_mysql.coverage" NAME="use_mysql Coverage Results" MODIFIED="1548229093965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
+    <SUITE FILE_PATH="coverage/Spyder$07_.coverage" NAME="07_有道翻译破解版 Coverage Results" MODIFIED="1548379669999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day04/有道破解" />
+    <SUITE FILE_PATH="coverage/Spyder$05_.coverage" NAME="05-内涵段子爬取 Coverage Results" MODIFIED="1548315566074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
+    <SUITE FILE_PATH="coverage/Spyder$00_.coverage" NAME="00-自动变色 Coverage Results" MODIFIED="1548310245689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
     <SUITE FILE_PATH="coverage/Spyder$user_agent.coverage" NAME="user_agent Coverage Results" MODIFIED="1548305036862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Spyder$01_.coverage" NAME="01_贪婪与非贪婪 Coverage Results" MODIFIED="1548181097189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
-    <SUITE FILE_PATH="coverage/Spyder$03_params.coverage" NAME="03-params示例 Coverage Results" MODIFIED="1548296729769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
+    <SUITE FILE_PATH="coverage/Spyder$02_xpath.coverage" NAME="02-xpath示例 Coverage Results" MODIFIED="1548386540941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day04/self" />
     <SUITE FILE_PATH="coverage/Spyder$01_requests.coverage" NAME="01-requests Coverage Results" MODIFIED="1548294558886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03" />
     <SUITE FILE_PATH="coverage/Spyder$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1548226601110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
     <SUITE FILE_PATH="coverage/Spyder$06_POST.coverage" NAME="06_有道翻译POST Coverage Results" MODIFIED="1548259964326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day01" />
     <SUITE FILE_PATH="coverage/Spyder$02_.coverage" NAME="02-图片爬取示例 Coverage Results" MODIFIED="1548296297070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
     <SUITE FILE_PATH="coverage/Spyder$tieba_class.coverage" NAME="tieba_class Coverage Results" MODIFIED="1548117399272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day01" />
     <SUITE FILE_PATH="coverage/Spyder$03_top100.coverage" NAME="03-猫眼top100爬取信息 Coverage Results" MODIFIED="1548234394548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
-    <SUITE FILE_PATH="coverage/Spyder$ip.coverage" NAME="ip测试小公举 Coverage Results" MODIFIED="1548307914467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809" />
-    <SUITE FILE_PATH="coverage/Spyder$03_.coverage" NAME="03-百度搜索 Coverage Results" MODIFIED="1548109983766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day01" />
+    <SUITE FILE_PATH="coverage/Spyder$ip__1_.coverage" NAME="ip测试小公举 (1) Coverage Results" MODIFIED="1548409762594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/工具包" />
+    <SUITE FILE_PATH="coverage/Spyder$04_.coverage" NAME="04_百度贴吧图片和视频 Coverage Results" MODIFIED="1548421010151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/day04/spider/百度贴吧图片抓取" />
+    <SUITE FILE_PATH="coverage/Spyder$.coverage" NAME="链家网爬取信息 Coverage Results" MODIFIED="1548495578599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day04/self" />
+    <SUITE FILE_PATH="coverage/Spyder$base__path.coverage" NAME="base_[path Coverage Results" MODIFIED="1548334895022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
+    <SUITE FILE_PATH="coverage/Spyder$ip_2.coverage" NAME="ip测试小公举 2 Coverage Results" MODIFIED="1548308002541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809" />
+    <SUITE FILE_PATH="coverage/Spyder$06_tarena.coverage" NAME="06-tarena爬取 Coverage Results" MODIFIED="1548378091147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
+    <SUITE FILE_PATH="coverage/Spyder$use_mysql.coverage" NAME="use_mysql Coverage Results" MODIFIED="1548229093965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
+    <SUITE FILE_PATH="coverage/Spyder$01_.coverage" NAME="01_贪婪与非贪婪 Coverage Results" MODIFIED="1548181097189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day02" />
+    <SUITE FILE_PATH="coverage/Spyder$03_params.coverage" NAME="03-params示例 Coverage Results" MODIFIED="1548296729769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
+    <SUITE FILE_PATH="coverage/Spyder$ip.coverage" NAME="ip测试小公举 Coverage Results" MODIFIED="1548309477311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809" />
+    <SUITE FILE_PATH="coverage/Spyder$06_requests__1_.coverage" NAME="06-有道翻译requests (1) Coverage Results" MODIFIED="1548379327172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day04/有道破解" />
+    <SUITE FILE_PATH="coverage/Spyder$06_requests.coverage" NAME="06-有道翻译requests Coverage Results" MODIFIED="1548324415744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self/有道破解" />
+    <SUITE FILE_PATH="coverage/Spyder$03_.coverage" NAME="03_百度贴吧图片抓取 Coverage Results" MODIFIED="1548418633044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/com.trendmicro.DrUnzip/DrUnzip/.du..7Ya48cjwkP/day04/百度贴吧图片抓取" />
     <SUITE FILE_PATH="coverage/Spyder$04_lianxi_baidutiba.coverage" NAME="04-lianxi_baidutiba Coverage Results" MODIFIED="1548224157476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day01" />
   </component>
   <component name="DatabaseView">
@@ -131,16 +116,69 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Spyder" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user_agent.py">
+        <entry file="file://$PROJECT_DIR$/1809/day04/self/链家/链家网爬取信息.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+            <state relative-caret-position="51">
+              <caret line="113" column="20" lean-forward="true" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
               <folding>
-                <element signature="e#92#1969#0" />
-                <element signature="e#1992#8934#0" />
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#3534#3557#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1809/day04/self/jn二手房信息.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧/糗事百科.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1809/day02/self/07_pymongo回顾.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1809/day02/self/05_csv模块示例.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧/百度贴吧爬取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +198,26 @@
     <findStrings>
       <find />
       <find />
+      <find>e =</find>
+      <find>print</find>
+      <find>sleep</find>
+      <find>//book//title[lang='en']</find>
       <find>,</find>
+      <find>\</find>
+      <find>‘</find>
+      <find>222.217.30.137</find>
+      <find>仙女的</find>
+      <find>mp4</find>
+      <find>http://tb-video.bdstatic.com/tieba-smallvideo-transcode/898186_85efc3e715f2c2edb9e86a3fc70864b8_0.mp4</find>
+      <find>b8_0.mp4</find>
+      <find>video_src_wrap_main</find>
+      <find>video_src_wrapper</find>
+      <find>video_</find>
+      <find>video_src_wrap</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -170,15 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1809/day01/03-百度搜索.py" />
-        <option value="$PROJECT_DIR$/1809/day01/tieba_class.py" />
-        <option value="$PROJECT_DIR$/1809/day02/01_贪婪与非贪婪.py" />
-        <option value="$PROJECT_DIR$/1809/day02/02_正则分组.py" />
-        <option value="$PROJECT_DIR$/1809/day02/02-联系正则分组.py" />
-        <option value="$PROJECT_DIR$/1809/day01/04-lianxi_baidutiba.py" />
-        <option value="$PROJECT_DIR$/1809/day02/mongo.py" />
-        <option value="$PROJECT_DIR$/1809/day02/mysql.py" />
-        <option value="$PROJECT_DIR$/1809/day02/use_mongo.py" />
         <option value="$PROJECT_DIR$/1809/day02/use_mysql.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/1809/day02/03-猫眼top100爬取信息.py" />
@@ -197,17 +244,47 @@
         <option value="$PROJECT_DIR$/1809/day03/self/03-params示例.py" />
         <option value="$PROJECT_DIR$/1809/ip_sea.py" />
         <option value="$PROJECT_DIR$/1809/user_agent.py" />
-        <option value="$PROJECT_DIR$/user_agent.py" />
-        <option value="$PROJECT_DIR$/1809/ip测试小公举.py" />
         <option value="$PROJECT_DIR$/1809/ip测试小公举 2.py" />
+        <option value="$PROJECT_DIR$/1809/ip测试小公举.py" />
+        <option value="$PROJECT_DIR$/工具包/__init__.py" />
+        <option value="$PROJECT_DIR$/工具包/ip测试小公举.py" />
+        <option value="$PROJECT_DIR$/工具包/工具包/ip测试小公举.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/00-自动变色.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/05-内涵段子爬取.py" />
+        <option value="$PROJECT_DIR$/1809/ip_sea.csv" />
+        <option value="$PROJECT_DIR$/1809/day03/self/youdaoJS.js" />
+        <option value="$PROJECT_DIR$/1809/day03/self/有道破解/ts.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/有道破解/salt.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/有道破解/sign.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/base_[path.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/Note.txt" />
+        <option value="$PROJECT_DIR$/1809/day03/self/06-tarena爬取.py" />
+        <option value="$PROJECT_DIR$/1809/day03/self/有道破解/06-有道翻译requests.py" />
+        <option value="$PROJECT_DIR$/1809/day04/有道破解/06-有道翻译requests.py" />
+        <option value="$PROJECT_DIR$/1809/day04/有道破解/07_有道翻译破解版.py" />
+        <option value="$PROJECT_DIR$/1809/day04/self/02-xpath示例.py" />
+        <option value="$PROJECT_DIR$/工具包/笔记tarena爬取.py" />
+        <option value="$PROJECT_DIR$/工具包/afsafqfadf.py" />
+        <option value="$PROJECT_DIR$/工具包/user_agent.py" />
+        <option value="$PROJECT_DIR$/工具包/ip测试小公举.py" />
+        <option value="$PROJECT_DIR$/1809/day04/self/百度贴吧/糗事百科.py" />
+        <option value="$PROJECT_DIR$/1809/day04/self/百度贴吧/2page.html" />
+        <option value="$USER_HOME$/Downloads/【视频】你在南方的艳阳里 我在北方的寒夜里【校花吧】_百度贴吧.html" />
+        <option value="$PROJECT_DIR$/user_agent.py" />
+        <option value="$PROJECT_DIR$/1809/day04/self/百度贴吧/hahahahhaha.html" />
+        <option value="$PROJECT_DIR$/1809/day04/self/百度贴吧/百度贴吧爬取.py" />
+        <option value="$USER_HOME$/Downloads/day04/spider/百度贴吧图片抓取/04_百度贴吧图片和视频.py" />
+        <option value="$PROJECT_DIR$/1809/day04/self/链家网爬取信息.py" />
+        <option value="$PROJECT_DIR$/1809/day04/self/jn二手房信息.csv" />
+        <option value="$PROJECT_DIR$/1809/day04/self/链家/链家网爬取信息.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="984" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="44" />
     <option name="y" value="23" />
-    <option name="width" value="936" />
-    <option name="height" value="1057" />
+    <option name="width" value="1396" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -253,7 +330,7 @@
               <item name="Spyder" type="462c0819:PsiDirectoryNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
@@ -270,12 +347,41 @@
             </path>
             <path>
               <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
+              <item name="百度贴吧" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
+              <item name="链家" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="工具包" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -289,6 +395,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last.edited.regexp" value="lkk.lll" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,15 +403,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/1809/day03/self" />
-      <recent name="$PROJECT_DIR$/1809/day02" />
+      <recent name="$PROJECT_DIR$/工具包" />
+      <recent name="$PROJECT_DIR$/1809/day04/有道破解" />
+      <recent name="$PROJECT_DIR$/1809/day04" />
+      <recent name="$PROJECT_DIR$/1809/day03" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/1809" />
+      <recent name="$PROJECT_DIR$/1809/day04/self/链家" />
+      <recent name="$PROJECT_DIR$/1809/day03/self/有道破解" />
       <recent name="$PROJECT_DIR$/1809/day03/self" />
-      <recent name="C:\Users\cooper\iCloudDrive\AID\cooper_Python\1809\Spyder\1809\day01" />
-      <recent name="C:\Users\cooper\iCloudDrive\AID\cooper_Python\1809\Spyder\1809" />
+      <recent name="$PROJECT_DIR$/工具包/小插件" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,8 +429,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ip测试小公举 2">
-    <configuration name="02-图片爬取示例" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.链家网爬取信息">
+    <configuration name="百度贴吧爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,12 +438,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809/day03/self" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809/day04/self/百度贴吧" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/day03/self/02-图片爬取示例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/day04/self/百度贴吧/百度贴吧爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +452,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03-params示例" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03_百度贴吧图片抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,56 +460,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809/day03/self" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/day03/self/03-params示例.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ip测试小公举 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spyder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/ip测试小公举 2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ip测试小公举" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spyder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809" />
+      <option name="WORKING_DIRECTORY" value="/private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/com.trendmicro.DrUnzip/DrUnzip/.du..7Ya48cjwkP/day04/百度贴吧图片抓取" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/ip测试小公举.py" />
+      <option name="SCRIPT_NAME" value="/private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/com.trendmicro.DrUnzip/DrUnzip/.du..7Ya48cjwkP/day04/百度贴吧图片抓取/03_百度贴吧图片抓取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -408,29 +474,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spyder_env" type="PythonConfigurationType" factoryName="Python">
-      <module name="Spyder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="user_agent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04_百度贴吧图片和视频" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,12 +482,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/day04/spider/百度贴吧图片抓取" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/day04/spider/百度贴吧图片抓取/04_百度贴吧图片和视频.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="糗事百科" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spyder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809/day04/self/百度贴吧" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_agent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/day04/self/百度贴吧/糗事百科.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="链家网爬取信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spyder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1809/day04/self" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1809/day04/self/链家/链家网爬取信息.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -453,20 +541,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.spyder_env" />
-      <item itemvalue="Python.02-图片爬取示例" />
-      <item itemvalue="Python.03-params示例" />
-      <item itemvalue="Python.ip测试小公举" />
-      <item itemvalue="Python.user_agent" />
-      <item itemvalue="Python.ip测试小公举 2" />
+      <item itemvalue="Python.百度贴吧爬取" />
+      <item itemvalue="Python.糗事百科" />
+      <item itemvalue="Python.03_百度贴吧图片抓取" />
+      <item itemvalue="Python.04_百度贴吧图片和视频" />
+      <item itemvalue="Python.链家网爬取信息" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ip测试小公举 2" />
-        <item itemvalue="Python.ip测试小公举" />
-        <item itemvalue="Python.user_agent" />
-        <item itemvalue="Python.03-params示例" />
-        <item itemvalue="Python.02-图片爬取示例" />
+        <item itemvalue="Python.链家网爬取信息" />
+        <item itemvalue="Python.04_百度贴吧图片和视频" />
+        <item itemvalue="Python.百度贴吧爬取" />
+        <item itemvalue="Python.03_百度贴吧图片抓取" />
+        <item itemvalue="Python.糗事百科" />
       </list>
     </recent_temporary>
   </component>
@@ -485,22 +572,32 @@
       <workItem from="1548176571190" duration="10635000" />
       <workItem from="1548222862274" duration="10127000" />
       <workItem from="1548240531193" duration="133000" />
-      <workItem from="1548256577334" duration="15114000" />
+      <workItem from="1548256577334" duration="91364000" />
     </task>
+    <task id="LOCAL-00001" summary="ip测试工具">
+      <created>1548308098441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548308098441</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47828000" />
+    <option name="totallyTimeSpent" value="124078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="984" y="23" width="936" height="1057" extended-state="0" />
+    <frame x="44" y="23" width="1396" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1588367" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49938348" visible="true" weight="0.15288036" />
+      <window_info id="Structure" order="1" sideWeight="0.50061655" weight="0.22259508" />
+      <window_info id="Favorites" order="2" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.22487047" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.20518135" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2238342" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49775785" visible="true" weight="0.23184714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -508,7 +605,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32738853" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50224215" side_tool="true" weight="0.15544042" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3018648" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.3299363" />
@@ -516,353 +613,855 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32904148" />
-      <window_info anchor="right" id="Database" order="4" weight="0.09728183" />
+      <window_info anchor="right" id="Database" order="4" weight="0.096821874" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ip测试工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip测试工具" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1809/day01/01_quote示例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="236" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="236" />
-        </state>
-      </provider>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/navigator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/03-百度搜索.py">
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/有道破解/sign.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/校花7.html" />
-    <entry file="file://$PROJECT_DIR$/1809/day01/美女5.html" />
-    <entry file="file://$PROJECT_DIR$/1809/day01/美女30.html" />
-    <entry file="file://$PROJECT_DIR$/1809/day01/PYTHON12.html" />
-    <entry file="file://C:/Python36/Lib/string.py" />
-    <entry file="file://$PROJECT_DIR$/1809/day02/01_贪婪与非贪婪.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="233">
+          <caret line="17190" column="12" selection-start-line="17190" selection-start-column="12" selection-end-line="17190" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/tieba_class.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="30" selection-start-line="13" selection-end-line="14" />
+        <state relative-caret-position="233">
+          <caret line="4209" column="12" selection-start-line="4209" selection-start-column="12" selection-end-line="4209" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/ip_sea.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="574">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/有道破解/youdaoJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="8245" column="18" selection-start-line="8245" selection-start-column="18" selection-end-line="8245" selection-end-column="18" />
+          <folding>
+            <element signature="e#268#274#1" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/有道破解/salt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/csv.py" />
-    <entry file="file://$PROJECT_DIR$/1809/day02/animal.csv" />
-    <entry file="file://$PROJECT_DIR$/1809/day02/02_正则分组.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="233">
+          <caret line="2318" column="8" selection-start-line="2318" selection-start-column="8" selection-end-line="2318" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/dict_server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/dict_insert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/dict_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/dict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-862" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/06_私密代理示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/03_图片爬取示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/Note.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/base_[path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/有道破解/ts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/有道破解/06-有道翻译requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/有道破解/06-有道翻译requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#1057#1943#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/请及时转移到移动硬盘/AID1809_CrawlFiles/day03/bookStore.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/05_百度贴吧数据抓取(类).py">
+    <entry file="file://$PROJECT_DIR$/../../../../../../Caches/PyCharm2018.3/python_stubs/1437855905/lxml/etree/_Element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="174">
+          <caret line="377" column="23" selection-start-line="377" selection-start-column="23" selection-end-line="377" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../Caches/PyCharm2018.3/python_stubs/1437855905/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2154">
+          <caret line="341" column="4" selection-start-line="341" selection-start-column="4" selection-end-line="341" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具包/笔记tarena爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/02-xpath示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/有道破解/07_有道翻译破解版.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/06-tarena爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="111" column="11" lean-forward="true" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="81" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/03_正则分组练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/02-联系正则分组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/10_MaoYanToMysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/04-lianxi_baidutiba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#153#1870#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymongo/collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="3320" selection-start-line="3320" selection-end-line="3320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/ssl.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/08_猫眼电影存入mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/09_pymysql回顾.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="32" column="7" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/59c0d561-63c7-44fb-b788-109594d45d85/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://59c0d561-63c7-44fb-b788-109594d45d85/schema/spider/table/t1" />
-    <entry file="file://$PROJECT_DIR$/1809/day02/use_mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://59c0d561-63c7-44fb-b788-109594d45d85/schema/spider/table/top100" />
-    <entry file="file://$PROJECT_DIR$/1809/day02/use_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://59c0d561-63c7-44fb-b788-109594d45d85/schema/mysql/table/user" />
-    <entry file="das://59c0d561-63c7-44fb-b788-109594d45d85/schema/maoyandb/table/top100" />
-    <entry file="file://$PROJECT_DIR$/1809/day02/Top100.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/setuptools/package_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/user_agent/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5390#5396#0" expanded="true" />
-            <element signature="e#5396#5402#0" expanded="true" />
-            <element signature="e#5402#5408#0" expanded="true" />
-            <element signature="e#5408#5414#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/03-猫眼top100爬取信息.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding>
-            <element signature="e#357#2234#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/userAgent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/04_百度贴吧数据抓取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day01/06_有道翻译POST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/启信宝爬取信息.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#3733#4098#0" />
-            <element signature="e#4143#4474#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day03/self/my.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day03/self/01-requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day03/self/代理IP.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day03/self/zhaoliying.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day03/self/02_requests示例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1809/day03/self/02-图片爬取示例.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="81" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="81" />
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/ip_sea.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day03/self/03-params示例.py">
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/05_普通代理示例.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/day02/day02/04_csv模块示例.py">
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧图片抓取/01_百度贴吧图片抓取.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="654">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/random.py">
+    <entry file="file://$PROJECT_DIR$/工具包/ip测试小公举.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="215" column="8" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/ip_sea.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1809/ip测试小公举.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="603">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1809/ip测试小公举 2.py">
+    <entry file="file://$PROJECT_DIR$/工具包/afsafqfadf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="625">
+          <caret line="58" column="23" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧/2page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="675" column="9" lean-forward="true" selection-start-line="675" selection-start-column="9" selection-end-line="675" selection-end-column="9" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="e#23660#23721#0" expanded="true" />
+            <element signature="e#23780#23801#0" expanded="true" />
+            <element signature="e#24264#24285#0" expanded="true" />
+            <element signature="e#24309#24330#0" expanded="true" />
+            <element signature="e#24647#24667#0" expanded="true" />
+            <element signature="e#24936#24942#1" expanded="true" />
+            <element signature="e#25003#25009#1" expanded="true" />
+            <element signature="e#25065#25071#1" expanded="true" />
+            <element signature="e#25359#25365#1" expanded="true" />
+            <element signature="e#25388#25394#1" expanded="true" />
+            <element signature="e#25417#25423#1" expanded="true" />
+            <element signature="e#25446#25452#1" expanded="true" />
+            <element signature="e#25475#25481#1" expanded="true" />
+            <element signature="e#25504#25510#1" expanded="true" />
+            <element signature="e#25533#25539#1" expanded="true" />
+            <element signature="e#25571#25577#1" expanded="true" />
+            <element signature="e#25600#25606#1" expanded="true" />
+            <element signature="e#25629#25635#1" expanded="true" />
+            <element signature="e#25658#25664#1" expanded="true" />
+            <element signature="e#25687#25693#1" expanded="true" />
+            <element signature="e#25716#25722#1" expanded="true" />
+            <element signature="e#25745#25751#1" expanded="true" />
+            <element signature="e#25783#25789#1" expanded="true" />
+            <element signature="e#25812#25818#1" expanded="true" />
+            <element signature="e#25841#25847#1" expanded="true" />
+            <element signature="e#25870#25876#1" expanded="true" />
+            <element signature="e#25899#25905#1" expanded="true" />
+            <element signature="e#25928#25934#1" expanded="true" />
+            <element signature="e#25957#25963#1" expanded="true" />
+            <element signature="e#25995#26001#1" expanded="true" />
+            <element signature="e#26024#26030#1" expanded="true" />
+            <element signature="e#26053#26059#1" expanded="true" />
+            <element signature="e#26082#26088#1" expanded="true" />
+            <element signature="e#26111#26117#1" expanded="true" />
+            <element signature="e#26140#26146#1" expanded="true" />
+            <element signature="e#26169#26175#1" expanded="true" />
+            <element signature="e#26201#26221#0" expanded="true" />
+            <element signature="e#26240#26246#1" expanded="true" />
+            <element signature="e#26269#26275#1" expanded="true" />
+            <element signature="e#26298#26304#1" expanded="true" />
+            <element signature="e#26327#26333#1" expanded="true" />
+            <element signature="e#26356#26362#1" expanded="true" />
+            <element signature="e#26385#26391#1" expanded="true" />
+            <element signature="e#26414#26420#1" expanded="true" />
+            <element signature="e#26446#26466#0" expanded="true" />
+            <element signature="e#26485#26491#1" expanded="true" />
+            <element signature="e#26514#26520#1" expanded="true" />
+            <element signature="e#26543#26549#1" expanded="true" />
+            <element signature="e#26572#26578#1" expanded="true" />
+            <element signature="e#26601#26607#1" expanded="true" />
+            <element signature="e#26630#26636#1" expanded="true" />
+            <element signature="e#26659#26665#1" expanded="true" />
+            <element signature="e#28590#28611#0" expanded="true" />
+            <element signature="e#28766#28783#0" expanded="true" />
+            <element signature="e#28982#28988#0" expanded="true" />
+            <element signature="e#28988#28994#0" expanded="true" />
+            <element signature="e#32677#32700#0" expanded="true" />
+            <element signature="e#32720#32744#0" expanded="true" />
+            <element signature="e#32967#32988#0" expanded="true" />
+            <element signature="e#33297#33317#0" expanded="true" />
+            <element signature="e#35665#35922#0" />
+            <element signature="e#37265#37287#0" expanded="true" />
+            <element signature="e#37904#37944#0" expanded="true" />
+            <element signature="e#38089#38110#0" expanded="true" />
+            <element signature="e#38124#38130#0" expanded="true" />
+            <element signature="e#38199#38216#0" expanded="true" />
+            <element signature="e#38292#38313#0" expanded="true" />
+            <element signature="e#38405#38422#0" expanded="true" />
+            <element signature="e#39210#39232#0" expanded="true" />
+            <element signature="e#40442#40465#0" expanded="true" />
+            <element signature="e#42626#42648#0" expanded="true" />
+            <element signature="e#43289#43310#0" expanded="true" />
+            <element signature="e#43324#43330#0" expanded="true" />
+            <element signature="e#43399#43416#0" expanded="true" />
+            <element signature="e#43492#43513#0" expanded="true" />
+            <element signature="e#43605#43622#0" expanded="true" />
+            <element signature="e#43728#43750#0" expanded="true" />
+            <element signature="e#44010#44027#0" expanded="true" />
+            <element signature="e#44062#44082#0" expanded="true" />
+            <element signature="e#44683#44706#0" expanded="true" />
+            <element signature="e#46476#46498#0" expanded="true" />
+            <element signature="e#47136#47157#0" expanded="true" />
+            <element signature="e#47171#47177#0" expanded="true" />
+            <element signature="e#47246#47263#0" expanded="true" />
+            <element signature="e#47339#47360#0" expanded="true" />
+            <element signature="e#47452#47469#0" expanded="true" />
+            <element signature="e#47575#47597#0" expanded="true" />
+            <element signature="e#47857#47874#0" expanded="true" />
+            <element signature="e#47909#47929#0" expanded="true" />
+            <element signature="e#48534#48557#0" expanded="true" />
+            <element signature="e#51160#51190#0" expanded="true" />
+            <element signature="e#51293#51315#0" expanded="true" />
+            <element signature="e#51953#51974#0" expanded="true" />
+            <element signature="e#51988#51994#0" expanded="true" />
+            <element signature="e#52063#52080#0" expanded="true" />
+            <element signature="e#52156#52177#0" expanded="true" />
+            <element signature="e#52269#52286#0" expanded="true" />
+            <element signature="e#52393#52415#0" expanded="true" />
+            <element signature="e#52675#52692#0" expanded="true" />
+            <element signature="e#52727#52747#0" expanded="true" />
+            <element signature="e#53352#53375#0" expanded="true" />
+            <element signature="e#56349#56371#0" expanded="true" />
+            <element signature="e#57012#57033#0" expanded="true" />
+            <element signature="e#57047#57053#0" expanded="true" />
+            <element signature="e#57122#57139#0" expanded="true" />
+            <element signature="e#57215#57236#0" expanded="true" />
+            <element signature="e#57328#57345#0" expanded="true" />
+            <element signature="e#57814#57836#0" expanded="true" />
+            <element signature="e#58096#58113#0" expanded="true" />
+            <element signature="e#58148#58168#0" expanded="true" />
+            <element signature="e#58773#58796#0" expanded="true" />
+            <element signature="e#61144#61166#0" expanded="true" />
+            <element signature="e#61807#61828#0" expanded="true" />
+            <element signature="e#61842#61848#0" expanded="true" />
+            <element signature="e#61917#61934#0" expanded="true" />
+            <element signature="e#62010#62031#0" expanded="true" />
+            <element signature="e#62123#62140#0" expanded="true" />
+            <element signature="e#62254#62276#0" expanded="true" />
+            <element signature="e#62536#62553#0" expanded="true" />
+            <element signature="e#62588#62608#0" expanded="true" />
+            <element signature="e#63213#63236#0" expanded="true" />
+            <element signature="e#65486#65508#0" expanded="true" />
+            <element signature="e#66146#66167#0" expanded="true" />
+            <element signature="e#66181#66187#0" expanded="true" />
+            <element signature="e#66256#66273#0" expanded="true" />
+            <element signature="e#66349#66370#0" expanded="true" />
+            <element signature="e#66462#66479#0" expanded="true" />
+            <element signature="e#66588#66610#0" expanded="true" />
+            <element signature="e#66870#66887#0" expanded="true" />
+            <element signature="e#66922#66942#0" expanded="true" />
+            <element signature="e#67547#67570#0" expanded="true" />
+            <element signature="e#67701#67722#0" expanded="true" />
+            <element signature="e#72248#72271#0" expanded="true" />
+            <element signature="e#72291#72315#0" expanded="true" />
+            <element signature="e#73668#73674#0" expanded="true" />
+            <element signature="e#73674#73680#0" expanded="true" />
+            <element signature="e#73745#73781#0" expanded="true" />
+            <element signature="e#73973#73979#1" expanded="true" />
+            <element signature="e#74081#74087#1" expanded="true" />
+            <element signature="e#74090#74111#0" expanded="true" />
+            <element signature="e#74703#74725#0" expanded="true" />
+            <element signature="e#75158#75164#0" expanded="true" />
+            <element signature="e#148950#149011#0" expanded="true" />
+            <element signature="e#149070#149091#0" expanded="true" />
+            <element signature="e#149554#149575#0" expanded="true" />
+            <element signature="e#149599#149620#0" expanded="true" />
+            <element signature="e#149937#149957#0" expanded="true" />
+            <element signature="e#150226#150232#1" expanded="true" />
+            <element signature="e#150293#150299#1" expanded="true" />
+            <element signature="e#150355#150361#1" expanded="true" />
+            <element signature="e#150649#150655#1" expanded="true" />
+            <element signature="e#150678#150684#1" expanded="true" />
+            <element signature="e#150707#150713#1" expanded="true" />
+            <element signature="e#150736#150742#1" expanded="true" />
+            <element signature="e#150765#150771#1" expanded="true" />
+            <element signature="e#150794#150800#1" expanded="true" />
+            <element signature="e#150823#150829#1" expanded="true" />
+            <element signature="e#150861#150867#1" expanded="true" />
+            <element signature="e#150890#150896#1" expanded="true" />
+            <element signature="e#150919#150925#1" expanded="true" />
+            <element signature="e#150948#150954#1" expanded="true" />
+            <element signature="e#150977#150983#1" expanded="true" />
+            <element signature="e#151006#151012#1" expanded="true" />
+            <element signature="e#151035#151041#1" expanded="true" />
+            <element signature="e#151073#151079#1" expanded="true" />
+            <element signature="e#151102#151108#1" expanded="true" />
+            <element signature="e#151131#151137#1" expanded="true" />
+            <element signature="e#151160#151166#1" expanded="true" />
+            <element signature="e#151189#151195#1" expanded="true" />
+            <element signature="e#151218#151224#1" expanded="true" />
+            <element signature="e#151247#151253#1" expanded="true" />
+            <element signature="e#151285#151291#1" expanded="true" />
+            <element signature="e#151314#151320#1" expanded="true" />
+            <element signature="e#151343#151349#1" expanded="true" />
+            <element signature="e#151372#151378#1" expanded="true" />
+            <element signature="e#151401#151407#1" expanded="true" />
+            <element signature="e#151430#151436#1" expanded="true" />
+            <element signature="e#151459#151465#1" expanded="true" />
+            <element signature="e#151491#151511#0" expanded="true" />
+            <element signature="e#151530#151536#1" expanded="true" />
+            <element signature="e#151559#151565#1" expanded="true" />
+            <element signature="e#151588#151594#1" expanded="true" />
+            <element signature="e#151617#151623#1" expanded="true" />
+            <element signature="e#151646#151652#1" expanded="true" />
+            <element signature="e#151675#151681#1" expanded="true" />
+            <element signature="e#151704#151710#1" expanded="true" />
+            <element signature="e#151736#151756#0" expanded="true" />
+            <element signature="e#151775#151781#1" expanded="true" />
+            <element signature="e#151804#151810#1" expanded="true" />
+            <element signature="e#151833#151839#1" expanded="true" />
+            <element signature="e#151862#151868#1" expanded="true" />
+            <element signature="e#151891#151897#1" expanded="true" />
+            <element signature="e#151920#151926#1" expanded="true" />
+            <element signature="e#151949#151955#1" expanded="true" />
+            <element signature="e#153880#153901#0" expanded="true" />
+            <element signature="e#154056#154073#0" expanded="true" />
+            <element signature="e#154272#154278#0" expanded="true" />
+            <element signature="e#154278#154284#0" expanded="true" />
+            <element signature="e#157967#157990#0" expanded="true" />
+            <element signature="e#158010#158034#0" expanded="true" />
+            <element signature="e#158257#158278#0" expanded="true" />
+            <element signature="e#158602#158622#0" expanded="true" />
+            <element signature="e#163347#163369#0" expanded="true" />
+            <element signature="e#163986#164026#0" expanded="true" />
+            <element signature="e#164171#164192#0" expanded="true" />
+            <element signature="e#164206#164212#0" expanded="true" />
+            <element signature="e#164281#164298#0" expanded="true" />
+            <element signature="e#164374#164395#0" expanded="true" />
+            <element signature="e#164487#164504#0" expanded="true" />
+            <element signature="e#165527#165549#0" expanded="true" />
+            <element signature="e#166758#166781#0" expanded="true" />
+            <element signature="e#181109#181131#0" expanded="true" />
+            <element signature="e#181768#181789#0" expanded="true" />
+            <element signature="e#181803#181809#0" expanded="true" />
+            <element signature="e#181878#181895#0" expanded="true" />
+            <element signature="e#181971#181992#0" expanded="true" />
+            <element signature="e#182084#182101#0" expanded="true" />
+            <element signature="e#182254#182276#0" expanded="true" />
+            <element signature="e#182536#182553#0" expanded="true" />
+            <element signature="e#182588#182608#0" expanded="true" />
+            <element signature="e#183044#183067#0" expanded="true" />
+            <element signature="e#185467#185489#0" expanded="true" />
+            <element signature="e#186126#186147#0" expanded="true" />
+            <element signature="e#186161#186167#0" expanded="true" />
+            <element signature="e#186236#186253#0" expanded="true" />
+            <element signature="e#186329#186350#0" expanded="true" />
+            <element signature="e#186442#186459#0" expanded="true" />
+            <element signature="e#186764#186786#0" expanded="true" />
+            <element signature="e#187046#187063#0" expanded="true" />
+            <element signature="e#187098#187118#0" expanded="true" />
+            <element signature="e#187554#187577#0" expanded="true" />
+            <element signature="e#190236#190258#0" expanded="true" />
+            <element signature="e#190895#190916#0" expanded="true" />
+            <element signature="e#190930#190936#0" expanded="true" />
+            <element signature="e#191005#191022#0" expanded="true" />
+            <element signature="e#191098#191119#0" expanded="true" />
+            <element signature="e#191211#191228#0" expanded="true" />
+            <element signature="e#191339#191361#0" expanded="true" />
+            <element signature="e#191621#191638#0" expanded="true" />
+            <element signature="e#191673#191693#0" expanded="true" />
+            <element signature="e#192129#192152#0" expanded="true" />
+            <element signature="e#192283#192304#0" expanded="true" />
+            <element signature="e#196830#196853#0" expanded="true" />
+            <element signature="e#196873#196897#0" expanded="true" />
+            <element signature="e#198250#198256#0" expanded="true" />
+            <element signature="e#198256#198262#0" expanded="true" />
+            <element signature="e#198327#198363#0" expanded="true" />
+            <element signature="e#198555#198561#1" expanded="true" />
+            <element signature="e#198663#198669#1" expanded="true" />
+            <element signature="e#198672#198693#0" expanded="true" />
+            <element signature="e#199285#199307#0" expanded="true" />
+            <element signature="e#199740#199746#0" expanded="true" />
+            <element signature="e#285188#285249#0" expanded="true" />
+            <element signature="e#285308#285329#0" expanded="true" />
+            <element signature="e#285792#285813#0" expanded="true" />
+            <element signature="e#285837#285858#0" expanded="true" />
+            <element signature="e#286175#286195#0" expanded="true" />
+            <element signature="e#286464#286470#1" expanded="true" />
+            <element signature="e#286531#286537#1" expanded="true" />
+            <element signature="e#286593#286599#1" expanded="true" />
+            <element signature="e#286887#286893#1" expanded="true" />
+            <element signature="e#286916#286922#1" expanded="true" />
+            <element signature="e#286945#286951#1" expanded="true" />
+            <element signature="e#286974#286980#1" expanded="true" />
+            <element signature="e#287003#287009#1" expanded="true" />
+            <element signature="e#287032#287038#1" expanded="true" />
+            <element signature="e#287061#287067#1" expanded="true" />
+            <element signature="e#287099#287105#1" expanded="true" />
+            <element signature="e#287128#287134#1" expanded="true" />
+            <element signature="e#287157#287163#1" expanded="true" />
+            <element signature="e#287186#287192#1" expanded="true" />
+            <element signature="e#287215#287221#1" expanded="true" />
+            <element signature="e#287244#287250#1" expanded="true" />
+            <element signature="e#287273#287279#1" expanded="true" />
+            <element signature="e#287311#287317#1" expanded="true" />
+            <element signature="e#287340#287346#1" expanded="true" />
+            <element signature="e#287369#287375#1" expanded="true" />
+            <element signature="e#287398#287404#1" expanded="true" />
+            <element signature="e#287427#287433#1" expanded="true" />
+            <element signature="e#287456#287462#1" expanded="true" />
+            <element signature="e#287485#287491#1" expanded="true" />
+            <element signature="e#287523#287529#1" expanded="true" />
+            <element signature="e#287552#287558#1" expanded="true" />
+            <element signature="e#287581#287587#1" expanded="true" />
+            <element signature="e#287610#287616#1" expanded="true" />
+            <element signature="e#287639#287645#1" expanded="true" />
+            <element signature="e#287668#287674#1" expanded="true" />
+            <element signature="e#287697#287703#1" expanded="true" />
+            <element signature="e#287729#287749#0" expanded="true" />
+            <element signature="e#287768#287774#1" expanded="true" />
+            <element signature="e#287797#287803#1" expanded="true" />
+            <element signature="e#287826#287832#1" expanded="true" />
+            <element signature="e#287855#287861#1" expanded="true" />
+            <element signature="e#287884#287890#1" expanded="true" />
+            <element signature="e#287913#287919#1" expanded="true" />
+            <element signature="e#287942#287948#1" expanded="true" />
+            <element signature="e#287974#287994#0" expanded="true" />
+            <element signature="e#288013#288019#1" expanded="true" />
+            <element signature="e#288042#288048#1" expanded="true" />
+            <element signature="e#288071#288077#1" expanded="true" />
+            <element signature="e#288100#288106#1" expanded="true" />
+            <element signature="e#288129#288135#1" expanded="true" />
+            <element signature="e#288158#288164#1" expanded="true" />
+            <element signature="e#288187#288193#1" expanded="true" />
+            <element signature="e#290118#290139#0" expanded="true" />
+            <element signature="e#290294#290311#0" expanded="true" />
+            <element signature="e#290510#290516#0" expanded="true" />
+            <element signature="e#290516#290522#0" expanded="true" />
+            <element signature="e#294205#294228#0" expanded="true" />
+            <element signature="e#294248#294272#0" expanded="true" />
+            <element signature="e#294495#294516#0" expanded="true" />
+            <element signature="e#294824#294844#0" expanded="true" />
+            <element signature="e#297957#297979#0" expanded="true" />
+            <element signature="e#298600#298640#0" expanded="true" />
+            <element signature="e#298785#298806#0" expanded="true" />
+            <element signature="e#298820#298826#0" expanded="true" />
+            <element signature="e#298895#298912#0" expanded="true" />
+            <element signature="e#298988#299009#0" expanded="true" />
+            <element signature="e#299101#299118#0" expanded="true" />
+            <element signature="e#299227#299249#0" expanded="true" />
+            <element signature="e#300461#300484#0" expanded="true" />
+            <element signature="e#300615#300636#0" expanded="true" />
+            <element signature="e#305162#305185#0" expanded="true" />
+            <element signature="e#305205#305229#0" expanded="true" />
+            <element signature="e#306582#306588#0" expanded="true" />
+            <element signature="e#306588#306594#0" expanded="true" />
+            <element signature="e#306659#306695#0" expanded="true" />
+            <element signature="e#306887#306893#1" expanded="true" />
+            <element signature="e#306995#307001#1" expanded="true" />
+            <element signature="e#307004#307025#0" expanded="true" />
+            <element signature="e#307617#307639#0" expanded="true" />
+            <element signature="e#308072#308078#0" expanded="true" />
+            <element signature="n#head#0;n#html#3;n#!!top" />
+            <element signature="e#380272#380333#0" expanded="true" />
+            <element signature="e#380392#380413#0" expanded="true" />
+            <element signature="e#380876#380897#0" expanded="true" />
+            <element signature="e#380921#380942#0" expanded="true" />
+            <element signature="e#381259#381279#0" expanded="true" />
+            <element signature="e#381548#381554#1" expanded="true" />
+            <element signature="e#381615#381621#1" expanded="true" />
+            <element signature="e#381677#381683#1" expanded="true" />
+            <element signature="e#381971#381977#1" expanded="true" />
+            <element signature="e#382000#382006#1" expanded="true" />
+            <element signature="e#382029#382035#1" expanded="true" />
+            <element signature="e#382058#382064#1" expanded="true" />
+            <element signature="e#382087#382093#1" expanded="true" />
+            <element signature="e#382116#382122#1" expanded="true" />
+            <element signature="e#382145#382151#1" expanded="true" />
+            <element signature="e#382183#382189#1" expanded="true" />
+            <element signature="e#382212#382218#1" expanded="true" />
+            <element signature="e#382241#382247#1" expanded="true" />
+            <element signature="e#382270#382276#1" expanded="true" />
+            <element signature="e#382299#382305#1" expanded="true" />
+            <element signature="e#382328#382334#1" expanded="true" />
+            <element signature="e#382357#382363#1" expanded="true" />
+            <element signature="e#382395#382401#1" expanded="true" />
+            <element signature="e#382424#382430#1" expanded="true" />
+            <element signature="e#382453#382459#1" expanded="true" />
+            <element signature="e#382482#382488#1" expanded="true" />
+            <element signature="e#382511#382517#1" expanded="true" />
+            <element signature="e#382540#382546#1" expanded="true" />
+            <element signature="e#382569#382575#1" expanded="true" />
+            <element signature="e#382607#382613#1" expanded="true" />
+            <element signature="e#382636#382642#1" expanded="true" />
+            <element signature="e#382665#382671#1" expanded="true" />
+            <element signature="e#382694#382700#1" expanded="true" />
+            <element signature="e#382723#382729#1" expanded="true" />
+            <element signature="e#382752#382758#1" expanded="true" />
+            <element signature="e#382781#382787#1" expanded="true" />
+            <element signature="e#382813#382833#0" expanded="true" />
+            <element signature="e#382852#382858#1" expanded="true" />
+            <element signature="e#382881#382887#1" expanded="true" />
+            <element signature="e#382910#382916#1" expanded="true" />
+            <element signature="e#382939#382945#1" expanded="true" />
+            <element signature="e#382968#382974#1" expanded="true" />
+            <element signature="e#382997#383003#1" expanded="true" />
+            <element signature="e#383026#383032#1" expanded="true" />
+            <element signature="e#383058#383078#0" expanded="true" />
+            <element signature="e#383097#383103#1" expanded="true" />
+            <element signature="e#383126#383132#1" expanded="true" />
+            <element signature="e#383155#383161#1" expanded="true" />
+            <element signature="e#383184#383190#1" expanded="true" />
+            <element signature="e#383213#383219#1" expanded="true" />
+            <element signature="e#383242#383248#1" expanded="true" />
+            <element signature="e#383271#383277#1" expanded="true" />
+            <element signature="e#385202#385223#0" expanded="true" />
+            <element signature="e#385378#385395#0" expanded="true" />
+            <element signature="e#385594#385600#0" expanded="true" />
+            <element signature="e#385600#385606#0" expanded="true" />
+            <element signature="e#389289#389312#0" expanded="true" />
+            <element signature="e#389332#389356#0" expanded="true" />
+            <element signature="e#389579#389600#0" expanded="true" />
+            <element signature="e#389922#389942#0" expanded="true" />
+            <element signature="e#396454#396476#0" expanded="true" />
+            <element signature="e#397093#397133#0" expanded="true" />
+            <element signature="e#397278#397299#0" expanded="true" />
+            <element signature="e#397313#397319#0" expanded="true" />
+            <element signature="e#397388#397405#0" expanded="true" />
+            <element signature="e#397481#397502#0" expanded="true" />
+            <element signature="e#397594#397611#0" expanded="true" />
+            <element signature="e#399417#399439#0" expanded="true" />
+            <element signature="e#400482#400505#0" expanded="true" />
+            <element signature="e#403029#403051#0" expanded="true" />
+            <element signature="e#403689#403710#0" expanded="true" />
+            <element signature="e#403724#403730#0" expanded="true" />
+            <element signature="e#403799#403816#0" expanded="true" />
+            <element signature="e#403892#403913#0" expanded="true" />
+            <element signature="e#404005#404022#0" expanded="true" />
+            <element signature="e#404130#404152#0" expanded="true" />
+            <element signature="e#404409#404430#0" expanded="true" />
+            <element signature="e#404468#404484#0" expanded="true" />
+            <element signature="e#405085#405109#0" expanded="true" />
+            <element signature="e#407741#407763#0" expanded="true" />
+            <element signature="e#408401#408422#0" expanded="true" />
+            <element signature="e#408436#408442#0" expanded="true" />
+            <element signature="e#408511#408528#0" expanded="true" />
+            <element signature="e#408604#408625#0" expanded="true" />
+            <element signature="e#408717#408734#0" expanded="true" />
+            <element signature="e#409023#409045#0" expanded="true" />
+            <element signature="e#409302#409323#0" expanded="true" />
+            <element signature="e#409361#409377#0" expanded="true" />
+            <element signature="e#409978#410002#0" expanded="true" />
+            <element signature="e#412879#413004#0" expanded="true" />
+            <element signature="e#413996#414022#0" expanded="true" />
+            <element signature="e#414148#414170#0" expanded="true" />
+            <element signature="e#414807#414828#0" expanded="true" />
+            <element signature="e#414842#414848#0" expanded="true" />
+            <element signature="e#414917#414934#0" expanded="true" />
+            <element signature="e#415010#415031#0" expanded="true" />
+            <element signature="e#415123#415140#0" expanded="true" />
+            <element signature="e#415252#415274#0" expanded="true" />
+            <element signature="e#415534#415551#0" expanded="true" />
+            <element signature="e#415586#415606#0" expanded="true" />
+            <element signature="e#416211#416234#0" expanded="true" />
+            <element signature="e#416365#416386#0" expanded="true" />
+            <element signature="e#420912#420935#0" expanded="true" />
+            <element signature="e#420955#420979#0" expanded="true" />
+            <element signature="e#422332#422338#0" expanded="true" />
+            <element signature="e#422338#422344#0" expanded="true" />
+            <element signature="e#422409#422445#0" expanded="true" />
+            <element signature="e#422637#422643#1" expanded="true" />
+            <element signature="e#422745#422751#1" expanded="true" />
+            <element signature="e#422754#422775#0" expanded="true" />
+            <element signature="e#423367#423389#0" expanded="true" />
+            <element signature="e#423822#423828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/【视频】你在南方的艳阳里 我在北方的寒夜里【校花吧】_百度贴吧.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="454" column="518" lean-forward="true" selection-start-line="454" selection-start-column="514" selection-end-line="454" selection-end-column="518" />
+          <folding>
+            <element signature="e#57514#57568#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧/hahahahhaha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="416" column="27437" selection-start-line="416" selection-start-column="27437" selection-end-line="416" selection-end-column="27437" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/com.trendmicro.DrUnzip/DrUnzip/.du..7Ya48cjwkP/day04/百度贴吧图片抓取/03_百度贴吧图片抓取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/day04/spider/百度贴吧图片抓取/05_百度视频示例.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/day04/spider/百度贴吧图片抓取/04_百度贴吧图片和视频.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/04_糗事百科xpath使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+        <state relative-caret-position="189">
+          <caret line="11" column="33" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/22df2ab4014421ba1115a24cb49f75aa/Message/MessageTemp/4b8a240a98f8f8f788f94a67b27f5683/File/链家.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
-            <element signature="e#92#1969#0" />
-            <element signature="e#1992#8934#0" />
+            <element signature="e#68#1629#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/ershoufang.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具包/user_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧/百度贴吧爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day03/self/05-内涵段子爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day02/self/07_pymongo回顾.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day02/self/05_csv模块示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/百度贴吧/糗事百科.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/jn二手房信息.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1809/day04/self/链家/链家网爬取信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="113" column="20" lean-forward="true" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#3534#3557#0" />
           </folding>
         </state>
       </provider>

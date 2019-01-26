@@ -1,0 +1,112 @@
+运维概述
+1. 什么是运维
+  服务器的运行维护
+2. 名词
+  1. IDC(互联网数据中心)
+    服务器租用 机柜租用
+  2. 监控软件
+    zabbix  nagios  cactti
+  3. 常用Linux操作系统
+    1. CentOS
+    2. Ubuntu
+    3. RedHat
+  4. 虚拟化
+  5. nginx反向代理
+    1. 流程
+      客户端 -> 反向代理服务器 -> 把请求转发给内部网络的WEB服务器
+    2. 作用
+      1. 保证内网安全
+      2. 负载均衡,优化网站的负载
+  6. 负载均衡规则(nginx反向代理)
+    1. 轮询 : 逐一循环调度
+    2. 权重(weight) : 指定轮询几率,权重值和访问比例成正比
+    3. ip_hash : 根据客户端IP分配固定的后端服务器
+  7. 负载均衡的实现(修改nginx配置文件)
+    在nginx配置文件中做更改:
+    upstream servers{ # 定义集群
+	server 10.10.10.10;
+	server 10.10.10.11 weight=2;
+	server 10.10.10.12;
+	server 10.10.10.13 backup;
+    }
+
+    server{
+	listen 80;
+	... ...
+    }
+3. 运维工具(XShell)
+  1. xshell(软件,安装在windows上)
+    安全终端模拟软件
+  2. xshell使用方法
+    文件 - 新建 - 输入服务器IP地址 - 用户名 - 密码 - 确认连接
+  3. windows <-> Linux 文件传输
+    1. 安装lszrz
+      sudo apt-get install lrzsz
+    2. windows -> Linux 
+      xshell终端 : rz
+    3. Linux -> windows
+      xshell终端 : sz 文件名
+4. Linux常用命令
+  1. ifconfig : 查看IP地址和MAC地址
+     # windows: ipconfig
+  2. ping : 测试网络连通性
+     ping IP地址/域名 -c 2
+  3. nslookup : 解析域名对应的IP地址
+     nslookup www.baidu.com
+  4. top : Linux下任务管理器,动态显示当前进程CPU及内存使用率,q退出
+     top
+     按 shift + > 或者 < 进行翻页
+     按 q 退出
+  5. ps -aux : 显示进程号(PID)
+     ps -aux | grep "mysql"
+  6. kill : 杀死1个进程
+     sudo kill [-9] PID号
+  7. df -h : 查看磁盘使用情况
+  8. ls -lh : h提供易读单位 
+     ls -lh 文件名
+  9. chmod : 修改文件权限
+     查看权限 : ls -l 
+     chmod +x test.py
+     chmod 644 文件名
+     rw-r--r-- : r(4) w(2) x(1)
+  10. wc -l : 统计文件的行数
+      wc -l /etc/passwd : Linux下用户数
+  11. sort : 对文件中内容进行排序
+      sort 文件名
+  12. uniq -c 
+      去除重复行,并统计每行出现的次数
+      sort 文件名 | uniq -c
+  13. ssh : 远程连接到服务器
+      格式 : ssh 用户名@IP地址 
+             ssh tarena@172.40.X.X
+  14. scp
+      远程复制文件/目录
+      scp 文件名 用户名@IP地址:绝对路径
+      
+
+    
+
+  
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

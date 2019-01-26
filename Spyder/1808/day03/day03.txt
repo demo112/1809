@@ -148,7 +148,7 @@ Day03笔记
         <div class="njjzw23092838">
     2. text() : 获取文本
       //title[contains(@lang,"e")]/text()
-10. lxml库及xpath使用
+10.lxml库及xpath使用
   1. 安装
     管理员Prompt : conda install lxml
   2. 使用流程
