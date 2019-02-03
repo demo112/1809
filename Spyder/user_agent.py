@@ -2,27 +2,31 @@ import random
 
 
 class UserAgent(object):
-    def __init__(self,):
+    def __init__(self, ):
         self.USER_AGENT = [
-            # {'User-agent': 'Mozilla/5.0(Macintosh;U;IntelMacOSX10_6_8;en-us)AppleWebKit/534.50(KHTML,likeGecko)Version/5.1Safari/534.50'},
-            # {'User-agent': 'Mozilla/5.0(Windows;U;WindowsNT6.1;en-us)AppleWebKit/534.50(KHTML,likeGecko)Version/5.1Safari/534.50'},
+            {
+                'User-agent': 'Mozilla/5.0(Macintosh;U;IntelMacOSX10_6_8;en-us)AppleWebKit/534.50(KHTML,likeGecko)Version/5.1Safari/534.50'},
+            {
+                'User-agent': 'Mozilla/5.0(Windows;U;WindowsNT6.1;en-us)AppleWebKit/534.50(KHTML,likeGecko)Version/5.1Safari/534.50'},
             {'User-agent': 'Mozilla/5.0(compatible;MSIE9.0;WindowsNT6.1;Trident/5.0'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE8.0;WindowsNT6.0;Trident/4.0)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT6.0)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE6.0;WindowsNT5.1)'},
-            # {'User-agent': 'Mozilla/5.0(Macintosh;IntelMacOSX10.6;rv:2.0.1)Gecko/20100101Firefox/4.0.1'},
-            # {'User-agent': 'Mozilla/5.0(WindowsNT6.1;rv:2.0.1)Gecko/20100101Firefox/4.0.1'},
-            # {'User-agent': 'Opera/9.80(Macintosh;IntelMacOSX10.6.8;U;en)Presto/2.8.131Version/11.11'},
-            # {'User-agent': 'Opera/9.80(WindowsNT6.1;U;en)Presto/2.8.131Version/11.11'},
-            # {'User-agent': 'Mozilla/5.0(Macintosh;IntelMacOSX10_7_0)AppleWebKit/535.11(KHTML,likeGecko)Chrome/17.0.963.56Safari/535.11'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;Maxthon2.0)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;TencentTraveler4.0)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;TheWorld)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;Trident/4.0;SE2.XMetaSr1.0;SE2.XMetaSr1.0;.NETCLR2.0.50727;SE2.XMetaSr1.0)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;360SE)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;AvantBrowser)'},
-            # {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE8.0;WindowsNT6.0;Trident/4.0)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT6.0)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE6.0;WindowsNT5.1)'},
+            {'User-agent': 'Mozilla/5.0(Macintosh;IntelMacOSX10.6;rv:2.0.1)Gecko/20100101Firefox/4.0.1'},
+            {'User-agent': 'Mozilla/5.0(WindowsNT6.1;rv:2.0.1)Gecko/20100101Firefox/4.0.1'},
+            {'User-agent': 'Opera/9.80(Macintosh;IntelMacOSX10.6.8;U;en)Presto/2.8.131Version/11.11'},
+            {'User-agent': 'Opera/9.80(WindowsNT6.1;U;en)Presto/2.8.131Version/11.11'},
+            {
+                'User-agent': 'Mozilla/5.0(Macintosh;IntelMacOSX10_7_0)AppleWebKit/535.11(KHTML,likeGecko)Chrome/17.0.963.56Safari/535.11'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;Maxthon2.0)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;TencentTraveler4.0)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;TheWorld)'},
+            {
+                'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;Trident/4.0;SE2.XMetaSr1.0;SE2.XMetaSr1.0;.NETCLR2.0.50727;SE2.XMetaSr1.0)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;360SE)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1;AvantBrowser)'},
+            {'User-agent': 'Mozilla/4.0(compatible;MSIE7.0;WindowsNT5.1)'},
         ]
         self.ip_sea = [
             '121.63.199.177:9999',
@@ -226,6 +230,16 @@ class UserAgent(object):
             '115.151.2.73:808',
             '115.151.3.190:9999'
         ]
+        # self.ip_sea = [
+        #     '110.52.235.238,9999',
+        #     '110.52.235.51,9999',
+        #     '110.52.235.219,9999',
+        #     '110.52.235.95,9999',
+        #     '110.52.235.239,9999',
+        #     '110.52.235.122,9999',
+        #     '110.52.235.55,9999',
+        #     '110.52.235.120,9999'
+        # ]
 
     def choice_headers(self):
         num = random.randint(0, len(self.USER_AGENT) - 1)
@@ -242,6 +256,9 @@ class UserAgent(object):
     def check_ip(self, n):
         range_ip = self.ip_sea[n]
         return range_ip
+
+    def ip_lens(self):
+        return len(self.ip_sea)
 
 
 if __name__ == '__main__':

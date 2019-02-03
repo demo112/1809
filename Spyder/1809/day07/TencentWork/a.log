@@ -1,0 +1,90 @@
+2019-01-30 15:26:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://hr.tencent.com/position.php?start=330> (referer: https://hr.tencent.com/position.php?start=)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py", line 36, in parseHtml
+    item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+IndexError: list index out of range
+2019-01-30 15:26:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://hr.tencent.com/position.php?start=390> (referer: https://hr.tencent.com/position.php?start=)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py", line 36, in parseHtml
+    item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+IndexError: list index out of range
+2019-01-30 15:26:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://hr.tencent.com/position.php?start=2730> (referer: https://hr.tencent.com/position.php?start=)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py", line 36, in parseHtml
+    item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+IndexError: list index out of range
+2019-01-30 15:27:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://hr.tencent.com/position.php?start=2620> (referer: https://hr.tencent.com/position.php?start=)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py", line 36, in parseHtml
+    item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+IndexError: list index out of range
+2019-01-30 15:27:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://hr.tencent.com/position.php?start=2120> (referer: https://hr.tencent.com/position.php?start=)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py", line 36, in parseHtml
+    item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+IndexError: list index out of range
+2019-01-30 15:28:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://hr.tencent.com/position.php?start=1850> (referer: https://hr.tencent.com/position.php?start=)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py", line 36, in parseHtml
+    item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+IndexError: list index out of range

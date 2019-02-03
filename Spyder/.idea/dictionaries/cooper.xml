@@ -3,16 +3,27 @@
     <words>
       <w>avant</w>
       <w>baidu</w>
+      <w>baiduspider</w>
       <w>chaxun</w>
+      <w>chromedriver</w>
       <w>cleafix</w>
+      <w>clearfix</w>
+      <w>csdn</w>
+      <w>csdndb</w>
       <w>datebase</w>
+      <w>douban</w>
+      <w>doubandb</w>
+      <w>douyu</w>
       <w>ershou</w>
       <w>getpage</w>
       <w>jianjie</w>
       <w>khtml</w>
       <w>lianjiadb</w>
+      <w>logclickdata</w>
+      <w>lxml</w>
       <w>maoyan</w>
       <w>maxthon</w>
+      <w>middlewares</w>
       <w>myset</w>
       <w>naihan</w>
       <w>naihandb</w>
@@ -24,12 +35,15 @@
       <w>qiushidb</w>
       <w>releasetime</w>
       <w>rlist</w>
+      <w>scrapy</w>
       <w>spiderdb</w>
       <w>spyder</w>
       <w>tarenacode</w>
       <w>tencent</w>
       <w>tieba</w>
       <w>writemongo</w>
+      <w>xiao</w>
+      <w>xiaomi</w>
     </words>
   </dictionary>
 </component>

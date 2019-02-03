@@ -1,0 +1,17 @@
+2019-01-30 14:24:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blog.csdn.net/cpongo4/article/details/86613730> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cooper/anaconda3/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/cooper/anaconda3/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/Users/cooper/anaconda3/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/cooper/anaconda3/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/anaconda3/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/cooper_Python/1809/Spyder/1809/day07/CSDN/CSDN/spiders/csdn.py", line 22, in parse
+    item['article'] = response.xpath(article_xpath).extract()[0]
+  File "/Users/cooper/anaconda3/lib/python3.6/site-packages/scrapy/item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'CsdnItem does not support field: article'

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9ec8008-c1e4-4a4c-906a-7b04ce29e75b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/01-DoubanToMysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/02-DoubanToMysql2.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/03-phantomjs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/04-phantomjs+selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/05-phantonjs_many-select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/06-京东商城爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day05/self/07-douyu爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day06/self/01-多线程xiaomi应用商店.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/1809/day06/self/04-Beautifulsoup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/05-内涵段子爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/06-京东商城爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/有道/06-有道翻译requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/有道/salt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/有道/sign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/有道/ts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/有道/youdaoJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/猫眼/03-猫眼top100爬取信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/猫眼/06_猫眼电影正则.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/猫眼/08_猫眼电影存入mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/03-百度搜索.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/04_百度贴吧数据抓取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/05_百度贴吧数据抓取(类).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/百度贴吧/hahahahhaha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/百度贴吧/百度贴吧爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/百度贴吧/糗事百科.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/百度贴吧图片抓取/01_百度贴吧图片抓取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/百度贴吧图片抓取/02_百度贴吧视频爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/百度/百度贴吧图片抓取/03_视频爬取示例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/豆瓣/01-DoubanToMysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/豆瓣/02-DoubanToMysql2.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/链家/Beatifuksoup_链家二手房.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spyder/小样/链家/链家网爬取信息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/.idea/dataSources/59c0d561-63c7-44fb-b788-109594d45d85.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/.idea/dataSources/59c0d561-63c7-44fb-b788-109594d45d85.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/01_贪婪非贪婪示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/02_正则分组示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/03_正则分组练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/04_csv模块示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/05_猫眼电影csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/05_猫眼电影mongo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/06_pymongo回顾.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/09_猫眼电影mysql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/day02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/day02_all.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day02/day02/猫眼电影.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/01_requests.get示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/02_图片爬取示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/03_params示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/04_普通代理示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/05_脑筋急转弯mongo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/06_codetarena.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/07_有道翻译破解版.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/Note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/day03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/内涵8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/1809/day03/day03/笔记网站.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/user_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/user_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/工具包/ip_sea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/工具包/ip_sea.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/工具包/ip测试小公举.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/工具包/ip测试小公举.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spyder/工具包/笔记tarena爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spyder/工具包/笔记tarena爬取.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="986" />
+    <option name="y" value="23" />
+    <option name="width" value="934" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9ec8008-c1e4-4a4c-906a-7b04ce29e75b" name="Default Changelist" comment="" />
+      <created>1548751447567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548751447567</updated>
+      <workItem from="1548751449351" duration="192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="192000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="986" y="23" width="934" height="1057" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

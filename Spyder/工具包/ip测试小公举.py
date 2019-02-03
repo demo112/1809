@@ -14,7 +14,7 @@ class IpSea(object):
         print("共有%s个代理" % len)
         with open('ip_sea.csv', 'w', newline='') as f:
             writer = csv.writer(f)
-            for m in range(len + 1):
+            for m in range(len):
                 time.sleep(0.3)
                 m = int(m)
                 ip = user_agent.check_ip(m)
