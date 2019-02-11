@@ -31,16 +31,40 @@ class WorkSpider(scrapy.Spider):
         base_list = response.xpath("//tr[@class='even'] | //tr[@class='odd']")
         for base in base_list:
             # 职位名称
-            item['tx_work'] = base.xpath(work_xpath).extract()[0]
+            item['tx_work'] = base.xpath(work_xpath).extract()
+            if item['tx_work']:
+                item['tx_work'] = item['tx_work'][0]
+            else:
+                item['tx_work'] = '无'
             # 类别
-            item['tx_kind'] = base.xpath(kind_xpath).extract()[0]
+            item['tx_kind'] = base.xpath(kind_xpath).extract()
+            if item['tx_kind']:
+                item['tx_kind'] = item['tx_kind'][0]
+            else:
+                item['tx_kind'] = '无'
             # 招聘人数
-            item['tx_inneed'] = base.xpath(inneed_xpath).extract()[0]
+            item['tx_inneed'] = base.xpath(inneed_xpath).extract()
+            if item['tx_inneed']:
+                item['tx_inneed'] = item['tx_inneed'][0]
+            else:
+                item['tx_inneed'] = '无'
             # 招聘地点
-            item['tx_position'] = base.xpath(position_xpath).extract()[0]
+            item['tx_position'] = base.xpath(position_xpath).extract()
+            if item['tx_position']:
+                item['tx_position'] = item['tx_position'][0]
+            else:
+                item['tx_position'] = '无'
             # 发布时间
-            item['tx_time'] = base.xpath(time_xpath).extract()[0]
+            item['tx_time'] = base.xpath(time_xpath).extract()
+            if item['tx_time']:
+                item['tx_time'] = item['tx_time'][0]
+            else:
+                item['tx_time'] = '无'
             # 职位链接
-            item['tx_link'] = base.xpath(link_xpath).extract()[0]
+            item['tx_link'] = base.xpath(link_xpath).extract()
+            if item['tx_link']:
+                item['tx_link'] = item['tx_link'][0]
+            else:
+                item['tx_link'] = '无'
 
             yield item

@@ -20,10 +20,12 @@ NEWSPIDER_MODULE = 'TencentWork.spiders'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+# 设置导出文本编码格式
+FEED_EXPORT_ENCODING = 'utf-8'
 LOG_LEVEL = "WARNING"
 LOG_FILE = "a.log"
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 64
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -68,6 +70,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'TencentWork.pipelines.TencentworkPipeline': 300,
+   # 'TencentWork.pipelines.TencentMongoPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,3 +93,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+MONGO_HOST = '127.0.0.1'
+MONGO_PORT = 27017
+MONGO_DATABASE = 'tenxentdb'
+MONGO_SET = 'tencentset'
