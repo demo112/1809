@@ -1,53 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="spider">
-      <change afterPath="$PROJECT_DIR$/Spyder/1809/day07/So360/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/1809/day08/Testmiddleware/Testmiddleware/proxies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/1809/day08/Testmiddleware/Testmiddleware/user_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/1809/day08/Testmiddleware/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/Kuan/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/Testip/Testip/headers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/Testip/Testip/ip测试小公举.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/Testip/Testip/spiders/user_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/Testip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/Testip/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/Note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spyder/project/tarena/user_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiandan/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiandan/11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/.idea/图像识别.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/YDM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/YDMPython3.x.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/pytesseract_show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/test3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/test4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别/day01/在线打码.py" afterDir="false" />
+    <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/user_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/.idea/二手车商城.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/usedcar/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/usedcar/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目部署/二手车商城/usedcar/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoDB/new_flower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/new_flower.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spyder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/AID1809_Software.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/TencentWork/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/TencentWork/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/TencentWork/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/TencentWork/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/TencentWork/spiders/work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/a.log" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/1809/day07/TencentWork/a.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/day08_all.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/1809/pip-19.0.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/project/tarena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/project/tarena/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/project/tarena/笔记tarena爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/user_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/user_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/工具包/afsafqfadf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/工具包/ip_sea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/工具包/ip_sea.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spyder/工具包/ip测试小公举.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/Note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,47 +30,56 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday02_test_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday02/test/run.py) Coverage Results" MODIFIED="1545786378596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day03_self_AJAXDemo02_run01_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day03/self/AJAXDemo02/run01.py) Coverage Results" MODIFIED="1546912658746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$tarena.coverage" NAME="笔记tarena爬取 Coverage Results" MODIFIED="1550107723361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday05_homework_show_table_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday05/homework/show_table/run.py) Coverage Results" MODIFIED="1546050381189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_run02_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/run02.py) Coverage Results" MODIFIED="1545644566563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day01_1809self_homework_run01_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day01/1809self/homework/run01.py) Coverage Results" MODIFIED="1546853030711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/run01.py) Coverage Results" MODIFIED="1545633530480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday06_Flaskdemo06_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday06/Flaskdemo06/run01.py) Coverage Results" MODIFIED="1546072386490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Mine_market_run_py_.coverage" NAME="Flask (PythonWeb/Mine_market/run.py) Coverage Results" MODIFIED="1546866630120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day03_homework_province__city_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day03/homework/province__city.py) Coverage Results" MODIFIED="1547001588198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday07_FlaskDemo05_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday07/FlaskDemo05/run01.py) Coverage Results" MODIFIED="1546428982191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$test.coverage" NAME="test Coverage Results" MODIFIED="1550039690577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday02_flaskdemo02_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday02/flaskdemo02/run.py) Coverage Results" MODIFIED="1545735999934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday03_flaskdemo03_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday03/flaskdemo03/run.py) Coverage Results" MODIFIED="1545869569089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Flaskdemo08_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday08/Flaskdemo08/run01.py) Coverage Results" MODIFIED="1546483813389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday03_Day03_FlaskDemo03_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday03/Day03/FlaskDemo03/run01.py) Coverage Results" MODIFIED="1545869466549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Mine_market_run_py_.coverage" NAME="Flask (PythonWeb/Mine_market/run.py) Coverage Results" MODIFIED="1546667117573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$import_flask.coverage" NAME="import_flask Coverage Results" MODIFIED="1545621734274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday05_Flaskdemo05_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday05/Flaskdemo05/run01.py) Coverage Results" MODIFIED="1546052636906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday07_Flaskdemo07_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday07/Flaskdemo07/run01.py) Coverage Results" MODIFIED="1546478433355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday05_Flaskdemo05_run02_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday05/Flaskdemo05/run02.py) Coverage Results" MODIFIED="1545989989215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$demo07.coverage" NAME="demo07 Coverage Results" MODIFIED="1550045924222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Cookie_cookie_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday08/Cookie/cookie.py) Coverage Results" MODIFIED="1546520207058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday04_Blog_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday04/Blog/run.py) Coverage Results" MODIFIED="1545960658383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day01_run01_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day01/run01.py) Coverage Results" MODIFIED="1546594863503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday04_homework_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday04/homework/run.py) Coverage Results" MODIFIED="1545908803888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_add_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/add.py) Coverage Results" MODIFIED="1545639191123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Cookie_session_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday08/Cookie/session.py) Coverage Results" MODIFIED="1546510294917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday06_Flaskdemo06_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday06/Flaskdemo06/run01.py) Coverage Results" MODIFIED="1546428170111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day03_ajaxdemo03__self_app_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day03/ajaxdemo03__self/app.py) Coverage Results" MODIFIED="1546941751823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day01_1809self_homework_run_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day01/1809self/homework/run.py) Coverage Results" MODIFIED="1546825320140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$demo04.coverage" NAME="demo04 Coverage Results" MODIFIED="1550039893524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday04_Flaskdemo04_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday04/Flaskdemo04/run.py) Coverage Results" MODIFIED="1545880284335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday04_Flaskdemo04_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday04/Flaskdemo04/run01.py) Coverage Results" MODIFIED="1545904071570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$demo08.coverage" NAME="demo08 Coverage Results" MODIFIED="1550057670781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_type__py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_type_.py) Coverage Results" MODIFIED="1545637966984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$.coverage" NAME="抓去数据类型——图片 Coverage Results" MODIFIED="1544861289523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../私学/爬虫/网页基础概念" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_canshu_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_canshu.py) Coverage Results" MODIFIED="1545637833825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Project_BlogNew_manager_py_.coverage" NAME="Flask (PythonWeb/Project/BlogNew/manager.py) Coverage Results" MODIFIED="1547175078430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$insert_many.coverage" NAME="insert_many Coverage Results" MODIFIED="1550025460871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day02_self_run_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day02/self/run.py) Coverage Results" MODIFIED="1546910348928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01__py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/返回网页.py) Coverage Results" MODIFIED="1545640068120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$demo06.coverage" NAME="demo06 Coverage Results" MODIFIED="1550044591430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
+    <SUITE FILE_PATH="coverage/1809$demo09.coverage" NAME="demo09 Coverage Results" MODIFIED="1550051063002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day03_self_AJAXDemo02_run01_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day03/self/AJAXDemo02/run01.py) Coverage Results" MODIFIED="1546912658746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_run02_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/run02.py) Coverage Results" MODIFIED="1545644566563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day01_1809self_homework_run01_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day01/1809self/homework/run01.py) Coverage Results" MODIFIED="1546853030711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday06_Flaskdemo06_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday06/Flaskdemo06/run01.py) Coverage Results" MODIFIED="1546072386490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Mine_market_run_py_.coverage" NAME="Flask (PythonWeb/Mine_market/run.py) Coverage Results" MODIFIED="1546866630120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day03_homework_province__city_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day03/homework/province__city.py) Coverage Results" MODIFIED="1547001588198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday07_FlaskDemo05_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday07/FlaskDemo05/run01.py) Coverage Results" MODIFIED="1546428982191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Flaskdemo08_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday08/Flaskdemo08/run01.py) Coverage Results" MODIFIED="1546483813389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday03_Day03_FlaskDemo03_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday03/Day03/FlaskDemo03/run01.py) Coverage Results" MODIFIED="1545869466549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Mine_market_run_py_.coverage" NAME="Flask (PythonWeb/Mine_market/run.py) Coverage Results" MODIFIED="1546667117573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday05_Flaskdemo05_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday05/Flaskdemo05/run01.py) Coverage Results" MODIFIED="1546052636906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday07_Flaskdemo07_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday07/Flaskdemo07/run01.py) Coverage Results" MODIFIED="1546478433355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_add_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/add.py) Coverage Results" MODIFIED="1545639191123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Cookie_session_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday08/Cookie/session.py) Coverage Results" MODIFIED="1546510294917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day03_ajaxdemo03__self_app_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day03/ajaxdemo03__self/app.py) Coverage Results" MODIFIED="1546941751823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day01_1809self_homework_run_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day01/1809self/homework/run.py) Coverage Results" MODIFIED="1546825320140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1809$demo05.coverage" NAME="demo05 Coverage Results" MODIFIED="1550041302278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/day01/1808day01" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_homework_Blog_run_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/homework/Blog/run.py) Coverage Results" MODIFIED="1545700633491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday08_Flaskdemo08_shoppingcar_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday08/Flaskdemo08/shoppingcar.py) Coverage Results" MODIFIED="1546484403943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday03_Blog_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday03/Blog/run.py) Coverage Results" MODIFIED="1545805801402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday02_homework_Blog_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday02/homework/Blog/run.py) Coverage Results" MODIFIED="1545793923013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_type__py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_type_.py) Coverage Results" MODIFIED="1545637966984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$.coverage" NAME="抓去数据类型——图片 Coverage Results" MODIFIED="1544861289523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../私学/爬虫/网页基础概念" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_canshu_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_canshu.py) Coverage Results" MODIFIED="1545637833825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$11.coverage" NAME="11 Coverage Results" MODIFIED="1545119197960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonWeb/JavaScrapy/JSday12" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Project_BlogNew_manager_py_.coverage" NAME="Flask (PythonWeb/Project/BlogNew/manager.py) Coverage Results" MODIFIED="1547175078430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_login_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/login.py) Coverage Results" MODIFIED="1545642859060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day02_self_run_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day02/self/run.py) Coverage Results" MODIFIED="1546910348928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01__py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/返回网页.py) Coverage Results" MODIFIED="1545640068120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="277" />
@@ -116,8 +98,105 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="1809" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo07.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo08.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/Note.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="427" selection-start-line="427" selection-end-line="427" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/user_agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+              <folding>
+                <element signature="e#1979#1996#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo09.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <folding>
+                <element signature="e#228#256#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo06.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,6 +231,7 @@
       <find>发表博客</find>
       <find>内容：%s，</find>
       <find>content</find>
+      <find>pad_width</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../static/images</replace>
@@ -175,18 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/templates/01-register.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/run01.py" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day01/1809self/homework/static/01-register.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/self/Json.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/self/users.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/self/templates/Json.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/1808/04-json.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/self/static/01-register.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/self/templates/04-json.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Mine_market/templates/index_signup_after.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Mine_market/templates/index.html" />
-        <option value="$PROJECT_DIR$/PythonWeb/Mine_market/templates/signup.html" />
         <option value="$PROJECT_DIR$/PythonWeb/Mine_market/templates/signin.html" />
         <option value="$PROJECT_DIR$/PythonWeb/Mine_market/run.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Mine_market/static/Js/index.js" />
@@ -226,6 +294,18 @@
         <option value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/views.py" />
         <option value="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/manage.py" />
         <option value="/private/var/folders/3m/3482hry92hd78236lmt25dm80000gn/T/fz3temp-2/settings.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo01.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo03.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo04.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/test.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo05.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo06.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo07.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo09.py" />
+        <option value="$PROJECT_DIR$/数据分析/day01/1808day01/demo08.py" />
+        <option value="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/Note.txt" />
+        <option value="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py" />
+        <option value="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/user_agent.py" />
       </list>
     </option>
   </component>
@@ -241,10 +321,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="30" />
-    <option name="width" value="1392" />
-    <option name="height" value="877" />
+    <option name="x" value="64" />
+    <option name="y" value="23" />
+    <option name="width" value="928" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -276,57 +356,65 @@
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
-              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="FruitDay" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+              <item name="1808day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="项目部署" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,23 +432,30 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/FlaskDemo05/run01.py" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders" />
+      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/static" />
+      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/templates" />
+      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew" />
+      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PythonWeb/Django/1809" />
       <recent name="$PROJECT_DIR$/PythonWeb/Django" />
       <recent name="$PROJECT_DIR$/PythonWeb/Project" />
       <recent name="$PROJECT_DIR$/项目结构模版" />
       <recent name="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day03/homework/static/JS" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/static" />
-      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/templates" />
-      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew" />
-      <recent name="$PROJECT_DIR$/PythonWeb/Project/BlogNew/app" />
-      <recent name="$PROJECT_DIR$/PythonWeb/Project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,7 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.笔记tarena爬取">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,62 +478,138 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo06" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析/day01/1808day01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonWeb/Django/1809/djangoproject/Testday01/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/day01/1808day01/demo06.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (PythonWeb/Project/BlogNew/manager.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+    <configuration name="demo07" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1809" />
-      <option name="target" value="$PROJECT_DIR$/PythonWeb/Project/BlogNew/manager.py" />
-      <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析/day01/1808day01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/day01/1808day01/demo07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1809" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析/day01/1808day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/day01/1808day01/demo08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo09" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1809" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析/day01/1808day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/day01/1808day01/demo09.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="笔记tarena爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1809" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Flask server.Flask (PythonWeb/Project/BlogNew/manager.py)" />
+        <item itemvalue="Python.笔记tarena爬取" />
+        <item itemvalue="Python.demo08" />
+        <item itemvalue="Python.demo09" />
+        <item itemvalue="Python.demo07" />
+        <item itemvalue="Python.demo06" />
       </list>
     </recent_temporary>
   </component>
@@ -539,7 +710,10 @@
       <workItem from="1548033280508" duration="29000" />
       <workItem from="1548240669089" duration="769000" />
       <workItem from="1549165985826" duration="1253000" />
-      <workItem from="1549847311594" duration="153000" />
+      <workItem from="1549847311594" duration="375000" />
+      <workItem from="1550019559065" duration="685000" />
+      <workItem from="1550021007917" duration="3337000" />
+      <workItem from="1550025371813" duration="14558000" />
     </task>
     <task id="LOCAL-00001" summary="添加网页用素材&#10;&#10;(cherry picked from commit 9a49c8d900abe485715f2623299923d6d48cdc4b)">
       <created>1543829594837</created>
@@ -856,11 +1030,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549166037031</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="2019 frist">
+      <created>1549847652428</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1549847652428</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="625015000" />
+    <option name="totallyTimeSpent" value="643817000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -869,32 +1050,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="30" width="1392" height="877" extended-state="0" />
+    <frame x="64" y="23" width="928" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11970339" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.21333334" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48011363" visible="true" weight="0.23927765" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17238913" />
-      <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36480686" />
+      <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36455983" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49928468" weight="0.32331607" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6372549" weight="0.23199153" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39485458" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.65575624" visible="true" weight="0.307772" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39481866" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.3230932" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6666667" weight="0.34216103" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6666667" weight="0.34140128" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33333334" side_tool="true" weight="0.34216103" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" weight="0.31847134" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6026012" weight="0.30051813" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3442438" side_tool="true" weight="0.307772" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" weight="0.31813473" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6026012" weight="0.5896373" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3257468" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.6938998" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32890856" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.11286682" />
       <window_info anchor="right" id="Database" order="4" weight="0.3278867" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
     </layout>
@@ -1016,7 +1198,8 @@
     <MESSAGE value="BlogNew&#10;博客静态资源导入" />
     <MESSAGE value="check point" />
     <MESSAGE value="spider" />
-    <option name="LAST_COMMIT_MESSAGE" value="spider" />
+    <MESSAGE value="2019 frist" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019 frist" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1031,178 +1214,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Flask/1809Flask/Flaskday02/homework/Blog/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/users/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/项目结构模版/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1809/Ajaxdemo04/app.py" />
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/1808/AjaxDemo04/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Flask/1809Flask/Flaskday08/Cookie/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Flask/1809Flask/Flaskday08/Cookie/cookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="48" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1546" column="8" selection-start-line="1546" selection-start-column="8" selection-end-line="1546" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/flask/blueprints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="123" column="24" lean-forward="true" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/static/css/m.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/users/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/static/js/scrollReveal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6601">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/static/js/jquery.easyfader.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Project/BlogNew/app/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1576">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day03/ajaxdemo03__self/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="304" column="8" selection-start-line="304" selection-start-column="8" selection-end-line="304" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day04/Ajaxdemo04/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py" />
     <entry file="file://$PROJECT_DIR$/PythonWeb/Ajax/1809/Day02/self/run.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1342,6 +1353,179 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="125" column="23" lean-forward="true" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/user_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Day02/DjangoDemo01/sport/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Day02/DjangoDemo01/music/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Day02/DjangoDemo01/music/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Day02/DjangoDemo01/music/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Day02/DjangoDemo01/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiandan/11.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/file_oper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/insert_many.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#228#256#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/numpy/lib/arraypad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="1167" column="31" selection-start-line="1167" selection-start-column="22" selection-end-line="1167" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/day01/1808day01/demo08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/笔记tarena爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/Note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="427" selection-start-line="427" selection-end-line="427" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders/user_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+          <folding>
+            <element signature="e#1979#1996#0" />
+          </folding>
         </state>
       </provider>
     </entry>

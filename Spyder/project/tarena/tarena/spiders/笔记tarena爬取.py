@@ -4,7 +4,7 @@ import time
 
 import requests
 import requests.adapters
-from user_agent import UserAgent
+from Spyder.project.tarena.tarena.spiders.user_agent import UserAgent
 
 
 

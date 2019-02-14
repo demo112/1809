@@ -2,52 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec27760d-e48d-4794-8674-d2952b175df4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1809/day07/So360/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day08/Testmiddleware/Testmiddleware/proxies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day08/Testmiddleware/Testmiddleware/user_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1809/day08/Testmiddleware/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Kuan/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Testip/Testip/headers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Testip/Testip/ip测试小公举.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Testip/Testip/spiders/user_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Testip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Testip/begin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/tarena/tarena/spiders/Note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/tarena/user_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jiandan/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jiandan/11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/.idea/图像识别.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/YDM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/YDMPython3.x.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/pytesseract_show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/test3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/test4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图像识别/day01/在线打码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目部署/二手车商城/.idea/二手车商城.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/AID1809_Software.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day07/TencentWork/TencentWork/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/1809/day07/TencentWork/TencentWork/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day07/TencentWork/TencentWork/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/1809/day07/TencentWork/TencentWork/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day07/TencentWork/TencentWork/spiders/work.py" beforeDir="false" afterPath="$PROJECT_DIR$/1809/day07/TencentWork/TencentWork/spiders/work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day07/TencentWork/a.log" beforeDir="false" afterPath="$PROJECT_DIR$/1809/day07/TencentWork/a.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/day08_all.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1809/pip-19.0.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tarena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/tarena/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tarena/笔记tarena爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tarena/tarena/spiders/笔记tarena爬取.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/工具包/afsafqfadf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/工具包/ip_sea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/工具包/ip_sea.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/工具包/ip测试小公举.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tarena/tarena/spiders/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/tarena/tarena/spiders/Note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tarena/tarena/spiders/笔记tarena爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tarena/tarena/spiders/笔记tarena爬取.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +50,8 @@
     <SUITE FILE_PATH="coverage/Spyder$04_Beautifulsoup.coverage" NAME="04-Beautifulsoup Coverage Results" MODIFIED="1548743562771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day06/self" />
     <SUITE FILE_PATH="coverage/Spyder$Beatifuksoup_.coverage" NAME="Beatifuksoup_链家二手房 Coverage Results" MODIFIED="1548748071641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/小样/链家" />
     <SUITE FILE_PATH="coverage/Spyder$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1549731211207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/Testip/Testip" />
-    <SUITE FILE_PATH="coverage/Spyder$tarena.coverage" NAME="笔记tarena爬取 Coverage Results" MODIFIED="1548744387826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/工具包" />
     <SUITE FILE_PATH="coverage/Spyder$begin__3_.coverage" NAME="begin (3) Coverage Results" MODIFIED="1549595392864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day08/Testmiddleware" />
+    <SUITE FILE_PATH="coverage/Spyder$tarena.coverage" NAME="笔记tarena爬取 Coverage Results" MODIFIED="1549869823953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/tarena/tarena/spiders" />
     <SUITE FILE_PATH="coverage/Spyder$ip_2.coverage" NAME="ip测试小公举 2 Coverage Results" MODIFIED="1548308002541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809" />
     <SUITE FILE_PATH="coverage/Spyder$06_tarena.coverage" NAME="06-tarena爬取 Coverage Results" MODIFIED="1548378091147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1809/day03/self" />
     <SUITE FILE_PATH="coverage/Spyder$begin.coverage" NAME="begin Coverage Results" MODIFIED="1549735847021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/Testip" />
@@ -146,7 +111,7 @@
     <favorites_list name="Spyder" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -194,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acs.py" />
-        <option value="$PROJECT_DIR$/project/baidu/baidu/items.py" />
         <option value="$PROJECT_DIR$/project/baidu/baidu/spiders/baiduspider.py" />
         <option value="$PROJECT_DIR$/project/baidu/baidu/settings.py" />
         <option value="$PROJECT_DIR$/project/Baidu/Baidu/spiders/baidu.py" />
@@ -245,14 +208,16 @@
         <option value="$PROJECT_DIR$/project/Testip/proxy_list.csv" />
         <option value="$PROJECT_DIR$/project/Testip/Testip/pipelines.py" />
         <option value="$PROJECT_DIR$/project/Testip/Testip/settings.py" />
+        <option value="$PROJECT_DIR$/project/tarena/tarena/spiders/笔记tarena爬取.py" />
+        <option value="$PROJECT_DIR$/project/tarena/tarena/spiders/Note.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="743" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="56" />
     <option name="y" value="23" />
-    <option name="width" value="697" />
-    <option name="height" value="877" />
+    <option name="width" value="1864" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -262,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,6 +282,27 @@
               <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spyder" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+              <item name="tarena" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spyder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="Testip" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,6 +324,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.begin">
+  <component name="RunManager" selected="Python.笔记tarena爬取">
     <configuration name="begin (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="Spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -493,7 +479,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="笔记tarena爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,12 +487,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/Testip/Testip/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/tarena/tarena/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/Testip/Testip/spiders/testip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/tarena/tarena/spiders/笔记tarena爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -517,19 +503,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.begin (1)" />
-      <item itemvalue="Python.testip" />
       <item itemvalue="Python.begin" />
       <item itemvalue="Python.begin (4)" />
       <item itemvalue="Python.kuan" />
       <item itemvalue="Python.pipelines" />
+      <item itemvalue="Python.笔记tarena爬取" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.笔记tarena爬取" />
         <item itemvalue="Python.begin" />
         <item itemvalue="Python.pipelines" />
         <item itemvalue="Python.begin (4)" />
         <item itemvalue="Python.kuan" />
-        <item itemvalue="Python.testip" />
       </list>
     </recent_temporary>
   </component>
@@ -558,6 +544,8 @@
       <workItem from="1549453132522" duration="21394000" />
       <workItem from="1549627606663" duration="2087000" />
       <workItem from="1549721349980" duration="12384000" />
+      <workItem from="1549847759167" duration="681000" />
+      <workItem from="1549853790738" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="ip测试工具">
       <created>1548308098441</created>
@@ -577,7 +565,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240377000" />
+    <option name="totallyTimeSpent" value="242496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,14 +577,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1393" height="877" extended-state="6" />
+    <frame x="56" y="23" width="1864" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938348" visible="true" weight="0.31680238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49938348" visible="true" weight="0.16026345" />
       <window_info id="Structure" order="1" sideWeight="0.50061655" weight="0.22222222" />
       <window_info id="Favorites" order="2" weight="0.10089686" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22292994" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49592894" weight="0.20509554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49592894" weight="0.20414507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,18 +689,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1809/day06/day06/Baidu1/Baidu1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/pipelines/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1809/day07/So360/So360/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1044,12 +1020,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Testip/ip_sea.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Testip/ip_sea.csv" />
     <entry file="file://$PROJECT_DIR$/project/Testip/Testip/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1064,6 +1035,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="5015" column="8" selection-start-line="5015" selection-start-column="8" selection-end-line="5015" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/tarena/tarena/spiders/笔记tarena爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/tarena/tarena/spiders/Note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="1601" lean-forward="true" selection-start-line="1601" selection-end-line="1601" />
         </state>
       </provider>
     </entry>
