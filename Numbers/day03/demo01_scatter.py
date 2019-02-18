@@ -6,7 +6,8 @@ from __future__ import unicode_literals
 import numpy as np
 import matplotlib.pyplot as mp
 
-n = 1000
+n = 1000000
+
 x = np.random.normal(172, 20, n)
 y = np.random.normal(60, 10, n)
 
@@ -20,7 +21,7 @@ mp.grid(linestyle='')
 d = (x - 172)**2 + (y - 60)**2
 
 # mp.scatter(x, y, c=d, cmap='jet_r', s=40)
-mp.scatter(x, y, marker='o', s=20, c=d, cmap='jet_r', label='student')
+mp.scatter(x, y, marker='o', s=20, c=d, cmap='rainbow_r', label='student')
 mp.tight_layout()
 
 mp.show()
