@@ -2,40 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/01fill_between.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/02bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/03pie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/04contour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/05-3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/07surface3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/08scatter3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/09polar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/10animation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/11animation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/Kpicture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/aapl.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/demo01_scatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day03/demo11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/numpy_test/matplotlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/numpy_test/numpy_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/.idea/git.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day03/day03_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day03/day03_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day03/day03pm1631.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day04/day04_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day04/day04_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day05/day05_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day05/day05_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day06/day06_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day06/day06_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day07/day07_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/1808day07/day07_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day02/day02_1808/demo08.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,17 +110,7 @@
     <favorites_list name="1809" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Numbers/day04/day04_1808/demo07_along_axis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -273,10 +236,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="395" />
-    <option name="y" value="44" />
+    <option name="y" value="23" />
     <option name="width" value="960" />
-    <option name="height" value="787" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -338,6 +300,9 @@
       <recent name="$PROJECT_DIR$/PythonWeb/Project" />
       <recent name="$PROJECT_DIR$/项目结构模版" />
       <recent name="$PROJECT_DIR$/PythonWeb/Ajax/1809/Day03/homework/static/JS" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/greyli/helloflask.git" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Numbers/day04" />
@@ -612,14 +577,7 @@
       <workItem from="1550025371813" duration="69861000" />
       <workItem from="1550280080366" duration="5995000" />
       <workItem from="1550286154192" duration="721000" />
-      <workItem from="1550452644457" duration="14337000" />
-    </task>
-    <task id="LOCAL-00002" summary="表格">
-      <created>1543887343395</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1543887343395</updated>
+      <workItem from="1550452644457" duration="16311000" />
     </task>
     <task id="LOCAL-00003" summary="表格">
       <created>1543976371475</created>
@@ -957,11 +915,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550131020067</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="moving files">
+      <created>1550502427537</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1550502427538</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="720173000" />
+    <option name="totallyTimeSpent" value="722147000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -970,7 +935,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="395" y="44" width="960" height="787" extended-state="0" />
+    <frame x="0" y="23" width="960" height="1057" extended-state="0" />
     <layout>
       <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11970339" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7266187" visible="true" weight="0.23529412" />
@@ -986,9 +951,9 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.3230932" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6666667" weight="0.34093264" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.66557735" visible="true" weight="0.38756478" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33620688" side_tool="true" weight="0.2878981" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33442265" side_tool="true" weight="0.33867276" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" weight="0.18445596" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6026012" weight="0.5881007" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3257468" />
@@ -1052,6 +1017,12 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="51" />
+                  <entry key="3" value="116" />
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -1137,16 +1108,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Numbers/day03/day03_1808/数据分析DAY03.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Numbers/day03/demo01_scatter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1560,6 +1521,9 @@
           <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="https://github.com/greyli/helloflask.git">
+      <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
   </component>
   <component name="masterDetails">
