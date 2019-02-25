@@ -5,8 +5,10 @@ import matplotlib.pyplot as mp
 import datetime as dt
 import matplotlib.dates as md
 '''
-测试协方差
-绘制两支股票的趋势图, 比较相似程度
+1. 读取文件,求得bhp与vale的收盘价的差价
+2. 绘制差价的散点图
+3. 基于多项式拟合,拟合得到一个多项式方程(系数)
+4. 绘制多项式方程的曲线
 '''
 
 
@@ -19,39 +21,23 @@ def dmy2ymd(dmy):
 
 # 加载文件
 dates, bhp_closing_prices = np.loadtxt(
-    'bhp.csv', delimiter=',',
+    '../day01/素材/da_data/bhp.csv', delimiter=',',
     usecols=(1, 6), unpack=True,
     dtype='M8[D], f8',
     converters={1: dmy2ymd})
 
 vale_closing_prices = np.loadtxt(
-    '../data/vale.csv', delimiter=',',
+    '../day01/素材/da_data/vale.csv', delimiter=',',
     usecols=(6), unpack=True)
 
-# 计算两只股票收盘价的相关程度(协方差)
-# 两组样本的均值
-ave_bhp = bhp_closing_prices.mean()
-ave_vale = vale_closing_prices.mean()
-# 两组样本的离差
-dev_bhp = bhp_closing_prices - ave_bhp
-dev_vale = vale_closing_prices - ave_vale
-# 两组样本的协方差
-cov_ab = np.mean(dev_bhp * dev_vale)
-print(cov_ab)
-# 求出两组样本的相关系数
-print(':', (cov_ab / (
-            bhp_closing_prices.std() *
-            vale_closing_prices.std())))
-
-# 调用corrcoef方法求得相关矩阵
-d = np.corrcoef(bhp_closing_prices,
-                vale_closing_prices)
-print(d)
+# 1. 读取文件,求得bhp与vale的收盘价的差价
+diff_prices = \
+    bhp_closing_prices - vale_closing_prices
 
 
 # 绘制收盘价的折线图
-mp.figure('BHP VS VALE', facecolor='lightgray')
-mp.title('BHP VS VALE', fontsize=18)
+mp.figure('BHP DIFF VALE', facecolor='lightgray')
+mp.title('BHP DIFF VALE', fontsize=18)
 mp.xlabel('Date', fontsize=14)
 mp.ylabel('Price', fontsize=14)
 mp.tick_params(labelsize=10)
@@ -68,15 +54,28 @@ ax.xaxis.set_minor_locator(
     md.DayLocator())
 # 把日期数组元素类型改为md可识别的类型
 dates = dates.astype(md.datetime.datetime)
-mp.plot(dates, bhp_closing_prices,
-        color='dodgerblue', linewidth=3,
-        linestyle=':', label='bhp_closing_price',
-        alpha=0.8)
-mp.plot(dates, vale_closing_prices,
-        color='orangered', linewidth=3,
-        linestyle=':', label='vale_closing_price',
-        alpha=0.8)
 
+# 2. 绘制差价的散点图
+mp.xlim(dates[0], dates[-1])
+mp.scatter(dates, diff_prices, alpha=0.8,
+           color='dodgerblue', s=60)
+
+
+# 3. 基于多项式拟合,拟合得到一个多项式方程(系数)
+days = dates.astype('M8[D]').astype('int64')
+P = np.polyfit(days, diff_prices, 5)
+# 4. 绘制多项式方程的曲线
+ys = np.polyval(P, days)
+mp.plot(dates, ys, color='orangered',
+        linewidth=3, alpha=0.8)
+
+Q = np.polyder(P)
+xs = np.roots(Q)
+xs = xs[xs > 0]
+ys = np.polyval(P, xs)
+xs_data = np.floor(xs).astype('M8[D]').astype(md.datetime.datetime)
+mp.scatter(xs_data, ys, alpha=0.8,
+           color='red', marker='*', s=100, zorder=8)
 mp.legend()
 # 自动格式化日期显示方式
 mp.gcf().autofmt_xdate()

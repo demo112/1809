@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as mp
 import datetime as dt
 import matplotlib.dates as md
-# import pandas as pd
+import pandas as pd
 '''
 demo02_predict: 线性预测
 假设股价符合某种线性方程, 预测下一天的股价
@@ -53,7 +53,7 @@ mp.plot(dates, closing_prices,
         linestyle=':', label='closing_price')
 
 # 整理五元一次方程组, 最终预测一组股票的走势
-N = 2
+N = 3
 pred_prices = np.zeros(
     closing_prices.size - 2 * N + 1)
 # 为预测值的每一个元素赋值
@@ -66,19 +66,18 @@ for i in range(pred_prices.size):
     b = closing_prices[i + N:i + N * 2]
     # 根据a矩阵与b矩阵求解
     x = np.linalg.lstsq(a, b)[0]
-    x1 = np.linalg.lstsq(a, b)
     print(x)
-    print(x1)
     # b.dot(x) b与x执行矩阵相乘
     pred_prices[i] = b.dot(x)
 
+pred_prices = pred_prices.clip(min=330, max=400)
 # 把预测的结果绘制出来
 # 向dates数组末尾在加一天 (工作日)
-dates = np.append(
-    dates, dates[-1] +
-    pd.tseries.offsets.BDay())
+# dates = np.append(
+#     dates, dates[-1] +
+#     pd.tseries.offsets.BDay())
 
-mp.plot(dates[2 * N:], pred_prices,
+mp.plot(dates[2 * N:], pred_prices[:-1],
         'o-', color='orangered',
         linewidth=2, label='Predict Price')
 

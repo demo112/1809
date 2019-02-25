@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as mp
 import datetime as dt
 import matplotlib.dates as md
-# import pandas as pd
+import pandas as pd
+
 '''
 demo02_predict: 线性预测
 假设股价符合某种线性方程, 预测下一天的股价
@@ -36,7 +37,7 @@ mp.xlabel('Date', fontsize=14)
 mp.ylabel('Price', fontsize=14)
 mp.tick_params(labelsize=10)
 mp.grid(linestyle=':')
-#设置刻度定位器, x轴需要显示时间信息
+# 设置刻度定位器, x轴需要显示时间信息
 ax = mp.gca()
 # x轴主刻度为每周一
 ax.xaxis.set_major_locator(
@@ -48,39 +49,40 @@ ax.xaxis.set_minor_locator(
     md.DayLocator())
 # 把日期数组元素类型改为md可识别的类型
 dates = dates.astype(md.datetime.datetime)
-mp.plot(dates, closing_prices,
+
+trend_points = (highest_prices + lowest_prices + closing_prices) / 3
+mp.plot(dates, trend_points, color='red',
+        linewidth=2, linestyle=':',
+        label='Trendpoints')
+days = dates.astype('M8[D]').astype(int)
+a = np.column_stack((days, np.ones(days.size)))
+b = trend_points
+# 绘制趋势线
+
+x = np.linalg.lstsq(a, b)[0]
+y = x[0] * days + x[1]
+mp.plot(dates, y,
         color='dodgerblue', linewidth=3,
-        linestyle=':', label='closing_price')
+        label='Trend Line')
 
-# 整理五元一次方程组, 最终预测一组股票的走势
-N = 2
-pred_prices = np.zeros(
-    closing_prices.size - 2 * N + 1)
-# 为预测值的每一个元素赋值
-for i in range(pred_prices.size):
-    a = np.zeros((N, N))
-    # 整理5行5列的矩阵
-    for j in range(N):
-        a[j, ] = closing_prices[
-            i + j:i + j + N]
-    b = closing_prices[i + N:i + N * 2]
-    # 根据a矩阵与b矩阵求解
-    x = np.linalg.lstsq(a, b)[0]
-    x1 = np.linalg.lstsq(a, b)
-    print(x)
-    print(x1)
-    # b.dot(x) b与x执行矩阵相乘
-    pred_prices[i] = b.dot(x)
+print(a)
+print(b)
 
-# 把预测的结果绘制出来
-# 向dates数组末尾在加一天 (工作日)
-dates = np.append(
-    dates, dates[-1] +
-    pd.tseries.offsets.BDay())
+spreads = highest_prices - lowest_prices
+# 绘制顶部压力线 (trend+(highest-lowest))
+resistance_points = y + spreads
+mp.plot(dates, resistance_points,
+           color='orangered', alpha=0.8,
+           zorder=4)
 
-mp.plot(dates[2 * N:], pred_prices,
-        'o-', color='orangered',
-        linewidth=2, label='Predict Price')
+# 绘制底部支撑线 (trend-(highest-lowest))
+support_points = y - spreads
+mp.plot(dates, support_points,
+           color='limegreen', alpha=0.8,
+           zorder=4)
+
+
+
 
 mp.legend()
 # 自动格式化日期显示方式

@@ -10,6 +10,7 @@
       <w>addteacher</w>
       <w>adduser</w>
       <w>addwife</w>
+      <w>argmax</w>
       <w>ations</w>
       <w>axess</w>
       <w>bgfasdfsdfsvbewioranhgviowegobirvwnilbuesrh</w>
@@ -29,10 +30,13 @@
       <w>deletecookies</w>
       <w>dizhi</w>
       <w>edgecolor</w>
+      <w>eigvals</w>
+      <w>eigvecs</w>
       <w>elif</w>
       <w>endfor</w>
       <w>endmacro</w>
       <w>fader</w>
+      <w>frompyfunc</w>
       <w>fruitday</w>
       <w>ftime</w>
       <w>gcount</w>
@@ -65,9 +69,11 @@
       <w>nameaj</w>
       <w>ndarray</w>
       <w>netstat</w>
+      <w>nimg</w>
       <w>pagebg</w>
       <w>pname</w>
       <w>psaj</w>
+      <w>pyfunc</w>
       <w>pymysql</w>
       <w>pyplot</w>
       <w>queryall</w>
@@ -77,6 +83,7 @@
       <w>queryuser</w>
       <w>reapet</w>
       <w>reglogin</w>
+      <w>regressor</w>
       <w>regsiter</w>
       <w>regster</w>
       <w>regstudent</w>
@@ -93,6 +100,7 @@
       <w>showteachers</w>
       <w>signin</w>
       <w>signupd</w>
+      <w>sinc</w>
       <w>sinm</w>
       <w>sname</w>
       <w>spammish</w>
@@ -111,6 +119,7 @@
       <w>topnav</w>
       <w>tprice</w>
       <w>tremove</w>
+      <w>tseries</w>
       <w>tuijian</w>
       <w>twap</w>
       <w>uage</w>

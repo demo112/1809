@@ -413,8 +413,7 @@ weights = np.exp(np.linspace(-1, 0, 5))
 weights = weights[::-1]
 # 处理卷积核数组，使得卷积核中元素之和为1
 weights /= weights.sum()
-sma53 = np.convolve(closing_prices,
-                    weights, 'valid')
+sma53 = np.convolve(closing_prices, weights, 'valid')
 mp.plot(dates[4:], sma53,
         linewidth=2, alpha=0.8,
         linestyle='-', label='SMA-53')
