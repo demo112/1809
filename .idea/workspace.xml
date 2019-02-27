@@ -2,49 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1213e9d7-f500-4d7c-b20f-8556486ebf82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/20AI/day01/bin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day01/lab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day01/mms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day01/nor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day01/ohe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day01/std.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day02/day02_1808/abnormal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20AI/day02/day02_1808/single.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day04/aapl.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day05/aapl.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day05/demo02_predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day05/demo02_tredn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day05/demo05_gupiao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day05/demo06_diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day05/polyval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/day06_1808/demo08_bitwise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/demo01_OBV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/demo02_vectorize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/demo03_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/demo04_add_outer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/demo05_sin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/day06/xianxing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo01_reg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo02_linearreg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo03_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo04_savemodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo05_loadmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo05_ridge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo06_poly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/demo07_dt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day02/day09_1809/机器学习DAY02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/bike_day.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/bike_hour.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo03_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/multiple1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20AI/day04/car.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day03/11animation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day03/11animation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day04/数据分析DAY04.md" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day04/数据分析DAY04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day05/day05_1808/demo02_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day05/day05_1808/demo02_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day05/day05_1808/demo04_cov.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day05/day05_1808/demo04_cov.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day05/day05_1808/数据分析DAY05.md" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day05/day05_1808/数据分析DAY05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day06_1808/day06_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day06_1808/day06_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day07_1808/day07_AM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/day07_1808/day07_PM.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloflask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/.idea/jiandan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiandan/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/day05/demo04_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day01/day01_1809/机器学习DAY01.md" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day01/day01_1809/机器学习DAY01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/bike.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo02_bike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/cm.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo09_cm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/cv.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo08_cv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/fi.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo01_fi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo04_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/mlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo05_mlog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/nb.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo06_nb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day03/day03_1808/split.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day03/day03_1808/demo07_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20AI/day04/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/20AI/day04/demo01_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numbers/Pandas/pandas基础知识串讲.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/Pandas/pandas基础知识串讲.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spyder/1809/day06/teach/01_小米应用商店(多线程).py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/1809/day06/teach/01_小米应用商店(多线程).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spyder/工具包/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/工具包/Note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spyder/工具包/笔记tarena爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spyder/工具包/笔记tarena爬取.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +54,7 @@
     <SUITE FILE_PATH="coverage/1809$line.coverage" NAME="line Coverage Results" MODIFIED="1551075290249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day02/day02_1808" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Ajax_1809_Day01_run01_py_.coverage" NAME="Flask (PythonWeb/Ajax/1809/Day01/run01.py) Coverage Results" MODIFIED="1546594863503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$04contour.coverage" NAME="04contour Coverage Results" MODIFIED="1550210986853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day03" />
+    <SUITE FILE_PATH="coverage/1809$describe.coverage" NAME="describe Coverage Results" MODIFIED="1551180381752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02" />
     <SUITE FILE_PATH="coverage/1809$mms__1_.coverage" NAME="mms (1) Coverage Results" MODIFIED="1550818744325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day01" />
     <SUITE FILE_PATH="coverage/1809$nor.coverage" NAME="nor Coverage Results" MODIFIED="1550821517249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day01" />
     <SUITE FILE_PATH="coverage/1809$demo04.coverage" NAME="demo04 Coverage Results" MODIFIED="1550129818416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day02/day02_1808" />
@@ -76,6 +64,7 @@
     <SUITE FILE_PATH="coverage/1809$demo02_misc.coverage" NAME="demo02_misc Coverage Results" MODIFIED="1550714372386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day07" />
     <SUITE FILE_PATH="coverage/1809$04_3d.coverage" NAME="04-3d Coverage Results" MODIFIED="1550211577199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day03" />
     <SUITE FILE_PATH="coverage/1809$03pie.coverage" NAME="03pie Coverage Results" MODIFIED="1550199901702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day03" />
+    <SUITE FILE_PATH="coverage/1809$practice.coverage" NAME="practice Coverage Results" MODIFIED="1551178435096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02" />
     <SUITE FILE_PATH="coverage/1809$.coverage" NAME="抓去数据类型——图片 Coverage Results" MODIFIED="1544861289523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../私学/爬虫/网页基础概念" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_canshu_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_canshu.py) Coverage Results" MODIFIED="1545637833825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$insert_many.coverage" NAME="insert_many Coverage Results" MODIFIED="1550025460871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
@@ -119,7 +108,7 @@
     <SUITE FILE_PATH="coverage/1809$09polar.coverage" NAME="09polar Coverage Results" MODIFIED="1550215506770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day03" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_login_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/login.py) Coverage Results" MODIFIED="1545642859060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Flaskday02_test_run_py_.coverage" NAME="Flask (Flask/1809Flask/Flaskday02/test/run.py) Coverage Results" MODIFIED="1545786378596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1809$tarena.coverage" NAME="笔记tarena爬取 Coverage Results" MODIFIED="1550107723361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spyder/project/tarena/tarena/spiders" />
+    <SUITE FILE_PATH="coverage/1809$tarena.coverage" NAME="笔记tarena爬取 Coverage Results" MODIFIED="1551267282164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spyder/工具包" />
     <SUITE FILE_PATH="coverage/1809$bin.coverage" NAME="bin Coverage Results" MODIFIED="1550822288282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day01" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_run01_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/run01.py) Coverage Results" MODIFIED="1545633530480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$demo03_qiyi.coverage" NAME="demo03_qiyi Coverage Results" MODIFIED="1550715107649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day07" />
@@ -139,11 +128,12 @@
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Flask_1809Flask_Flaskday06_Flaskdemo06_run01_py_.coverage" NAME="Flask (PythonWeb/Flask/1809Flask/Flaskday06/Flaskdemo06/run01.py) Coverage Results" MODIFIED="1546428170111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$demo04_api.coverage" NAME="demo04_api Coverage Results" MODIFIED="1550560952453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day05" />
     <SUITE FILE_PATH="coverage/1809$practice03.coverage" NAME="practice03 Coverage Results" MODIFIED="1551095411149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01" />
-    <SUITE FILE_PATH="coverage/1809$fi.coverage" NAME="fi Coverage Results" MODIFIED="1551088794180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day03/day03_1808" />
+    <SUITE FILE_PATH="coverage/1809$fi.coverage" NAME="fi Coverage Results" MODIFIED="1551145890107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day03/day03_1808" />
     <SUITE FILE_PATH="coverage/1809$demo08.coverage" NAME="demo08 Coverage Results" MODIFIED="1550138269634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day02/day02_1808" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_route_type__py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/route_type_.py) Coverage Results" MODIFIED="1545637966984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$Flask__PythonWeb_Project_BlogNew_manager_py_.coverage" NAME="Flask (PythonWeb/Project/BlogNew/manager.py) Coverage Results" MODIFIED="1547175078430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1809$demo04_wav.coverage" NAME="demo04_wav Coverage Results" MODIFIED="1550732836571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day07" />
+    <SUITE FILE_PATH="coverage/1809$simple.coverage" NAME="simple Coverage Results" MODIFIED="1551153508119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day03/day03_1808" />
     <SUITE FILE_PATH="coverage/1809$Flask__Flask_1809Flask_Falskday01_run02_py_.coverage" NAME="Flask (Flask/1809Flask/Falskday01/run02.py) Coverage Results" MODIFIED="1545644566563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/1809$demo01_scatter.coverage" NAME="demo01_scatter Coverage Results" MODIFIED="1550194404098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numbers/day03" />
     <SUITE FILE_PATH="coverage/1809$demo_sevemodel.coverage" NAME="demo_sevemodel Coverage Results" MODIFIED="1551076333714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20AI/day02/day02_1808" />
@@ -191,26 +181,53 @@
     <favorites_list name="1809" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice03.py">
+        <entry file="file://$PROJECT_DIR$/Spyder/1809/day06/teach/01-多线程xiaomi应用商店.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="95">
+              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice02pandas_data_structure.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spyder/1809/day03/self/06_私密代理示例.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="4" column="36" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spyder/1809/day03/self/05_普通代理示例.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spyder/user_agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="237" column="11" lean-forward="true" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spyder/工具包/笔记tarena爬取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -253,6 +270,7 @@
       <find>content</find>
       <find>pad_width</find>
       <find>arrowprops</find>
+      <find>recall_weighted</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../static/images</replace>
@@ -262,7 +280,13 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/git/helloflask" value="master" />
+      </map>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -276,21 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Numbers/day05/demo02_predict.py" />
-        <option value="$PROJECT_DIR$/Numbers/day05/demo04_gupiao.py" />
-        <option value="$PROJECT_DIR$/Numbers/day05/demo05_gupiao.py" />
-        <option value="$PROJECT_DIR$/Numbers/day05/几何平均数.py" />
-        <option value="$PROJECT_DIR$/Numbers/day05/demo04_api.py" />
-        <option value="$PROJECT_DIR$/Numbers/day05/polyval.py" />
-        <option value="$PROJECT_DIR$/Numbers/day05/demo06_diff.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/demo_02vectorize.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/demo03_matrix.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/demo04_add_outer.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/day06_1808/demo08_bitwise.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/xianxing.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/demo05_sin.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/demo01_OBV.py" />
-        <option value="$PROJECT_DIR$/Numbers/day06/demo02_vectorize.py" />
         <option value="$PROJECT_DIR$/Numbers/day07/demo01_spec..py" />
         <option value="$PROJECT_DIR$/Numbers/day07/day07_1808/demo01_spec.py" />
         <option value="$PROJECT_DIR$/Numbers/day07/demo01_spec.py" />
@@ -321,12 +330,27 @@
         <option value="$PROJECT_DIR$/20AI/day02/day02_1808/demo04_rdg.py" />
         <option value="$PROJECT_DIR$/20AI/day02/day02_1808/poly.py" />
         <option value="$PROJECT_DIR$/20AI/day03/day03_1808/house.py" />
-        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/fi.py" />
         <option value="$PROJECT_DIR$/20AI/day02/day02_1808/demo02_line.py" />
         <option value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice_structure.py" />
         <option value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/pandas_data_structure.py" />
         <option value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice03.py" />
         <option value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice02pandas_data_structure.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/fi.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo01_fi.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/bike.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/simple.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo04_log.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo05_mlog.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo06_nb.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo07_split.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/multiple1.txt" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo08_cv.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/cm.py" />
+        <option value="$PROJECT_DIR$/20AI/day03/day03_1808/demo09_cm.py" />
+        <option value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02/practice.py" />
+        <option value="$PROJECT_DIR$/20AI/day04/demo01_car.py" />
+        <option value="$PROJECT_DIR$/Spyder/1809/day06/teach/01_小米应用商店(多线程).py" />
+        <option value="$PROJECT_DIR$/Spyder/工具包/笔记tarena爬取.py" />
       </list>
     </option>
   </component>
@@ -344,7 +368,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-787" />
     <option name="y" value="-1057" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -366,80 +390,167 @@
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="20AI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="20AI" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="20AI" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_1809" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="20AI" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="20AI" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="day03_1808" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="20AI" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="Numbers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="Numbers" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="素材" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="1809" type="462c0819:PsiDirectoryNode" />
               <item name="Numbers" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas_student_day01" type="462c0819:PsiDirectoryNode" />
+              <item name="素材" type="462c0819:PsiDirectoryNode" />
+              <item name="da_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Numbers" type="462c0819:PsiDirectoryNode" />
+              <item name="素材" type="462c0819:PsiDirectoryNode" />
+              <item name="ml_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day06" type="462c0819:PsiDirectoryNode" />
+              <item name="teach" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="小样" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1809" type="462c0819:PsiDirectoryNode" />
+              <item name="Spyder" type="462c0819:PsiDirectoryNode" />
+              <item name="工具包" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1809" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="sklearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="sklearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1809" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6  &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -483,11 +594,11 @@
       <recent name="https://github.com/greyli/helloflask.git" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/20AI/day04" />
+      <recent name="$PROJECT_DIR$/20AI/day03/day03_1808" />
+      <recent name="$PROJECT_DIR$/20AI/day02" />
       <recent name="$PROJECT_DIR$/20AI/day02/day02_1808" />
       <recent name="$PROJECT_DIR$/20AI/day01" />
-      <recent name="$PROJECT_DIR$/Numbers/day07" />
-      <recent name="$PROJECT_DIR$/Numbers/day06" />
-      <recent name="$PROJECT_DIR$/Numbers/day06/day06_1808" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Numbers/day07/day07_1808" />
@@ -509,7 +620,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas_data_structure">
+  <component name="RunManager" selected="Python.笔记tarena爬取">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -532,7 +643,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo02_line" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="describe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -540,12 +651,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20AI/day02/day02_1808" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20AI/day02/day02_1808/demo02_line.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02/describe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -567,7 +678,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20AI/day03/day03_1808/fi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20AI/day03/day03_1808/demo01_fi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -576,7 +687,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_data_structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -584,12 +695,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice02pandas_data_structure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -598,7 +709,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -606,12 +717,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20AI/day03/day03_1808" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20AI/day03/day03_1808/demo03_simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -620,7 +731,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice_structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="笔记tarena爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1809" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -628,12 +739,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spyder/工具包" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice01_structure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spyder/工具包/笔记tarena爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -644,17 +755,17 @@
     </configuration>
     <list>
       <item itemvalue="Python.fi" />
-      <item itemvalue="Python.demo02_line" />
-      <item itemvalue="Python.pandas_data_structure" />
-      <item itemvalue="Python.practice_structure" />
-      <item itemvalue="Python.practice03" />
+      <item itemvalue="Python.simple" />
+      <item itemvalue="Python.practice" />
+      <item itemvalue="Python.describe" />
+      <item itemvalue="Python.笔记tarena爬取" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pandas_data_structure" />
-        <item itemvalue="Python.practice03" />
-        <item itemvalue="Python.practice_structure" />
-        <item itemvalue="Python.demo02_line" />
+        <item itemvalue="Python.笔记tarena爬取" />
+        <item itemvalue="Python.describe" />
+        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.simple" />
         <item itemvalue="Python.fi" />
       </list>
     </recent_temporary>
@@ -768,21 +879,8 @@
       <workItem from="1550753411481" duration="9000" />
       <workItem from="1550797307428" duration="9253000" />
       <workItem from="1550912580788" duration="2605000" />
-      <workItem from="1550928592779" duration="25237000" />
-    </task>
-    <task id="LOCAL-00004" summary="Css day03">
-      <created>1543978427933</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1543978427933</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Css day04">
-      <created>1544089412053</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1544089412054</updated>
+      <workItem from="1550928592779" duration="58058000" />
+      <workItem from="1551255373295" duration="5996000" />
     </task>
     <task id="LOCAL-00006" summary="Css day04">
       <created>1544089495849</created>
@@ -1113,11 +1211,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550539996994</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="panads1">
+      <created>1551096264321</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1551096264324</updated>
+    </task>
+    <task id="LOCAL-00054" summary="panads2">
+      <created>1551096292555</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1551096292555</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="816553000" />
+    <option name="totallyTimeSpent" value="855370000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="all">
@@ -1126,26 +1238,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-787" y="-1057" width="960" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="-787" y="-1057" width="1920" height="1057" extended-state="0" />
     <layout>
-      <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11970339" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6719243" visible="true" weight="0.13616557" />
+      <window_info anchor="top" x="359" y="313" width="678" height="211" id="Documentation" order="0" sideWeight="0.30419075" side_tool="true" weight="0.11840228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6876972" visible="true" weight="0.1373802" />
       <window_info id="Structure" order="1" sideWeight="0.5198864" weight="0.17097701" />
       <window_info id="Favorites" order="2" sideWeight="0.5165289" weight="0.36455983" />
-      <window_info x="108" y="330" width="895" height="750" id="SciView" order="3" sideWeight="0.3280757" side_tool="true" weight="0.26499456" />
+      <window_info x="108" y="330" width="895" height="750" id="SciView" order="3" sideWeight="0.31230283" side_tool="true" weight="0.27559912" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="0" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49928468" weight="0.32331607" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.6633987" visible="true" weight="0.34300518" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6633987" weight="0.16373058" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39481866" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.32227978" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.66557735" weight="0.38756478" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6633987" weight="0.38756478" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33660132" side_tool="true" weight="0.39792746" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33660132" side_tool="true" weight="0.38756478" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6372549" weight="0.18238342" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6026012" weight="0.58756477" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3257468" />
@@ -1260,8 +1371,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/helloflask" />
     </ignored-roots>
-    <MESSAGE value="表格" />
-    <MESSAGE value="Css day03" />
     <MESSAGE value="Css day04" />
     <MESSAGE value="Css day05" />
     <MESSAGE value="Css day06" />
@@ -1285,7 +1394,9 @@
     <MESSAGE value="spider" />
     <MESSAGE value="2019 frist" />
     <MESSAGE value="moving files" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving files" />
+    <MESSAGE value="panads1" />
+    <MESSAGE value="panads2" />
+    <option name="LAST_COMMIT_MESSAGE" value="panads2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1300,234 +1411,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Numbers/day06/demo01_OBV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/day06/demo02_vectorize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/day07/demo03_qiyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/day07/demo02_misc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/day07/demo01_spec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day01/day01_1808/bin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../Caches/PyCharm2018.3/python_stubs/1437855905/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="2974" column="26" lean-forward="true" selection-start-line="2974" selection-start-column="26" selection-end-line="2974" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day01/day01_1808/ohe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day01/day01_1808/lab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day01/ohe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day01/lab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/static/js/jquery-1.11.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/template/backends/jinja2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/01-showrequest.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/02-post.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/03-form.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/05-login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/06-widght.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/13-ajax-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/index/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/urls/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/index/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#645#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/index/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
-          <folding>
-            <element signature="e#41#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonWeb/Django/1809/Django项目/mine_project/djangodemo5/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="451" column="18" selection-start-line="451" selection-start-column="18" selection-end-line="451" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/bike.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day07_1808/day07_AM.rar">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day02/day02_1808/demo_sevemodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#26#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day02/day02_1808/demo03_save_dump.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day02/day02_1808/demo01_bgd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day02/day02_1808/demo03_use_load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" column="26" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/linear_model/ridge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1577,54 +1460,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/fi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/house.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/pandas/pandas_day_01/pandas_student/pandas_data_structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/pandas/pandas_day_01/pandas_student/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/pandas/pandas_day_01/pandas_student/practice_structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Numbers/pandas/pandas_day_01/pandas_student/pandas_data_structure.py" />
+    <entry file="file://$PROJECT_DIR$/Numbers/pandas/pandas_day_01/pandas_student/practice.py" />
+    <entry file="file://$PROJECT_DIR$/Numbers/pandas/pandas_day_01/pandas_student/practice_structure.py" />
     <entry file="file://$PROJECT_DIR$/20AI/day02/day02_1808/demo02_line.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -1659,6 +1497,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Caches/PyCharm2018.3/python_stubs/1437855905/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="10668" column="8" selection-start-line="10668" selection-start-column="8" selection-end-line="10668" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice02pandas_data_structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1669,12 +1524,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day01/practice02pandas_data_structure.py">
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/bj.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day02/day09_1809/机器学习DAY02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day02/day09_1809/demo07_dt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="632">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo01_fi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/bike_day.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="611">
+          <caret line="732" lean-forward="true" selection-start-line="732" selection-end-line="732" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/bike_hour.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="1256" column="17" selection-start-line="1256" selection-start-column="17" selection-end-line="1256" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo04_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo05_mlog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo03_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="5975" column="11" selection-start-line="5821" selection-start-column="8" selection-end-line="5975" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo06_nb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/multiple1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6627">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="2771" column="26" selection-start-line="2771" selection-start-column="26" selection-end-line="2771" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo02_bike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/house.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/car.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo07_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/scorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="374" column="25" lean-forward="true" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/model_selection/_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numbers/Pandas/pandas_student_day02/describe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day04/car.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo09_cm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-end-line="73" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day03/day03_1808/demo08_cv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20AI/day04/demo01_car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/1809/day06/teach/01-多线程xiaomi应用商店.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/1809/day03/self/06_私密代理示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/1809/day06/teach/01_小米应用商店(多线程).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/1809/day03/self/06-tarena爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/1809/day03/self/05_普通代理示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/user_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="237" column="11" lean-forward="true" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spyder/工具包/笔记tarena爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
